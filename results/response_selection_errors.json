@@ -1,0 +1,3882 @@
+[
+  {
+    "text": "qué tal?",
+    "intent_response_key_target": "chitchat/__int_0501",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.13190029561519623
+    }
+  },
+  {
+    "text": "qué tal tu día?",
+    "intent_response_key_target": "chitchat/__int_0501",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0512",
+      "confidence": 0.12066412717103958
+    }
+  },
+  {
+    "text": "Cuál es su nombre?",
+    "intent_response_key_target": "chitchat/__int_0502",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0511",
+      "confidence": 0.6914139986038208
+    }
+  },
+  {
+    "text": "estás vivo?",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.26014968752861023
+    }
+  },
+  {
+    "text": "y como es tu entrenamiento",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.2010689675807953
+    }
+  },
+  {
+    "text": "no me has entendido",
+    "intent_response_key_target": "chitchat/__int_0508",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.12547674775123596
+    }
+  },
+  {
+    "text": "funcionas 24 7",
+    "intent_response_key_target": "chitchat/__int_0510",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.1252768337726593
+    }
+  },
+  {
+    "text": "funcionas en la madrugada?",
+    "intent_response_key_target": "chitchat/__int_0510",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.24123193323612213
+    }
+  },
+  {
+    "text": "¿Cómo te puedo llamar?",
+    "intent_response_key_target": "chitchat/__int_0511",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.06941624730825424
+    }
+  },
+  {
+    "text": "me está ocurriendo un problema",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.15538188815116882
+    }
+  },
+  {
+    "text": "tengo un súper problema",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0513",
+      "confidence": 0.27990034222602844
+    }
+  },
+  {
+    "text": "No me siento bien",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.3532201051712036
+    }
+  },
+  {
+    "text": "No me siento muy bien",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.4052291810512543
+    }
+  },
+  {
+    "text": "tengo depresión",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0513",
+      "confidence": 0.22148911654949188
+    }
+  },
+  {
+    "text": "Genial!",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.6509541273117065
+    }
+  },
+  {
+    "text": "muy bien gracias a dios.",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.8223627209663391
+    }
+  },
+  {
+    "text": "me haces reir mucho",
+    "intent_response_key_target": "chitchat/__int_0520",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0521",
+      "confidence": 0.35229140520095825
+    }
+  },
+  {
+    "text": "qué chistes te sabes?",
+    "intent_response_key_target": "chitchat/__int_0521",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0506",
+      "confidence": 0.5394631624221802
+    }
+  },
+  {
+    "text": "me pasas sus contactos telefónicos por favor.",
+    "intent_response_key_target": "faq/general__int_1038",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1053",
+      "confidence": 0.10040437430143356
+    }
+  },
+  {
+    "text": "Pueden venir a mi institución y brindar una capacitación",
+    "intent_response_key_target": "faq/general__int_1049",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.2700129747390747
+    }
+  },
+  {
+    "text": "Cuando ingreso a la plataforma me aparece que no existe un periodo académico",
+    "intent_response_key_target": "faq/general__int_1054",
+    "intent_response_key_prediction": {
+      "name": "faq/academic_terms__int_1066",
+      "confidence": 0.18280479311943054
+    }
+  },
+  {
+    "text": "¿Qué significa el número que aparece en la pantalla de inicio, debajo de mi nombre?",
+    "intent_response_key_target": "faq/my_profile__int_1027",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1040",
+      "confidence": 0.19763533771038055
+    }
+  },
+  {
+    "text": "algunos estudiantes aparecen con un uno que yo no califiqué",
+    "intent_response_key_target": "faq/massive_assignments__int_1032",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1031",
+      "confidence": 0.1485474854707718
+    }
+  },
+  {
+    "text": "no puedo calificar porque los criterios de evaluación no suman cien porciento",
+    "intent_response_key_target": "faq/massive_assignments__int_1057",
+    "intent_response_key_prediction": {
+      "name": "faq/massive_assignments__int_1058",
+      "confidence": 0.25927335023880005
+    }
+  },
+  {
+    "text": "¿Las actividades madre influyen en la nota definitiva del periodo?",
+    "intent_response_key_target": "faq/massive_assignments__int_1062",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1001",
+      "confidence": 0.08800512552261353
+    }
+  },
+  {
+    "text": "La nota de la asignatura sale del promedio de las actividades masivas?",
+    "intent_response_key_target": "faq/massive_assignments__int_1062",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.08336710929870605
+    }
+  },
+  {
+    "text": "No me aparecen los logros",
+    "intent_response_key_target": "faq/standards__int_1003",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1052",
+      "confidence": 0.25221461057662964
+    }
+  },
+  {
+    "text": "Después de escoger los logros que se hace cuando salen los logros con unas  celdas",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1011",
+      "confidence": 0.12623511254787445
+    }
+  },
+  {
+    "text": "para que se pone influencia en los logros al momento de hacer el reporte?",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1003",
+      "confidence": 0.36501598358154297
+    }
+  },
+  {
+    "text": "cómo hace el sistema para calificar los logros automáticamente?",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.370291531085968
+    }
+  },
+  {
+    "text": "Es necesario agregar desempeños o logros para cada asignatura o hay un lugar de donde se puedan escoger para hacer el reporte?",
+    "intent_response_key_target": "faq/standards__int_1016",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1008",
+      "confidence": 0.14611856639385223
+    }
+  },
+  {
+    "text": "Como puedo redactar mis propios indicadores, no me gustan los que pone la plataforma por defecto.",
+    "intent_response_key_target": "faq/standards__int_1023",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1018",
+      "confidence": 0.09164229780435562
+    }
+  },
+  {
+    "text": "tengo un error en  los logros ya que se ven como con un error.",
+    "intent_response_key_target": "faq/standards__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1059",
+      "confidence": 0.2312178611755371
+    }
+  },
+  {
+    "text": "Cuál es el procedimiento para crear logros o desempeños?",
+    "intent_response_key_target": "faq/standards__int_1108",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1003",
+      "confidence": 0.37784191966056824
+    }
+  },
+  {
+    "text": "la plataforma calificó un logro aprobado y el estudiante perdió la asignatura",
+    "intent_response_key_target": "faq/standards__int_1120",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1011",
+      "confidence": 0.16959650814533234
+    }
+  },
+  {
+    "text": "No se agregan todas las fechas de asistencia.",
+    "intent_response_key_target": "faq/attendance_book__int_1006",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1113",
+      "confidence": 0.7139952778816223
+    }
+  },
+  {
+    "text": "Quiero ver a que estudiante le estoy registrando asistencia.",
+    "intent_response_key_target": "faq/attendance_book__int_1017",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1112",
+      "confidence": 0.2852712571620941
+    }
+  },
+  {
+    "text": "Se puede poner otro registro de asistencia, diferente a los aparecen ahí?",
+    "intent_response_key_target": "faq/attendance_book__int_1034",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1113",
+      "confidence": 0.2522902190685272
+    }
+  },
+  {
+    "text": "No coincide la cantidad de estudiante en mi planilla",
+    "intent_response_key_target": "faq/attendance_book__int_1077",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.08670517802238464
+    }
+  },
+  {
+    "text": "algunos estudiantes no están en la planilla",
+    "intent_response_key_target": "faq/attendance_book__int_1077",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.10474208742380142
+    }
+  },
+  {
+    "text": "cuál es el procedimiento para reportar la asistencia?",
+    "intent_response_key_target": "faq/attendance_book__int_1112",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0509",
+      "confidence": 0.1543380320072174
+    }
+  },
+  {
+    "text": "la planilla de asistencia aparece vacía",
+    "intent_response_key_target": "faq/attendance_book__int_1113",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1010",
+      "confidence": 0.35883596539497375
+    }
+  },
+  {
+    "text": "por dónde saco un informe de las inasistencias?",
+    "intent_response_key_target": "faq/attendance_book__int_1127",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1112",
+      "confidence": 0.2322799116373062
+    }
+  },
+  {
+    "text": "Necesito que los estudiantes se califiquen a sí mismos en una actividad de la planilla",
+    "intent_response_key_target": "faq/grading_book__int_1018",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1047",
+      "confidence": 0.11102358251810074
+    }
+  },
+  {
+    "text": "¿Se puede agregar una actividad con la condición de que sea calificada por los estudiantes?",
+    "intent_response_key_target": "faq/grading_book__int_1018",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.24042530357837677
+    }
+  },
+  {
+    "text": "La plataforma no me permite subir las notas desde excel",
+    "intent_response_key_target": "faq/grading_book__int_1026",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1036",
+      "confidence": 0.2974357604980469
+    }
+  },
+  {
+    "text": "En la planilla de actividades me aparece un estudiante que ya no está en el colegio. ¿Cómo puedo retirarlo?",
+    "intent_response_key_target": "faq/grading_book__int_1033",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1026",
+      "confidence": 0.039219290018081665
+    }
+  },
+  {
+    "text": "Es necesario tener internet para trabajar en la plataforma?",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__import_and_export__int_1035",
+      "confidence": 0.3096999228000641
+    }
+  },
+  {
+    "text": "como cargo las calificaciones si las tengo en Excel?",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.149766743183136
+    }
+  },
+  {
+    "text": "no veo el botón agregar las planillas",
+    "intent_response_key_target": "faq/grading_book__int_1044",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.1566486358642578
+    }
+  },
+  {
+    "text": "Es necesario darle guardar cada vez que pongo una nota?",
+    "intent_response_key_target": "faq/grading_book__int_1045",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.19688241183757782
+    }
+  },
+  {
+    "text": "necesito dejar en blanco la planilla de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1067",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.44264668226242065
+    }
+  },
+  {
+    "text": "¿No me sale nada en la planilla?",
+    "intent_response_key_target": "faq/grading_book__int_1080",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1026",
+      "confidence": 0.059002868831157684
+    }
+  },
+  {
+    "text": "la planilla de actividades me aparece vacía. No puedo calificar",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.42826998233795166
+    }
+  },
+  {
+    "text": "Cuál es el procedimiento para crear actividades?",
+    "intent_response_key_target": "faq/grading_book__int_1107",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.0766807571053505
+    }
+  },
+  {
+    "text": "por dónde puedo visualizar mis planillas de años anteriores?",
+    "intent_response_key_target": "faq/grading_book__int_1128",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.17879077792167664
+    }
+  },
+  {
+    "text": "A parde de exel, como más puedo llenar las notas",
+    "intent_response_key_target": "faq/grading_book__import_and_export__int_1035",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.12451688945293427
+    }
+  },
+  {
+    "text": "como hago para calificar si no tengo internet?",
+    "intent_response_key_target": "faq/grading_book__import_and_export__int_1035",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1036",
+      "confidence": 0.43059593439102173
+    }
+  },
+  {
+    "text": "El boletín está incompleto",
+    "intent_response_key_target": "faq/et_scores__int_1007",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.15828944742679596
+    }
+  },
+  {
+    "text": "Cuando voy a hacer el reporte de calificaciones aparece un mensaje que dice que en esta fecha no lo puedo hacer. ¿Porqué?",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.1410314291715622
+    }
+  },
+  {
+    "text": "No me deja reportar",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.23031070828437805
+    }
+  },
+  {
+    "text": "seleccione un buen comportamiento, pero la plataforma dice que es un mal comportamiento",
+    "intent_response_key_target": "faq/et_scores__int_1020",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1030",
+      "confidence": 0.19946090877056122
+    }
+  },
+  {
+    "text": "cómo puedo calificar estudiantes especiales?",
+    "intent_response_key_target": "faq/et_scores__int_1022",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.43668922781944275
+    }
+  },
+  {
+    "text": "No he podido hacer el reporte, la plataforma está presentando fallas",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.10330622643232346
+    }
+  },
+  {
+    "text": "cuando voy al reporte de calificaciones me dice que la fecha ya pasó",
+    "intent_response_key_target": "faq/et_scores__int_1029",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.32240429520606995
+    }
+  },
+  {
+    "text": "un estudiante sin calificaciones en alguna asignatura puede perder el año?",
+    "intent_response_key_target": "faq/et_scores__int_1051",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.14140105247497559
+    }
+  },
+  {
+    "text": "Cuando voy al módulo de logros me sale una alerta y no puedo seleccionar los logros para hacer el reporte",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.3820958435535431
+    }
+  },
+  {
+    "text": "ya terminé de reportar las calificaciones de periodo?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.30384233593940735
+    }
+  },
+  {
+    "text": "el sistema me avisa cuando haya terminado el reporte de notas del trimestre?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.1781940907239914
+    }
+  },
+  {
+    "text": "Quiero quitar el comentario que sale en el reporte de calificaciones",
+    "intent_response_key_target": "faq/et_scores__int_1084",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1021",
+      "confidence": 0.2239081859588623
+    }
+  },
+  {
+    "text": "Necesito cambiarle el periodo a un comportamiento",
+    "intent_response_key_target": "faq/behaviors__int_1087",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1030",
+      "confidence": 0.07102882117033005
+    }
+  },
+  {
+    "text": "le registré un comportamiento negativo a un estudiante, pero tiene justificación. Cómo puedo quitar el registro",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1020",
+      "confidence": 0.16773764789104462
+    }
+  },
+  {
+    "text": "cómo copiar los pesos de los indicadores a otros grupos?",
+    "intent_response_key_target": "faq/reports__int_1104",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1068",
+      "confidence": 0.10600094497203827
+    }
+  },
+  {
+    "text": "Cuando ingreso a la plataforma aparece el año pasado",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1128",
+      "confidence": 0.32067564129829407
+    }
+  },
+  {
+    "text": "¿Cómo puedo cambiar de año?",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/users__group_managers__int_1061",
+      "confidence": 0.35000699758529663
+    }
+  },
+  {
+    "text": "Puedo crear actividades a través de la agenda?",
+    "intent_response_key_target": "faq/lms__int_1103",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1044",
+      "confidence": 0.27927568554878235
+    }
+  },
+  {
+    "text": "quisiera saber para que sirve el calendario?",
+    "intent_response_key_target": "faq/lms__int_1103",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__dashboard_statistics__int_1101",
+      "confidence": 0.06125299260020256
+    }
+  },
+  {
+    "text": "en dónde subo los archivos para las tareas?",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.41105642914772034
+    }
+  },
+  {
+    "text": "cómo agrego documentos a la plataforma?",
+    "intent_response_key_target": "faq/lms__class_material__int_1130",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.15978507697582245
+    }
+  },
+  {
+    "text": "hay forma de ver todos los trabajos que envían los estudiantes?",
+    "intent_response_key_target": "faq/lms__deliveries__int_1089",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.1025393158197403
+    }
+  },
+  {
+    "text": "quiero borrar un examen y no me lo permite",
+    "intent_response_key_target": "faq/lms__online_exams__int_1082",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1078",
+      "confidence": 0.29028621315956116
+    }
+  },
+  {
+    "text": "cual es la ruta para la creacion de exámenes",
+    "intent_response_key_target": "faq/lms__online_exams__int_1110",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1081",
+      "confidence": 0.11351881176233292
+    }
+  },
+  {
+    "text": "puedo agregar preguntas abiertas a un exámen?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1122",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1110",
+      "confidence": 0.26516860723495483
+    }
+  },
+  {
+    "text": "puedo crear preguntas tipo texto para un examen?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1122",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1110",
+      "confidence": 0.3533468544483185
+    }
+  },
+  {
+    "text": "No sé que hacer, no me permite ingresar clases en el planeador. Podrías ayudarme?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1086",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1085",
+      "confidence": 0.20186465978622437
+    }
+  },
+  {
+    "text": "Cuales son los pasos para mover un tema en el planeador.",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1090",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1050",
+      "confidence": 0.18625134229660034
+    }
+  },
+  {
+    "text": "Cómo puedo utilizar el planeador?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1094",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1116",
+      "confidence": 0.5659341812133789
+    }
+  },
+  {
+    "text": "Cómo cargo un documento en una lección del planeador",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1099",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1117",
+      "confidence": 0.3633479177951813
+    }
+  },
+  {
+    "text": "Quiero agregar la planeación, me ayudas?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1116",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1085",
+      "confidence": 0.21748310327529907
+    }
+  },
+  {
+    "text": "como hago para crear lecciones",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1117",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1107",
+      "confidence": 0.21588240563869476
+    }
+  },
+  {
+    "text": "Al ingresar al sistema hay unas estadísticas, ¿qué significan?",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__statistics__int_1125",
+      "confidence": 0.3802388608455658
+    }
+  },
+  {
+    "text": "¿Me pueden explicar de que se tratan las gráficas que se visualizan cuando ingreso a la plataforma?",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__statistics__int_1125",
+      "confidence": 0.07457709312438965
+    }
+  },
+  {
+    "text": "como interpretar los gráficos del módulo de inicio",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1129",
+      "confidence": 0.05218527838587761
+    }
+  },
+  {
+    "text": "cómo puedo agregar notas al calendario?",
+    "intent_response_key_target": "faq/teacher__calendar__int_1111",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.19076946377754211
+    }
+  },
+  {
+    "text": "dónde puedo ver un reporte de los mejores estudiantes?",
+    "intent_response_key_target": "faq/teacher__statistics__int_1125",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1077",
+      "confidence": 0.3847522437572479
+    }
+  },
+  {
+    "text": "dónde puedo ver el desempeño mensual de los cursos?",
+    "intent_response_key_target": "faq/teacher__statistics__int_1125",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1091",
+      "confidence": 0.05878153070807457
+    }
+  },
+  {
+    "text": "por dónde descargo una planilla vacía?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.48380985856056213
+    }
+  },
+  {
+    "text": "por dónde descargo una planilla sin calificaciones?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.4804357588291168
+    }
+  },
+  {
+    "text": "Cómo puedo entregarle a los padres de familia un consolidado donde les muestre como van sus hijos hasta el momento?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1043",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1083",
+      "confidence": 0.0731397271156311
+    }
+  },
+  {
+    "text": "Necesito entregarle a los papás un informe de las calificaciones hasta el momento",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1043",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1039",
+      "confidence": 0.07187821716070175
+    }
+  },
+  {
+    "text": "Requiero compartirle a los estudiantes un informe parcial de su desempeño en el periodo",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1043",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.09244465082883835
+    }
+  },
+  {
+    "text": "cómo va todo por allá?",
+    "intent_response_key_target": "chitchat/__int_0501",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1053",
+      "confidence": 0.24930791556835175
+    }
+  },
+  {
+    "text": "¿Quién eres?",
+    "intent_response_key_target": "chitchat/__int_0502",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0503",
+      "confidence": 0.2989620566368103
+    }
+  },
+  {
+    "text": "envejeces?",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.25170180201530457
+    }
+  },
+  {
+    "text": "quien te programó?",
+    "intent_response_key_target": "chitchat/__int_0507",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.28515446186065674
+    }
+  },
+  {
+    "text": "qué?",
+    "intent_response_key_target": "chitchat/__int_0508",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.08294610679149628
+    }
+  },
+  {
+    "text": "nunca descansas?",
+    "intent_response_key_target": "chitchat/__int_0510",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.281633198261261
+    }
+  },
+  {
+    "text": "cómo te bautizaron?",
+    "intent_response_key_target": "chitchat/__int_0511",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.22543805837631226
+    }
+  },
+  {
+    "text": "en qué sitio te encuentras?",
+    "intent_response_key_target": "chitchat/__int_0512",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.4072524905204773
+    }
+  },
+  {
+    "text": "en dónde es tu casa?",
+    "intent_response_key_target": "chitchat/__int_0512",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.3810380697250366
+    }
+  },
+  {
+    "text": "tengo una inquietud",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.13085877895355225
+    }
+  },
+  {
+    "text": "tengo un inconveniente",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.13705798983573914
+    }
+  },
+  {
+    "text": "tengo un problema",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.3919629752635956
+    }
+  },
+  {
+    "text": "aqui con un chicharron",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.23185995221138
+    }
+  },
+  {
+    "text": "ni mal ni bien",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.5577854514122009
+    }
+  },
+  {
+    "text": "todo muy bien. Gracias por preguntar.",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.10189606994390488
+    }
+  },
+  {
+    "text": "Lol",
+    "intent_response_key_target": "chitchat/__int_0520",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.11466497927904129
+    }
+  },
+  {
+    "text": "dime algo que me haga reir",
+    "intent_response_key_target": "chitchat/__int_0521",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.2533265948295593
+    }
+  },
+  {
+    "text": "tengo asignaturas que no son mías en mi plataforma",
+    "intent_response_key_target": "faq/general__int_1040",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1007",
+      "confidence": 0.20398132503032684
+    }
+  },
+  {
+    "text": "Me puedes compartir los instructivos de la plataforma?",
+    "intent_response_key_target": "faq/general__int_1048",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1094",
+      "confidence": 0.1920773833990097
+    }
+  },
+  {
+    "text": "No me aparecen las asignaturas de otros periodos",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1007",
+      "confidence": 0.3156386911869049
+    }
+  },
+  {
+    "text": "no veo un curso de mi asignación académica",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1040",
+      "confidence": 0.5277372002601624
+    }
+  },
+  {
+    "text": "Hay un texto que sale en la planilla de actividades y no me permite calificar",
+    "intent_response_key_target": "faq/massive_assignments__int_1057",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.1390485316514969
+    }
+  },
+  {
+    "text": "Cuál es el proceso para reportar la planilla?",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1037",
+      "confidence": 0.3782496750354767
+    }
+  },
+  {
+    "text": "necesito saber que calculo hace la plataforma para obtener la definitiva de los logros",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1105",
+      "confidence": 0.12437545508146286
+    }
+  },
+  {
+    "text": "¿los indicadores se deben dejar como los sugiere el sistema? ¿Como los puedo actualizar o cambiar?",
+    "intent_response_key_target": "faq/standards__int_1023",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1079",
+      "confidence": 0.08374245464801788
+    }
+  },
+  {
+    "text": "Necesito quitarle ese texto preestablecido que sale por defecto en los desempeños",
+    "intent_response_key_target": "faq/standards__int_1023",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.20935694873332977
+    }
+  },
+  {
+    "text": "No aparecen los logros que agregue.",
+    "intent_response_key_target": "faq/standards__int_1052",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1003",
+      "confidence": 0.5323690176010132
+    }
+  },
+  {
+    "text": "tengo un estudiante con discapacidad. cómo le califico los logros",
+    "intent_response_key_target": "faq/standards__int_1070",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1022",
+      "confidence": 0.26079580187797546
+    }
+  },
+  {
+    "text": "El boletín final se saca con un solo logro general, cómo se puede hacer eso en el sistema?",
+    "intent_response_key_target": "faq/standards__int_1095",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1128",
+      "confidence": 0.0420370027422905
+    }
+  },
+  {
+    "text": "Cuando inserto multiples fechas no me las carga todas.",
+    "intent_response_key_target": "faq/attendance_book__int_1006",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1053",
+      "confidence": 0.18888798356056213
+    }
+  },
+  {
+    "text": "la plataforma no deja agregar todas las fechas.",
+    "intent_response_key_target": "faq/attendance_book__int_1006",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1086",
+      "confidence": 0.22262519598007202
+    }
+  },
+  {
+    "text": "Quiero poder ver el listado de los estudiantes a los que les registro la asistencia.",
+    "intent_response_key_target": "faq/attendance_book__int_1017",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1034",
+      "confidence": 0.13568013906478882
+    }
+  },
+  {
+    "text": "Necesito agregar fechas en la planilla de asistencia, pero no he podido.",
+    "intent_response_key_target": "faq/attendance_book__int_1113",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1006",
+      "confidence": 0.2336825430393219
+    }
+  },
+  {
+    "text": "necesito sacar un reporte de asistencia",
+    "intent_response_key_target": "faq/attendance_book__int_1127",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1034",
+      "confidence": 0.1262671798467636
+    }
+  },
+  {
+    "text": "Califiqué en el periodo de evaluación equivocado",
+    "intent_response_key_target": "faq/grading_book__int_1001",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1045",
+      "confidence": 0.10371915996074677
+    }
+  },
+  {
+    "text": "Por qué me sale una alerta amarilla en la planilla de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1031",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1027",
+      "confidence": 0.1727456897497177
+    }
+  },
+  {
+    "text": "Estoy ubicado en una zona rural y no tengo internet",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1109",
+      "confidence": 0.09689590334892273
+    }
+  },
+  {
+    "text": "¿Cómo se hace el reporte de calificaciones de una planilla?",
+    "intent_response_key_target": "faq/grading_book__int_1037",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.29078924655914307
+    }
+  },
+  {
+    "text": "cerré el sistema y se me borró trabajo en la planilla",
+    "intent_response_key_target": "faq/grading_book__int_1045",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.21002252399921417
+    }
+  },
+  {
+    "text": "como hacer para calificar más rápido",
+    "intent_response_key_target": "faq/grading_book__int_1047",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1053",
+      "confidence": 0.1524711698293686
+    }
+  },
+  {
+    "text": "como agilizar el reporte de notas en la planilla",
+    "intent_response_key_target": "faq/grading_book__int_1047",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.24749866127967834
+    }
+  },
+  {
+    "text": "No puedo poner la nota en un estudiante o actividad",
+    "intent_response_key_target": "faq/grading_book__int_1056",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1033",
+      "confidence": 0.17920935153961182
+    }
+  },
+  {
+    "text": "cómo hago para que las celdas en la planilla no tengan nota",
+    "intent_response_key_target": "faq/grading_book__int_1067",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1026",
+      "confidence": 0.13159102201461792
+    }
+  },
+  {
+    "text": "¿No me deja agregar la actividad en otro grupo?",
+    "intent_response_key_target": "faq/grading_book__int_1068",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1044",
+      "confidence": 0.29373544454574585
+    }
+  },
+  {
+    "text": "el sistema almacena un log de modificaciones en las calificaciones?",
+    "intent_response_key_target": "faq/grading_book__int_1079",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1120",
+      "confidence": 0.1594657003879547
+    }
+  },
+  {
+    "text": "¿Cómo veo el historial de las calificaciones que he ingresado?",
+    "intent_response_key_target": "faq/grading_book__int_1079",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1075",
+      "confidence": 0.08417592942714691
+    }
+  },
+  {
+    "text": "el módulo actividades planilla no me muestra nada",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.1214345321059227
+    }
+  },
+  {
+    "text": "necesito editar una columna de la planilla de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1114",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1033",
+      "confidence": 0.17439956963062286
+    }
+  },
+  {
+    "text": "cómo puedo hacer definir que una actividad sea de entrega virtual?",
+    "intent_response_key_target": "faq/grading_book__int_1115",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1083",
+      "confidence": 0.3202938735485077
+    }
+  },
+  {
+    "text": "Cómo ingreso las nota en la planilla?",
+    "intent_response_key_target": "faq/grading_book__int_1118",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__import_and_export__int_1035",
+      "confidence": 0.1701352745294571
+    }
+  },
+  {
+    "text": "puedo usar la plataforma sin internet?",
+    "intent_response_key_target": "faq/grading_book__import_and_export__int_1035",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1036",
+      "confidence": 0.3282398283481598
+    }
+  },
+  {
+    "text": "ya cerro el periodo de evaluación. como califico las recuperaciones",
+    "intent_response_key_target": "faq/levelings__int_1071",
+    "intent_response_key_prediction": {
+      "name": "faq/levelings__int_1005",
+      "confidence": 0.1893639862537384
+    }
+  },
+  {
+    "text": "porqué el reporte de calificaciones del trimestre está deshabilitado?",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.15233133733272552
+    }
+  },
+  {
+    "text": "La categoría de los comportamientos está mal",
+    "intent_response_key_target": "faq/et_scores__int_1020",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1030",
+      "confidence": 0.18631355464458466
+    }
+  },
+  {
+    "text": "Me sale un comentario en el boletín de periodo de un estudiante y no se cómo borrarlo",
+    "intent_response_key_target": "faq/et_scores__int_1021",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1087",
+      "confidence": 0.2542431652545929
+    }
+  },
+  {
+    "text": "Cómo se le puede quitar un comentario a un estudiante?",
+    "intent_response_key_target": "faq/et_scores__int_1021",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.19793389737606049
+    }
+  },
+  {
+    "text": "Como agrego logros diferentes para estudiantes con necesidades académicas especiales",
+    "intent_response_key_target": "faq/et_scores__int_1022",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1070",
+      "confidence": 0.40882202982902527
+    }
+  },
+  {
+    "text": "tengo un estudiante invidente. como lo califico?",
+    "intent_response_key_target": "faq/et_scores__int_1022",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.34604617953300476
+    }
+  },
+  {
+    "text": "ayer pude calificar en las planillas pero ya hoy no.",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.25269123911857605
+    }
+  },
+  {
+    "text": "necesito que me habiliten la plataforma para hacer el reporte de calificaciones me dice que la fecha ya paso",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.389060378074646
+    }
+  },
+  {
+    "text": "Cómo se afecta la calificación del año si el estudiante no tiene calificación en un trimestre",
+    "intent_response_key_target": "faq/et_scores__int_1051",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1019",
+      "confidence": 0.14082226157188416
+    }
+  },
+  {
+    "text": "Cuando voy a los desempeños me sale un ícono con forma de hoja color rojo y no me permite seleccionar los indicadores en el reporte",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.6637879014015198
+    }
+  },
+  {
+    "text": "En los desempeños aparece una alerta de color rojo",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.6326231956481934
+    }
+  },
+  {
+    "text": "¿Hay alguna novedad con los desempeños? es que se visualizan con un ícono de color rojo",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.690948486328125
+    }
+  },
+  {
+    "text": "registré un comentario a un estudiante y me está apareciendo en todos los estudiantes",
+    "intent_response_key_target": "faq/et_scores__int_1084",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1017",
+      "confidence": 0.06941621005535126
+    }
+  },
+  {
+    "text": "cuál es la ruta para crear plantillas de observaciones",
+    "intent_response_key_target": "faq/et_scores__int_1119",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1074",
+      "confidence": 0.31310591101646423
+    }
+  },
+  {
+    "text": "como cambiar la nota de un curso para todo el periodo académico?",
+    "intent_response_key_target": "faq/final_scores__int_1063",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.1345144808292389
+    }
+  },
+  {
+    "text": "No está el comportamiento que necesito reportar, ¿como lo agrego?",
+    "intent_response_key_target": "faq/behaviors__int_1030",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1086",
+      "confidence": 0.1452493667602539
+    }
+  },
+  {
+    "text": "Por dónde puedo agregar comportamientos del estudiante",
+    "intent_response_key_target": "faq/behaviors__int_1074",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.17026838660240173
+    }
+  },
+  {
+    "text": "un estudiante se portó mal. cómo lo registro?",
+    "intent_response_key_target": "faq/behaviors__int_1074",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1077",
+      "confidence": 0.13345421850681305
+    }
+  },
+  {
+    "text": "los comportamientos ingresados me aparecen en el trimestre equivocado",
+    "intent_response_key_target": "faq/behaviors__int_1087",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1020",
+      "confidence": 0.12611916661262512
+    }
+  },
+  {
+    "text": "Necesito excusar una anotación disciplinaria de un estudiante",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1097",
+      "confidence": 0.2844063341617584
+    }
+  },
+  {
+    "text": "como registro que una anotación disciplinaria tiene excusa?",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1097",
+      "confidence": 0.4115631580352783
+    }
+  },
+  {
+    "text": "Cómo puedo cambiar de interface?",
+    "intent_response_key_target": "faq/users__group_managers__int_1061",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1065",
+      "confidence": 0.1548236757516861
+    }
+  },
+  {
+    "text": "¿Qué significan los colores de las asignaturas?",
+    "intent_response_key_target": "faq/academic_terms__int_1004",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.1658525913953781
+    }
+  },
+  {
+    "text": "Cuando ingreso a la plataforma estoy viendo un periodo académico que no es el actual",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.20891252160072327
+    }
+  },
+  {
+    "text": "Me sale un número en color rojo en la parte derecha de la pantalla",
+    "intent_response_key_target": "faq/news__int_1092",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.20062758028507233
+    }
+  },
+  {
+    "text": "Por dónde puedo mandarle una información a los estudiantes?",
+    "intent_response_key_target": "faq/pms__int_1041",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.08375558257102966
+    }
+  },
+  {
+    "text": "Quisiera saber como copio las guías de clase del año pasado?",
+    "intent_response_key_target": "faq/lms__class_material__int_1015",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1037",
+      "confidence": 0.12502941489219666
+    }
+  },
+  {
+    "text": "como puedo mandar archivos a los estudiantes?",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.43153366446495056
+    }
+  },
+  {
+    "text": "un estudiante dice haber enviado la entrega de una actividad pero no sé donde consultarla.",
+    "intent_response_key_target": "faq/lms__deliveries__int_1089",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1083",
+      "confidence": 0.2348230481147766
+    }
+  },
+  {
+    "text": "como hacer para que el estudiante pueda seguir viendo las preguntas no acertadas",
+    "intent_response_key_target": "faq/lms__online_exams__int_1064",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1018",
+      "confidence": 0.17216534912586212
+    }
+  },
+  {
+    "text": "los estudiantes pueden ver las respuestas del examen después de haberlo contestado?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1064",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1124",
+      "confidence": 0.38063350319862366
+    }
+  },
+  {
+    "text": "Me ayudan a activar los exámenes a mis estudiantes?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1078",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1081",
+      "confidence": 0.21793043613433838
+    }
+  },
+  {
+    "text": "Tienen una guía para calificar los exámenes?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1123",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1081",
+      "confidence": 0.47239115834236145
+    }
+  },
+  {
+    "text": "Requiero actualizar la fecha de los temas en el planeador de clases",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1085",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1090",
+      "confidence": 0.1304868906736374
+    }
+  },
+  {
+    "text": "como funciona el planeador de clases",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1094",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1116",
+      "confidence": 0.41712528467178345
+    }
+  },
+  {
+    "text": "dónde puedo encontrar la ayuda para usar el planeador de clases?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1094",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1116",
+      "confidence": 0.26250410079956055
+    }
+  },
+  {
+    "text": "Debo publicar un tema para que salga la flecha verde al lado del nombre?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1098",
+    "intent_response_key_prediction": {
+      "name": "faq/pms__int_1041",
+      "confidence": 0.14645317196846008
+    }
+  },
+  {
+    "text": "Como hago para agregar planeación de mis asignaturas?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1116",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1122",
+      "confidence": 0.050680890679359436
+    }
+  },
+  {
+    "text": "¿Cómo agrego una lección al planeador de clase?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1117",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1116",
+      "confidence": 0.3544995188713074
+    }
+  },
+  {
+    "text": "Se pueden hacer videollamadas desde la plataforma?",
+    "intent_response_key_target": "faq/lms__meetings__int_1009",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.15502019226551056
+    }
+  },
+  {
+    "text": "La estadística que sale en el escritorio se refiere a una sola asignatura o a todas mis asignaturas en general?",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1007",
+      "confidence": 0.3634411096572876
+    }
+  },
+  {
+    "text": "como puedo generar un informe que me muestre la comparación del desempeño entre mis asignaturas?",
+    "intent_response_key_target": "faq/teacher__statistics__int_1125",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1043",
+      "confidence": 0.12464556843042374
+    }
+  },
+  {
+    "text": "Necesito tener mis planillas para calificar en físico",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.450941264629364
+    }
+  },
+  {
+    "text": "Cómo imprimo planillas auxiliares?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.41990363597869873
+    }
+  },
+  {
+    "text": "no se quien eres?",
+    "intent_response_key_target": "chitchat/__int_0502",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0503",
+      "confidence": 0.267551988363266
+    }
+  },
+  {
+    "text": "cómo haces para pensar?",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.10554352402687073
+    }
+  },
+  {
+    "text": "cómo aprendes",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0513",
+      "confidence": 0.2573840618133545
+    }
+  },
+  {
+    "text": "Cuéntame para que sirves?",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0512",
+      "confidence": 0.19548733532428741
+    }
+  },
+  {
+    "text": "eres viejo o jóven?",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0503",
+      "confidence": 0.2549288272857666
+    }
+  },
+  {
+    "text": "No estás respondiendo a mi pregunta",
+    "intent_response_key_target": "chitchat/__int_0508",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0506",
+      "confidence": 0.3128185570240021
+    }
+  },
+  {
+    "text": "estoy hablando de otra cosa",
+    "intent_response_key_target": "chitchat/__int_0508",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.20753167569637299
+    }
+  },
+  {
+    "text": "asistente de servicio al cliente",
+    "intent_response_key_target": "chitchat/__int_0509",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.23871222138404846
+    }
+  },
+  {
+    "text": "comunícame por favor con un asistente",
+    "intent_response_key_target": "chitchat/__int_0509",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.2223156988620758
+    }
+  },
+  {
+    "text": "trabajas todo el día",
+    "intent_response_key_target": "chitchat/__int_0510",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.12386544793844223
+    }
+  },
+  {
+    "text": "funcionas en horario nocturno?",
+    "intent_response_key_target": "chitchat/__int_0510",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0504",
+      "confidence": 0.14104677736759186
+    }
+  },
+  {
+    "text": "tengo una pregunta",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0506",
+      "confidence": 0.32836902141571045
+    }
+  },
+  {
+    "text": "como mal mas bien",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.2797604203224182
+    }
+  },
+  {
+    "text": "me siento genial",
+    "intent_response_key_target": "chitchat/__int_0518",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.4878523349761963
+    }
+  },
+  {
+    "text": "mas o menos",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.25755563378334045
+    }
+  },
+  {
+    "text": "regular",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.49454325437545776
+    }
+  },
+  {
+    "text": "Dónde me puedo comunicar si tengo un problema con las planillas o las notas?",
+    "intent_response_key_target": "faq/general__int_1038",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1001",
+      "confidence": 0.18320253491401672
+    }
+  },
+  {
+    "text": "Cuáles son los teléfonos o medios por los cuáles podemos comunicarnos para solicitar soporte?",
+    "intent_response_key_target": "faq/general__int_1038",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1031",
+      "confidence": 0.13359326124191284
+    }
+  },
+  {
+    "text": "En mi asignación académica hay un curso que no me corresponde",
+    "intent_response_key_target": "faq/general__int_1040",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.4066677689552307
+    }
+  },
+  {
+    "text": "En la lista de materias veo materias de otros profesores",
+    "intent_response_key_target": "faq/general__int_1040",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1129",
+      "confidence": 0.12051901966333389
+    }
+  },
+  {
+    "text": "no veo una asignatura que tengo a cargo",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1040",
+      "confidence": 0.4564734995365143
+    }
+  },
+  {
+    "text": "No veo de forma completa el listado de mi carga académica",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "faq/academic_terms__int_1066",
+      "confidence": 0.09800213575363159
+    }
+  },
+  {
+    "text": "pongo la clave y no puedo entrar",
+    "intent_response_key_target": "faq/my_profile__int_1053",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1076",
+      "confidence": 0.21436278522014618
+    }
+  },
+  {
+    "text": "no puedo entrar al sistema a pesar de que los datos están correctos",
+    "intent_response_key_target": "faq/my_profile__int_1053",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.08094873279333115
+    }
+  },
+  {
+    "text": "no veo en donde cambiar el password",
+    "intent_response_key_target": "faq/my_profile__int_1065",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1053",
+      "confidence": 0.1125747561454773
+    }
+  },
+  {
+    "text": "Olvidé la contraseña para ingresar",
+    "intent_response_key_target": "faq/my_profile__int_1076",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1065",
+      "confidence": 0.37379932403564453
+    }
+  },
+  {
+    "text": "ya escogí los logros  que quiero para el boletín pero luego me salen las actividades con unos cuadros y logros",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1052",
+      "confidence": 0.14869889616966248
+    }
+  },
+  {
+    "text": "cómo se calcula la nota de los logros en el sistema, no me cuadra las calificaciones que está arrojando",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.20771297812461853
+    }
+  },
+  {
+    "text": "Quien agrega los desempeños?",
+    "intent_response_key_target": "faq/standards__int_1016",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1108",
+      "confidence": 0.20610587298870087
+    }
+  },
+  {
+    "text": "en el módulo de desempeños sale un símbolo de color rojo",
+    "intent_response_key_target": "faq/standards__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1059",
+      "confidence": 0.4942189157009125
+    }
+  },
+  {
+    "text": "No me deja seleccionar los logros al momento de hacer el reporte de periodo",
+    "intent_response_key_target": "faq/standards__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.2165328711271286
+    }
+  },
+  {
+    "text": "No me salen los logros para realizar el informe de periodo",
+    "intent_response_key_target": "faq/standards__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1059",
+      "confidence": 0.4354392886161804
+    }
+  },
+  {
+    "text": "Cómo puedo crear un logro de promoción",
+    "intent_response_key_target": "faq/standards__int_1095",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1108",
+      "confidence": 0.45191138982772827
+    }
+  },
+  {
+    "text": "Los logros me aparecen con una imagen azul",
+    "intent_response_key_target": "faq/standards__int_1102",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1052",
+      "confidence": 0.1770906001329422
+    }
+  },
+  {
+    "text": "que significa la imagen azul de los logros",
+    "intent_response_key_target": "faq/standards__int_1102",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.16822828352451324
+    }
+  },
+  {
+    "text": "el sistema calificó un logro perdido y el estudiante ganó el curso",
+    "intent_response_key_target": "faq/standards__int_1120",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1011",
+      "confidence": 0.2540743052959442
+    }
+  },
+  {
+    "text": "No me deja agregar asistencias, saca error.",
+    "intent_response_key_target": "faq/attendance_book__int_1006",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1034",
+      "confidence": 0.1533682495355606
+    }
+  },
+  {
+    "text": "Al tener agregadas multiples fechas de asistencia e intentar ingresar los registros en las útlimas fechas en la planilla,me es imposible ver los nombres de mis estudiantes.",
+    "intent_response_key_target": "faq/attendance_book__int_1017",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1006",
+      "confidence": 0.16054391860961914
+    }
+  },
+  {
+    "text": "tengo un estudiante que no aparece en la planilla",
+    "intent_response_key_target": "faq/attendance_book__int_1077",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1050",
+      "confidence": 0.1345529705286026
+    }
+  },
+  {
+    "text": "cómo obtengo un informe de inasistencias y retardos?",
+    "intent_response_key_target": "faq/attendance_book__int_1127",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1112",
+      "confidence": 0.33866727352142334
+    }
+  },
+  {
+    "text": "hay alguna manera en la que los estudiantes se puedan autoevaluar?",
+    "intent_response_key_target": "faq/grading_book__int_1018",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1119",
+      "confidence": 0.21083612740039825
+    }
+  },
+  {
+    "text": "los estudiantes pueden autoevaluarse en la plataforma?",
+    "intent_response_key_target": "faq/grading_book__int_1018",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.1175350472331047
+    }
+  },
+  {
+    "text": "tengo dos actividades con el mismo nombre en dos cursos distintos, cómo copio la calificación al otro curso?",
+    "intent_response_key_target": "faq/grading_book__int_1019",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.1534661501646042
+    }
+  },
+  {
+    "text": "Quiero que la nota  de esta actividad se vea en la misma columna de mi otra asignatura.",
+    "intent_response_key_target": "faq/grading_book__int_1019",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.19691155850887299
+    }
+  },
+  {
+    "text": "como puedo usar la plataforma sin internet?",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__import_and_export__int_1035",
+      "confidence": 0.4576813876628876
+    }
+  },
+  {
+    "text": "Cuál es el proceso correcto para trabajar en la plataforma?",
+    "intent_response_key_target": "faq/grading_book__int_1037",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.17207524180412292
+    }
+  },
+  {
+    "text": "Elimine las calificaciones de una actividad por error, como las recupero?",
+    "intent_response_key_target": "faq/grading_book__int_1039",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1067",
+      "confidence": 0.1952509731054306
+    }
+  },
+  {
+    "text": "¿Porqué cuando ingreso una calificación sale en color verde?",
+    "intent_response_key_target": "faq/grading_book__int_1045",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1046",
+      "confidence": 0.6170457005500793
+    }
+  },
+  {
+    "text": "Cómo hacer para poner la misma calificación a todos los estudiantes?",
+    "intent_response_key_target": "faq/grading_book__int_1047",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1023",
+      "confidence": 0.08791296929121017
+    }
+  },
+  {
+    "text": "como se realiza la calificación masiva de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1047",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1079",
+      "confidence": 0.15043261647224426
+    }
+  },
+  {
+    "text": "como defino el formato de calificación?",
+    "intent_response_key_target": "faq/grading_book__int_1060",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.31005340814590454
+    }
+  },
+  {
+    "text": "Necesito habilitar una actividad para que los estudiantes entreguen su trabajo",
+    "intent_response_key_target": "faq/grading_book__int_1083",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1115",
+      "confidence": 0.338459849357605
+    }
+  },
+  {
+    "text": "voy al módulo actividades planilla y no aparece nada",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1026",
+      "confidence": 0.10157861560583115
+    }
+  },
+  {
+    "text": "Necesito comenzar a reportar las notas de los estudiantes",
+    "intent_response_key_target": "faq/grading_book__int_1118",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1033",
+      "confidence": 0.145690456032753
+    }
+  },
+  {
+    "text": "Quiero calificar a mis estudiantes pero no me salen las casillas",
+    "intent_response_key_target": "faq/grading_book__int_1118",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.21110054850578308
+    }
+  },
+  {
+    "text": "¿Cómo puedo hacer el reporte desde la planilla de actividades?",
+    "intent_response_key_target": "faq/grading_book__express_et_report__int_1024",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1008",
+      "confidence": 0.15829923748970032
+    }
+  },
+  {
+    "text": "¿Cómo ingreso las recuperaciones?",
+    "intent_response_key_target": "faq/levelings__int_1071",
+    "intent_response_key_prediction": {
+      "name": "faq/levelings__int_1005",
+      "confidence": 0.625637412071228
+    }
+  },
+  {
+    "text": "como hago para subir las recuperaciones si el trimestre esta cerrado",
+    "intent_response_key_target": "faq/levelings__int_1071",
+    "intent_response_key_prediction": {
+      "name": "faq/levelings__int_1005",
+      "confidence": 0.590606153011322
+    }
+  },
+  {
+    "text": "No veo todas las asignaturas.",
+    "intent_response_key_target": "faq/et_scores__int_1007",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.31394368410110474
+    }
+  },
+  {
+    "text": "porqué no puedo reportar las calificaciones definitivas?",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.14116165041923523
+    }
+  },
+  {
+    "text": "Necesito eliminar una observación",
+    "intent_response_key_target": "faq/et_scores__int_1021",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1067",
+      "confidence": 0.1531185507774353
+    }
+  },
+  {
+    "text": "como se borran los comentarios del reporte de calificaciones",
+    "intent_response_key_target": "faq/et_scores__int_1021",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.16448046267032623
+    }
+  },
+  {
+    "text": "Existe alguna manera de calificar a los estudiantes del PIAR en la plataforma?",
+    "intent_response_key_target": "faq/et_scores__int_1022",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1023",
+      "confidence": 0.06152961403131485
+    }
+  },
+  {
+    "text": "cómo puedo ampliar el tiempo para subir las calificaciones a las planillas?",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.05885052680969238
+    }
+  },
+  {
+    "text": "el sistema no me deja reportar y tengo que hacer el proceso para la entrega de boletines, me la habilitan por favor",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.17745153605937958
+    }
+  },
+  {
+    "text": "Necesito que me ayude a arreglar las fechas del periodo, ya que no me permite hacer el reporte",
+    "intent_response_key_target": "faq/et_scores__int_1029",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.3552006185054779
+    }
+  },
+  {
+    "text": "No he podido hacer el reporte de calificaciones, no permite",
+    "intent_response_key_target": "faq/et_scores__int_1029",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.24020202457904816
+    }
+  },
+  {
+    "text": "No me deja seleccionar los logros al momento de hacer el reporte de periodo",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.21653278172016144
+    }
+  },
+  {
+    "text": "¿Cómo se que las notas se encuentran bien?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.25106701254844666
+    }
+  },
+  {
+    "text": "como compruebo si el reporte de calificaciones está completo?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1043",
+      "confidence": 0.08445417881011963
+    }
+  },
+  {
+    "text": "Cómo agrego un desempeño de forma masiva",
+    "intent_response_key_target": "faq/et_scores__int_1119",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1108",
+      "confidence": 0.12422908842563629
+    }
+  },
+  {
+    "text": "Necesito agregar otros comportamientos para agregar ya que son del manual y no los tengo disponibles.",
+    "intent_response_key_target": "faq/behaviors__int_1030",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.11803179979324341
+    }
+  },
+  {
+    "text": "Cómo se puede manejar el observador del estudiante desde la plataforma?",
+    "intent_response_key_target": "faq/behaviors__int_1074",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1096",
+      "confidence": 0.06670817732810974
+    }
+  },
+  {
+    "text": "cómo retrocedo una excusa en un mal comportamiento",
+    "intent_response_key_target": "faq/behaviors__int_1097",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1096",
+      "confidence": 0.2836860418319702
+    }
+  },
+  {
+    "text": "Estoy tratando de descargar un informe pero el sistema se queda generando",
+    "intent_response_key_target": "faq/group_manager_reports__int_1100",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1126",
+      "confidence": 0.2990748882293701
+    }
+  },
+  {
+    "text": "cómo puedo copiar las influencias en el reporte de calificaciones",
+    "intent_response_key_target": "faq/reports__int_1104",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1008",
+      "confidence": 0.2060379981994629
+    }
+  },
+  {
+    "text": "¿Me sale un año diferente?",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.09086086601018906
+    }
+  },
+  {
+    "text": "Al ingresar a mi interfaz me aparece de primero un año que no es",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.2547554671764374
+    }
+  },
+  {
+    "text": "donde aparece el periodico del colegio?",
+    "intent_response_key_target": "faq/news__int_1092",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.08323783427476883
+    }
+  },
+  {
+    "text": "¿Los estudiantes pueden enviar mensajes entre ellos como en los grupos de whatsapp?",
+    "intent_response_key_target": "faq/pms__int_1088",
+    "intent_response_key_prediction": {
+      "name": "faq/pms__int_1041",
+      "confidence": 0.24158605933189392
+    }
+  },
+  {
+    "text": "es posible crear un foro con los estudiantes de mi grupo?",
+    "intent_response_key_target": "faq/pms__int_1088",
+    "intent_response_key_prediction": {
+      "name": "faq/users__students__int_1013",
+      "confidence": 0.08117947727441788
+    }
+  },
+  {
+    "text": "Cómo agrego un video en el material de clase.",
+    "intent_response_key_target": "faq/lms__class_material__int_1028",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.19854621589183807
+    }
+  },
+  {
+    "text": "cómo comparto archivos de word o excel",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.1942722648382187
+    }
+  },
+  {
+    "text": "Puedo agregar preguntas con ecuaciones numéricas?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1122",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1086",
+      "confidence": 0.08252976834774017
+    }
+  },
+  {
+    "text": "cómo puedo revisar los exámenes que he realizado?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1124",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1078",
+      "confidence": 0.2098388373851776
+    }
+  },
+  {
+    "text": "necesito verificar los exámenes y las respuestas de los estudiantes",
+    "intent_response_key_target": "faq/lms__online_exams__int_1124",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1064",
+      "confidence": 0.32867905497550964
+    }
+  },
+  {
+    "text": "necesito empezar a utilizar el planeador",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1116",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1094",
+      "confidence": 0.4501137435436249
+    }
+  },
+  {
+    "text": "necesito crear una lección en un tema",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1117",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1116",
+      "confidence": 0.12735165655612946
+    }
+  },
+  {
+    "text": "¿Cómo se pueden agregar las actividades de un tema en el planeador?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1117",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1090",
+      "confidence": 0.20397977530956268
+    }
+  },
+  {
+    "text": "como hago una clase online?",
+    "intent_response_key_target": "faq/lms__meetings__int_1009",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0513",
+      "confidence": 0.11521521955728531
+    }
+  },
+  {
+    "text": "¿Lo que se pone en la agenda quien lo puede ver?",
+    "intent_response_key_target": "faq/teacher__calendar__int_1111",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.2923451066017151
+    }
+  },
+  {
+    "text": "He intentado agregar tareas en el calendario y no he podido, ¿Me podrían colaborar?",
+    "intent_response_key_target": "faq/teacher__calendar__int_1111",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.06559374183416367
+    }
+  },
+  {
+    "text": "Cómo puedo descargar mis planillas para imprimirlas en físico?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.3120085299015045
+    }
+  },
+  {
+    "text": "las planillas se pueden imprimir?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.41114509105682373
+    }
+  },
+  {
+    "text": "puedo generar o descargar un reporte intermedio?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1043",
+    "intent_response_key_prediction": {
+      "name": "faq/group_manager_reports__int_1100",
+      "confidence": 0.38297927379608154
+    }
+  },
+  {
+    "text": "cómo te encuentras?",
+    "intent_response_key_target": "chitchat/__int_0501",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0512",
+      "confidence": 0.2927265465259552
+    }
+  },
+  {
+    "text": "quisiera saber como piensas?",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.15789680182933807
+    }
+  },
+  {
+    "text": "cuando naciste?",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0511",
+      "confidence": 0.15201625227928162
+    }
+  },
+  {
+    "text": "en qué fecha naciste",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.19005806744098663
+    }
+  },
+  {
+    "text": "¿Qué te puedo preguntar?",
+    "intent_response_key_target": "chitchat/__int_0506",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.3437093496322632
+    }
+  },
+  {
+    "text": "que habilidades tienes?",
+    "intent_response_key_target": "chitchat/__int_0506",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0511",
+      "confidence": 0.30783671140670776
+    }
+  },
+  {
+    "text": "quién es tu padre?",
+    "intent_response_key_target": "chitchat/__int_0507",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.3404710292816162
+    }
+  },
+  {
+    "text": "quien te hizo?",
+    "intent_response_key_target": "chitchat/__int_0507",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.2973405718803406
+    }
+  },
+  {
+    "text": "wtf?",
+    "intent_response_key_target": "chitchat/__int_0508",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.09863854199647903
+    }
+  },
+  {
+    "text": "bastante mal",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.16580405831336975
+    }
+  },
+  {
+    "text": "Rayos",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.11706364154815674
+    }
+  },
+  {
+    "text": "Que vaina",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.3394419252872467
+    }
+  },
+  {
+    "text": "ahí voy",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.1643328219652176
+    }
+  },
+  {
+    "text": "mas bien regular",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.45905521512031555
+    }
+  },
+  {
+    "text": "que caja",
+    "intent_response_key_target": "chitchat/__int_0520",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.20449571311473846
+    }
+  },
+  {
+    "text": "cuentame otro",
+    "intent_response_key_target": "chitchat/__int_0521",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0506",
+      "confidence": 0.11684868484735489
+    }
+  },
+  {
+    "text": "necesito comunícame directamente con un asesor me pueden pasar los números de contacto por favor",
+    "intent_response_key_target": "faq/general__int_1038",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0509",
+      "confidence": 0.35552406311035156
+    }
+  },
+  {
+    "text": "necesito que me retiren una asignatura que no me pertenece",
+    "intent_response_key_target": "faq/general__int_1040",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.19472377002239227
+    }
+  },
+  {
+    "text": "En la barra para buscar cursos, hay algunos cursos que no me aparecen",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1040",
+      "confidence": 0.12580204010009766
+    }
+  },
+  {
+    "text": "Solo puedo visualizar las asignaturas de unos grados pero no puedo visualizar las de la nocturna",
+    "intent_response_key_target": "faq/general__int_1055",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.05987175926566124
+    }
+  },
+  {
+    "text": "¿Porque no puedo subir una foto de perfil?",
+    "intent_response_key_target": "faq/my_profile__int_1014",
+    "intent_response_key_prediction": {
+      "name": "faq/users__students__int_1013",
+      "confidence": 0.3310292363166809
+    }
+  },
+  {
+    "text": "En el cuadro amarillo aparece mi número de documento incorrecto, lo pueden corregir por favor.",
+    "intent_response_key_target": "faq/my_profile__int_1027",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1090",
+      "confidence": 0.14189846813678741
+    }
+  },
+  {
+    "text": "Necesito que me cambien la contraseña.",
+    "intent_response_key_target": "faq/my_profile__int_1076",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1065",
+      "confidence": 0.2633170783519745
+    }
+  },
+  {
+    "text": "Cómo puedo agregar actividades masivas?",
+    "intent_response_key_target": "faq/massive_assignments__int_1058",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1107",
+      "confidence": 0.3131200075149536
+    }
+  },
+  {
+    "text": "como se hace el cálculo de la calificación definitiva con los criterios de evaluación?",
+    "intent_response_key_target": "faq/massive_assignments__int_1062",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1105",
+      "confidence": 0.37219902873039246
+    }
+  },
+  {
+    "text": "como saca la calificación la plataforma con criterios de evaluación",
+    "intent_response_key_target": "faq/massive_assignments__int_1062",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1105",
+      "confidence": 0.09904326498508453
+    }
+  },
+  {
+    "text": "Yo hago reporte rápido, no conocía ese proceso",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.3915901184082031
+    }
+  },
+  {
+    "text": "¿porque la nota de los desempeños es diferente a la nota de la asignatura?",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1072",
+      "confidence": 0.440864622592926
+    }
+  },
+  {
+    "text": "Los desempeños me salen perdidos y el estudiante ganó la asignatura",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1121",
+      "confidence": 0.11758022755384445
+    }
+  },
+  {
+    "text": "Sería bueno que tuvieran disponibles ejemplos o logros predeterminados en las asignaturas para elegir algunos desde allí sin necesidad de crearlos.",
+    "intent_response_key_target": "faq/standards__int_1016",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__dashboard_statistics__int_1101",
+      "confidence": 0.05893152207136154
+    }
+  },
+  {
+    "text": "Quiero que a los estudiantes les salga el desempeño con un texto diferente.",
+    "intent_response_key_target": "faq/standards__int_1023",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1120",
+      "confidence": 0.20012792944908142
+    }
+  },
+  {
+    "text": "¿Por que me modificaron un logro o descriptor?",
+    "intent_response_key_target": "faq/standards__int_1052",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1120",
+      "confidence": 0.18378567695617676
+    }
+  },
+  {
+    "text": "como puedo calificar los logros o indicadores de un estudiante con dificultad motriz visual o auditiva",
+    "intent_response_key_target": "faq/standards__int_1070",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1121",
+      "confidence": 0.23126214742660522
+    }
+  },
+  {
+    "text": "requiero adicionar un desempeño con el que pueda trabajar en todos los periodos",
+    "intent_response_key_target": "faq/standards__int_1095",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.16614004969596863
+    }
+  },
+  {
+    "text": "se pueden cambiar las calificaciones de los logros o desempeños?",
+    "intent_response_key_target": "faq/standards__int_1120",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.27614569664001465
+    }
+  },
+  {
+    "text": "cómo obtener los descriptores de logro que un estudiante no aprobó",
+    "intent_response_key_target": "faq/standards__int_1121",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1052",
+      "confidence": 0.12312161922454834
+    }
+  },
+  {
+    "text": "Esos registros de asistencia que salen en la planilla no nos sirven, se pueden poner otros distintos?",
+    "intent_response_key_target": "faq/attendance_book__int_1034",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1010",
+      "confidence": 0.23885990679264069
+    }
+  },
+  {
+    "text": "Necesito agregar otro tipo de asistencia, ¿cómo lo hago?",
+    "intent_response_key_target": "faq/attendance_book__int_1034",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1127",
+      "confidence": 0.1677693873643875
+    }
+  },
+  {
+    "text": "Tengo más estudiantes en mi lista de los que debería tener ¿Por qué?",
+    "intent_response_key_target": "faq/attendance_book__int_1077",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1022",
+      "confidence": 0.06342031806707382
+    }
+  },
+  {
+    "text": "Metí las notas donde no era.",
+    "intent_response_key_target": "faq/grading_book__int_1001",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.09252135455608368
+    }
+  },
+  {
+    "text": "necesito pasar las notas de una planilla a otra",
+    "intent_response_key_target": "faq/grading_book__int_1019",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.12199223786592484
+    }
+  },
+  {
+    "text": "estoy metiendo calificaciones en ecxel y no salen en la planilla de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1026",
+    "intent_response_key_prediction": {
+      "name": "faq/massive_assignments__int_1058",
+      "confidence": 0.16179636120796204
+    }
+  },
+  {
+    "text": "Necesito cancelar un estudiante en la plataforma",
+    "intent_response_key_target": "faq/grading_book__int_1033",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1109",
+      "confidence": 0.1396372765302658
+    }
+  },
+  {
+    "text": "Puedo usar la plataforma offline",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__import_and_export__int_1035",
+      "confidence": 0.47711455821990967
+    }
+  },
+  {
+    "text": "No tengo internet y necesito ingresar a la plataforma",
+    "intent_response_key_target": "faq/grading_book__int_1036",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__import_and_export__int_1035",
+      "confidence": 0.2907404899597168
+    }
+  },
+  {
+    "text": "Cuales son los pasos para saber que si agregué las notas bien",
+    "intent_response_key_target": "faq/grading_book__int_1037",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1075",
+      "confidence": 0.08524993062019348
+    }
+  },
+  {
+    "text": "Cómo puedo descargar mis planillas para imprimirlas en físico?",
+    "intent_response_key_target": "faq/grading_book__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1042",
+      "confidence": 0.32723045349121094
+    }
+  },
+  {
+    "text": "Necesito tener mis planillas para calificar en físico",
+    "intent_response_key_target": "faq/grading_book__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1042",
+      "confidence": 0.42826879024505615
+    }
+  },
+  {
+    "text": "como puedo poner la nota en varias celdas a la vez",
+    "intent_response_key_target": "faq/grading_book__int_1047",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1114",
+      "confidence": 0.0956776812672615
+    }
+  },
+  {
+    "text": "el sistema no me deja calificar una planilla",
+    "intent_response_key_target": "faq/grading_book__int_1056",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.10721275210380554
+    }
+  },
+  {
+    "text": "en la planilla hay celdas que no puedo calificar",
+    "intent_response_key_target": "faq/grading_book__int_1056",
+    "intent_response_key_prediction": {
+      "name": "faq/massive_assignments__int_1058",
+      "confidence": 0.27320247888565063
+    }
+  },
+  {
+    "text": "Cómo puedo ponerle un formato de calificaciones a la planilla?",
+    "intent_response_key_target": "faq/grading_book__int_1060",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__download_reports__int_1042",
+      "confidence": 0.16879665851593018
+    }
+  },
+  {
+    "text": "Qué es el formato de calificaciones? Cuando entro a la planilla no me deja calificar",
+    "intent_response_key_target": "faq/grading_book__int_1060",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.1134805902838707
+    }
+  },
+  {
+    "text": "cómo vuelvo a dejar vacías las celdas de calificación?",
+    "intent_response_key_target": "faq/grading_book__int_1067",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.13847149908542633
+    }
+  },
+  {
+    "text": "¿Cómo puedo calificar a un estudiante?",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1047",
+      "confidence": 0.34485888481140137
+    }
+  },
+  {
+    "text": "Necesito calificar las actividades",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.3940248489379883
+    }
+  },
+  {
+    "text": "cómo edito una actividad?",
+    "intent_response_key_target": "faq/grading_book__int_1114",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1073",
+      "confidence": 0.31846481561660767
+    }
+  },
+  {
+    "text": "como hago para que los estudiantes me envíen la evidencia de una tarea",
+    "intent_response_key_target": "faq/grading_book__int_1115",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1083",
+      "confidence": 0.2558116912841797
+    }
+  },
+  {
+    "text": "como recibir las entregas virtuales?",
+    "intent_response_key_target": "faq/grading_book__int_1115",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__deliveries__int_1089",
+      "confidence": 0.18929226696491241
+    }
+  },
+  {
+    "text": "cómo me paso para un año anterior?",
+    "intent_response_key_target": "faq/grading_book__int_1128",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1015",
+      "confidence": 0.25587013363838196
+    }
+  },
+  {
+    "text": "¿Cómo puedo hacer el reporte de calificaciones sin dar tanta vuelta?",
+    "intent_response_key_target": "faq/grading_book__express_et_report__int_1024",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1037",
+      "confidence": 0.4238381087779999
+    }
+  },
+  {
+    "text": "¿Puedo ingresar la superación de los estudiantes si el periodo de evaluación se encuentra en estado no calificable?",
+    "intent_response_key_target": "faq/levelings__int_1071",
+    "intent_response_key_prediction": {
+      "name": "faq/levelings__int_1005",
+      "confidence": 0.23039034008979797
+    }
+  },
+  {
+    "text": "Necesito que me habiliten el reporte de calificaciones.",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1037",
+      "confidence": 0.26382702589035034
+    }
+  },
+  {
+    "text": "Necesito más plazo para terminar de calificar.",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/my_profile__int_1014",
+      "confidence": 0.1068258136510849
+    }
+  },
+  {
+    "text": "Como como puedo modificar un comentario u observación en el reporte de calificaciones?",
+    "intent_response_key_target": "faq/et_scores__int_1021",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.31932687759399414
+    }
+  },
+  {
+    "text": "Quien abre la plataforma para hacer el reporte de calificaciones?",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1037",
+      "confidence": 0.4551990330219269
+    }
+  },
+  {
+    "text": "en el módulo de desempeños sale un símbolo de color rojo",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.5245698690414429
+    }
+  },
+  {
+    "text": "en el menú de logros sale un símbolo de color rojo",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.573371171951294
+    }
+  },
+  {
+    "text": "no puedo ver los desempeños para realizar el informe de periodo.",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.6051900386810303
+    }
+  },
+  {
+    "text": "¿Cuáles son los pasos para que las notas se vean reflejadas al descargar los informes?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/group_manager_reports__int_1100",
+      "confidence": 0.19421976804733276
+    }
+  },
+  {
+    "text": "La plataforma me notifica que ya realice bien el proceso de ingresar las notas?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.09766191989183426
+    }
+  },
+  {
+    "text": "¿Cómo se hace el cálculo de la nota final del periodo?",
+    "intent_response_key_target": "faq/et_scores__int_1105",
+    "intent_response_key_prediction": {
+      "name": "faq/massive_assignments__int_1062",
+      "confidence": 0.3118697702884674
+    }
+  },
+  {
+    "text": "¿Cómo puedo excusar un comportamiento registrado a un estudiante?",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1097",
+      "confidence": 0.25660091638565063
+    }
+  },
+  {
+    "text": "¿Cómo pongo que un comportamiento tiene excusa?",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1097",
+      "confidence": 0.11610203236341476
+    }
+  },
+  {
+    "text": "Excusé un comportamiento negativo por error. cómo lo deshago?",
+    "intent_response_key_target": "faq/behaviors__int_1097",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1020",
+      "confidence": 0.2960890233516693
+    }
+  },
+  {
+    "text": "cómo hago para deshacer una excusa en una falta al manual de convivencia",
+    "intent_response_key_target": "faq/behaviors__int_1097",
+    "intent_response_key_prediction": {
+      "name": "faq/news__int_1092",
+      "confidence": 0.09866375476121902
+    }
+  },
+  {
+    "text": "¿Se puede hacer el reporte de calificaciones de forma masiva sin necesidad de poner las influencias en cada asignatura?",
+    "intent_response_key_target": "faq/reports__int_1104",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__express_et_report__int_1024",
+      "confidence": 0.049812208861112595
+    }
+  },
+  {
+    "text": "Que representa cada color en los numeritos de periodo en donde se buscan o se seleccionan las asignaturas",
+    "intent_response_key_target": "faq/academic_terms__int_1004",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1007",
+      "confidence": 0.05455736815929413
+    }
+  },
+  {
+    "text": "Cuando ingreso a la plataforma aparece el próximo año",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.42928823828697205
+    }
+  },
+  {
+    "text": "¿No me aparece el período académico actual?",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.23332147300243378
+    }
+  },
+  {
+    "text": "dónde aparecen las encuestas para profesores o maestros?",
+    "intent_response_key_target": "faq/surveys__int_1093",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.23988430202007294
+    }
+  },
+  {
+    "text": "¿Existe alguna herramienta que me permita crear debates o conversaciones con los estudiantes?",
+    "intent_response_key_target": "faq/pms__int_1088",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1124",
+      "confidence": 0.08689799159765244
+    }
+  },
+  {
+    "text": "como enviar tareas por la plataforma",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1107",
+      "confidence": 0.24204857647418976
+    }
+  },
+  {
+    "text": "Como puedo evidenciar que un estudiante envió la entrega en tal fecha?",
+    "intent_response_key_target": "faq/lms__deliveries__int_1089",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1083",
+      "confidence": 0.22211626172065735
+    }
+  },
+  {
+    "text": "Los estudiantes pueden ver cómo les fue en los exámenes?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1064",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1124",
+      "confidence": 0.4627673625946045
+    }
+  },
+  {
+    "text": "Por qué no tengo servicio en examenes?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1078",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1081",
+      "confidence": 0.23587585985660553
+    }
+  },
+  {
+    "text": "quisiera saber como puedo agregar examenes virtuales",
+    "intent_response_key_target": "faq/lms__online_exams__int_1081",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1110",
+      "confidence": 0.6276593208312988
+    }
+  },
+  {
+    "text": "No he podido agregar temas en el planeador, ¿Me ayudan?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1085",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1086",
+      "confidence": 0.17250455915927887
+    }
+  },
+  {
+    "text": "me gasté todas las columnas de clase. como puedo crear más?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1086",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.05689505487680435
+    }
+  },
+  {
+    "text": "agregué unos archivos a material de clase. Cómo los subo al planeador?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1099",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.1213703528046608
+    }
+  },
+  {
+    "text": "cómo puedo insertar lecciones en el planeador de clase?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1117",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1099",
+      "confidence": 0.26486191153526306
+    }
+  },
+  {
+    "text": "Veo unas estadísticas en el módulo de inicio. No las entiendo.",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__statistics__int_1125",
+      "confidence": 0.30230221152305603
+    }
+  },
+  {
+    "text": "¿Cómo se maneja la agenda que aparece en el menú de la parte izquierda?",
+    "intent_response_key_target": "faq/teacher__calendar__int_1111",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.21431514620780945
+    }
+  },
+  {
+    "text": "Por dónde puedo descargar un informe parcial?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1043",
+    "intent_response_key_prediction": {
+      "name": "faq/group_manager_reports__int_1100",
+      "confidence": 0.2707827687263489
+    }
+  },
+  {
+    "text": "cuales son los informes que puedo descargar como docente?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1126",
+    "intent_response_key_prediction": {
+      "name": "faq/group_manager_reports__int_1100",
+      "confidence": 0.28529658913612366
+    }
+  },
+  {
+    "text": "Todo bien?",
+    "intent_response_key_target": "chitchat/__int_0501",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.35746893286705017
+    }
+  },
+  {
+    "text": "con quién me estoy comunico?",
+    "intent_response_key_target": "chitchat/__int_0502",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1038",
+      "confidence": 0.41132882237434387
+    }
+  },
+  {
+    "text": "eres un algoritmo de inteligencia artificial?",
+    "intent_response_key_target": "chitchat/__int_0503",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.21742266416549683
+    }
+  },
+  {
+    "text": "eres una persona?",
+    "intent_response_key_target": "chitchat/__int_0503",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0502",
+      "confidence": 0.26118960976600647
+    }
+  },
+  {
+    "text": "dime a que te dedicas?",
+    "intent_response_key_target": "chitchat/__int_0504",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0507",
+      "confidence": 0.15235602855682373
+    }
+  },
+  {
+    "text": "Te crearon hace poco?",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0507",
+      "confidence": 0.2945267856121063
+    }
+  },
+  {
+    "text": "Que tan nuevo eres?",
+    "intent_response_key_target": "chitchat/__int_0505",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0503",
+      "confidence": 0.32386037707328796
+    }
+  },
+  {
+    "text": "me podrías colaborar con algo",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.10407450050115585
+    }
+  },
+  {
+    "text": "Requiero asesoría",
+    "intent_response_key_target": "chitchat/__int_0513",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0509",
+      "confidence": 0.24888738989830017
+    }
+  },
+  {
+    "text": "más bien regular",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.5033260583877563
+    }
+  },
+  {
+    "text": "Erda",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0503",
+      "confidence": 0.06776557862758636
+    }
+  },
+  {
+    "text": "estoy enojado",
+    "intent_response_key_target": "chitchat/__int_0517",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.14131397008895874
+    }
+  },
+  {
+    "text": "lo normal",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.15001581609249115
+    }
+  },
+  {
+    "text": "Super. muchas gracias.",
+    "intent_response_key_target": "chitchat/__int_0519",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0518",
+      "confidence": 0.5453847646713257
+    }
+  },
+  {
+    "text": "JUA JUA",
+    "intent_response_key_target": "chitchat/__int_0520",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0519",
+      "confidence": 0.09181474894285202
+    }
+  },
+  {
+    "text": "dime otro",
+    "intent_response_key_target": "chitchat/__int_0521",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0508",
+      "confidence": 0.25591760873794556
+    }
+  },
+  {
+    "text": "Hágame reír",
+    "intent_response_key_target": "chitchat/__int_0521",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.16921263933181763
+    }
+  },
+  {
+    "text": "cuales son las líneas de soporte para profesores?",
+    "intent_response_key_target": "faq/general__int_1038",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1081",
+      "confidence": 0.14414048194885254
+    }
+  },
+  {
+    "text": "En el cuadro de búsquedas de las asignaturas me aparecen asignaturas que no son mías",
+    "intent_response_key_target": "faq/general__int_1040",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1007",
+      "confidence": 0.12221470475196838
+    }
+  },
+  {
+    "text": "donde puedo encontrar un manual de ciudad educativa",
+    "intent_response_key_target": "faq/general__int_1048",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1070",
+      "confidence": 0.11960436403751373
+    }
+  },
+  {
+    "text": "¿Puedo inscribirme en los cursos de la plataforma?",
+    "intent_response_key_target": "faq/general__int_1091",
+    "intent_response_key_prediction": {
+      "name": "faq/surveys__int_1093",
+      "confidence": 0.14601247012615204
+    }
+  },
+  {
+    "text": "esos cursos que están disponibles en la plataforma están disponibles?",
+    "intent_response_key_target": "faq/general__int_1091",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0517",
+      "confidence": 0.0694519653916359
+    }
+  },
+  {
+    "text": "Ese número que está en la plataforma no es mi documento",
+    "intent_response_key_target": "faq/my_profile__int_1027",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1129",
+      "confidence": 0.2077653408050537
+    }
+  },
+  {
+    "text": "No he podido ingresar a la plataforma",
+    "intent_response_key_target": "faq/my_profile__int_1053",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1026",
+      "confidence": 0.16135291755199432
+    }
+  },
+  {
+    "text": "como puedo cambiar la clave para entrar al sistema",
+    "intent_response_key_target": "faq/my_profile__int_1065",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1048",
+      "confidence": 0.1270870715379715
+    }
+  },
+  {
+    "text": "los criterios de evaluación tienen un uno que yo no califiqué",
+    "intent_response_key_target": "faq/massive_assignments__int_1032",
+    "intent_response_key_prediction": {
+      "name": "faq/massive_assignments__int_1058",
+      "confidence": 0.20448805391788483
+    }
+  },
+  {
+    "text": "No me salen las actividades para calificar en la planilla",
+    "intent_response_key_target": "faq/massive_assignments__int_1058",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.36487504839897156
+    }
+  },
+  {
+    "text": "no puedo calificar mi planilla me sale un mensaje de error.",
+    "intent_response_key_target": "faq/massive_assignments__int_1058",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1085",
+      "confidence": 0.09446653723716736
+    }
+  },
+  {
+    "text": "Es necesario poner las bolitas a los desempeños?",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1003",
+      "confidence": 0.17621544003486633
+    }
+  },
+  {
+    "text": "Para qué se ponen esas bolitas?",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.15395940840244293
+    }
+  },
+  {
+    "text": "Es necesario hacer el reporte de calificaciones largo?",
+    "intent_response_key_target": "faq/standards__int_1008",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.1480448693037033
+    }
+  },
+  {
+    "text": "Los logros me salen todos ganados y la asignatura perdida.",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1003",
+      "confidence": 0.14162053167819977
+    }
+  },
+  {
+    "text": "¿Por que si el estudiante tiene desempeño alto en una asignatura tiene algunos logros en básico o bajo?",
+    "intent_response_key_target": "faq/standards__int_1011",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1052",
+      "confidence": 0.10703527182340622
+    }
+  },
+  {
+    "text": "la plataforma tiene algún repositorio de logros previamente definido?",
+    "intent_response_key_target": "faq/standards__int_1016",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1108",
+      "confidence": 0.06291279196739197
+    }
+  },
+  {
+    "text": "El indicador no sale correctamente escrito.¿Cómo lo corrijo?",
+    "intent_response_key_target": "faq/standards__int_1023",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1040",
+      "confidence": 0.0396345891058445
+    }
+  },
+  {
+    "text": "La calificación de los logros está incorrecta",
+    "intent_response_key_target": "faq/standards__int_1072",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1011",
+      "confidence": 0.2100289762020111
+    }
+  },
+  {
+    "text": "La nota de los logros sale mal",
+    "intent_response_key_target": "faq/standards__int_1072",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1011",
+      "confidence": 0.210781529545784
+    }
+  },
+  {
+    "text": "¿Por que algunos indicadores tienen un icono de calendario color azul?",
+    "intent_response_key_target": "faq/standards__int_1102",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1080",
+      "confidence": 0.055050503462553024
+    }
+  },
+  {
+    "text": "¿Cómo se maneja la asistencia de los estudiantes en la plataforma?",
+    "intent_response_key_target": "faq/attendance_book__int_1112",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.13655757904052734
+    }
+  },
+  {
+    "text": "En la planilla hay un simbolo de alerta, qué significa eso?",
+    "intent_response_key_target": "faq/grading_book__int_1031",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1098",
+      "confidence": 0.09735649824142456
+    }
+  },
+  {
+    "text": "Veo en las planillas a un estudiante que ya no hace parte del colegio",
+    "intent_response_key_target": "faq/grading_book__int_1033",
+    "intent_response_key_prediction": {
+      "name": "faq/attendance_book__int_1077",
+      "confidence": 0.1015273779630661
+    }
+  },
+  {
+    "text": "¿Cuál es el procedimiento para hacer el reporte de periodo?",
+    "intent_response_key_target": "faq/grading_book__int_1037",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0520",
+      "confidence": 0.11188509315252304
+    }
+  },
+  {
+    "text": "Puedo obtener un pdf con mis planillas de actividades?",
+    "intent_response_key_target": "faq/grading_book__int_1042",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.5404393672943115
+    }
+  },
+  {
+    "text": "No me deja agregar actividades",
+    "intent_response_key_target": "faq/grading_book__int_1044",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1086",
+      "confidence": 0.14019538462162018
+    }
+  },
+  {
+    "text": "Porqué cuando pongo una calificación, se pone de color verde",
+    "intent_response_key_target": "faq/grading_book__int_1046",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1045",
+      "confidence": 0.3275796175003052
+    }
+  },
+  {
+    "text": "Le cambié notas al estudiante y no se qué paso sigue",
+    "intent_response_key_target": "faq/grading_book__int_1050",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1056",
+      "confidence": 0.08185750991106033
+    }
+  },
+  {
+    "text": "La plataforma no me permite calificar las actividades",
+    "intent_response_key_target": "faq/grading_book__int_1056",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.10624082386493683
+    }
+  },
+  {
+    "text": "necesito limpiar la planilla de actividades",
+    "intent_response_key_target": "faq/grading_book__int_1067",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1106",
+      "confidence": 0.22612307965755463
+    }
+  },
+  {
+    "text": "como modifico la influencia de una actividad en la asignatura?",
+    "intent_response_key_target": "faq/grading_book__int_1073",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1019",
+      "confidence": 0.132129967212677
+    }
+  },
+  {
+    "text": "como modifico la influencia de las actividades en la nota del curso?",
+    "intent_response_key_target": "faq/grading_book__int_1073",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.11804085224866867
+    }
+  },
+  {
+    "text": "¿Cómo califico las tareas de un estudiante?",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1109",
+      "confidence": 0.1983853280544281
+    }
+  },
+  {
+    "text": "como reporto las notas en la planilla?",
+    "intent_response_key_target": "faq/grading_book__int_1106",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.22234874963760376
+    }
+  },
+  {
+    "text": "como cambiar la configuración de una actividad",
+    "intent_response_key_target": "faq/grading_book__int_1114",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1018",
+      "confidence": 0.19659122824668884
+    }
+  },
+  {
+    "text": "por donde debo ingresar para editar una actividad",
+    "intent_response_key_target": "faq/grading_book__int_1114",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1107",
+      "confidence": 0.6290908455848694
+    }
+  },
+  {
+    "text": "¿Cómo recibir tareas por internet?",
+    "intent_response_key_target": "faq/grading_book__int_1115",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1036",
+      "confidence": 0.276236891746521
+    }
+  },
+  {
+    "text": "Como puedo dictar las calificaciones en la plataforma?",
+    "intent_response_key_target": "faq/grading_book__int_1226",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1045",
+      "confidence": 0.25113755464553833
+    }
+  },
+  {
+    "text": "Solamente se puede trabajar la planilla de actividades desde excel o hay alguna otra herramienta que se pueda trabajar de la misma manera?",
+    "intent_response_key_target": "faq/grading_book__import_and_export__int_1035",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1118",
+      "confidence": 0.06442653387784958
+    }
+  },
+  {
+    "text": "Puedo trabajar la planilla offline?",
+    "intent_response_key_target": "faq/grading_book__import_and_export__int_1035",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1036",
+      "confidence": 0.28527501225471497
+    }
+  },
+  {
+    "text": "No me permite hacer el reporte de calificaciones por que aparece un mensaje mencionando que solo se puede hacer a partir de tal fecha o hasta tal fecha",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.34028592705726624
+    }
+  },
+  {
+    "text": "Dice que la fecha de reporte ya pasó.",
+    "intent_response_key_target": "faq/et_scores__int_1012",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1029",
+      "confidence": 0.2692798972129822
+    }
+  },
+  {
+    "text": "Se me cerró la plataforma para subir notas. Cómo habilito el ingreso de notas.",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.11227335780858994
+    }
+  },
+  {
+    "text": "Cómo puedo activar el sistema para ingresar las calificaciones?",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1226",
+      "confidence": 0.13512760400772095
+    }
+  },
+  {
+    "text": "me habilitan la plataforma por favor no me deja reportar",
+    "intent_response_key_target": "faq/et_scores__int_1025",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1012",
+      "confidence": 0.178883895277977
+    }
+  },
+  {
+    "text": "no puedo hacer el reporte ni seleccionar logros. me sale un mensaje de error",
+    "intent_response_key_target": "faq/et_scores__int_1029",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.19090110063552856
+    }
+  },
+  {
+    "text": "si un estudiante ingresó a la institución desde el segundo periodo, como se calcula la definitiva del año?",
+    "intent_response_key_target": "faq/et_scores__int_1051",
+    "intent_response_key_prediction": {
+      "name": "faq/final_scores__int_1063",
+      "confidence": 0.14189369976520538
+    }
+  },
+  {
+    "text": "en el módulo de desempeños sale una alerta",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.37695685029029846
+    }
+  },
+  {
+    "text": "veo que en los logro sale una hojita roja como si los logros tuvieran algún error",
+    "intent_response_key_target": "faq/et_scores__int_1059",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1059",
+      "confidence": 0.1652248203754425
+    }
+  },
+  {
+    "text": "¿Qué me falta para que las notas se encuentren bien ingresadas?",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1025",
+      "confidence": 0.11539216339588165
+    }
+  },
+  {
+    "text": "Cómo se que ya realice el proceso de subir las notas d e forma completa.",
+    "intent_response_key_target": "faq/et_scores__int_1075",
+    "intent_response_key_prediction": {
+      "name": "faq/reports__int_1104",
+      "confidence": 0.15826182067394257
+    }
+  },
+  {
+    "text": "¿Se puede usar el mismo comentario para agregárselo a todos los estudiantes?",
+    "intent_response_key_target": "faq/et_scores__int_1119",
+    "intent_response_key_prediction": {
+      "name": "faq/et_scores__int_1084",
+      "confidence": 0.2971724271774292
+    }
+  },
+  {
+    "text": "el manual de convivencia está incompleto.",
+    "intent_response_key_target": "faq/behaviors__int_1030",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1048",
+      "confidence": 0.14482803642749786
+    }
+  },
+  {
+    "text": "¿Cómo puedo registrar comportamientos o anotaciones disciplinarias a un estudiante?",
+    "intent_response_key_target": "faq/behaviors__int_1074",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1096",
+      "confidence": 0.3041565716266632
+    }
+  },
+  {
+    "text": "Dónde encuentro el módulo de convivencia socioescolar?",
+    "intent_response_key_target": "faq/behaviors__int_1074",
+    "intent_response_key_prediction": {
+      "name": "faq/surveys__int_1093",
+      "confidence": 0.11074669659137726
+    }
+  },
+  {
+    "text": "deseo justificar una observación de convivencia, ¿Cómo lo hago?",
+    "intent_response_key_target": "faq/behaviors__int_1096",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.04467584192752838
+    }
+  },
+  {
+    "text": "cómo puedo retirar una excusa en el observador del estudiante?",
+    "intent_response_key_target": "faq/behaviors__int_1097",
+    "intent_response_key_prediction": {
+      "name": "faq/behaviors__int_1074",
+      "confidence": 0.1461905539035797
+    }
+  },
+  {
+    "text": "¿Porque el periodo me sale de color en gris?",
+    "intent_response_key_target": "faq/academic_terms__int_1004",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1055",
+      "confidence": 0.14334802329540253
+    }
+  },
+  {
+    "text": "Siempre que ingreso me carga un periodo académico que ya pasó",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/general__int_1054",
+      "confidence": 0.29526835680007935
+    }
+  },
+  {
+    "text": "cómo puedo navegar entre los periodos académicos?",
+    "intent_response_key_target": "faq/academic_terms__int_1066",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1128",
+      "confidence": 0.1765712946653366
+    }
+  },
+  {
+    "text": "En dónde puedo visualizar los foros de actividades",
+    "intent_response_key_target": "faq/pms__int_1088",
+    "intent_response_key_prediction": {
+      "name": "faq/surveys__int_1093",
+      "confidence": 0.09213251620531082
+    }
+  },
+  {
+    "text": "Cómo agrego un ítem en la agenda?",
+    "intent_response_key_target": "faq/lms__int_1103",
+    "intent_response_key_prediction": {
+      "name": "faq/teacher__calendar__int_1111",
+      "confidence": 0.5124467611312866
+    }
+  },
+  {
+    "text": "cómo puedo adjuntar un video a un archivo pdf o word?",
+    "intent_response_key_target": "faq/lms__class_material__int_1028",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1109",
+      "confidence": 0.20262184739112854
+    }
+  },
+  {
+    "text": "¿Cómo puedo compartir videos o documentos con mis estudiantes?",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.49437224864959717
+    }
+  },
+  {
+    "text": "por dónde comparto videos con mis estudiantes?",
+    "intent_response_key_target": "faq/lms__class_material__int_1109",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1130",
+      "confidence": 0.22054174542427063
+    }
+  },
+  {
+    "text": "como agregar preguntas de tipo arrastrar para un examen en línea?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1122",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1110",
+      "confidence": 0.35751351714134216
+    }
+  },
+  {
+    "text": "como hace la plataforma para calcular la calificación de un examen?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1123",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1067",
+      "confidence": 0.11076484620571136
+    }
+  },
+  {
+    "text": "cómo puedo visualizar los exámenes presentados por los estudiantes?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1124",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1064",
+      "confidence": 0.25883781909942627
+    }
+  },
+  {
+    "text": "como veo si los estudiantes ya presentaron el exmen?",
+    "intent_response_key_target": "faq/lms__online_exams__int_1124",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__online_exams__int_1064",
+      "confidence": 0.3119474947452545
+    }
+  },
+  {
+    "text": "el sistema no me permite agregar más clases en el planeador de clases",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1086",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1085",
+      "confidence": 0.3263707458972931
+    }
+  },
+  {
+    "text": "como muevo un tema a otra posición?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1090",
+    "intent_response_key_prediction": {
+      "name": "faq/standards__int_1070",
+      "confidence": 0.0932249054312706
+    }
+  },
+  {
+    "text": "no entiendo que hay que hacer en el planeador de clases",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1094",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1085",
+      "confidence": 0.325679212808609
+    }
+  },
+  {
+    "text": "Cómo puedo relacionar un archivo a un tema del planeador?",
+    "intent_response_key_target": "faq/lms__lesson_planner__int_1099",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__lesson_planner__int_1090",
+      "confidence": 0.28170669078826904
+    }
+  },
+  {
+    "text": "Puedo agendar clases virtuales en Ciudad Educativa como en meet o zoom",
+    "intent_response_key_target": "faq/lms__meetings__int_1009",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__int_1103",
+      "confidence": 0.24672672152519226
+    }
+  },
+  {
+    "text": "Necesito programar una videoconferencia con los estudiantes",
+    "intent_response_key_target": "faq/lms__meetings__int_1009",
+    "intent_response_key_prediction": {
+      "name": "faq/lms__class_material__int_1109",
+      "confidence": 0.11423194408416748
+    }
+  },
+  {
+    "text": "Para qué sirven esas tortas con gráficos que salen en mi perfil?",
+    "intent_response_key_target": "faq/teacher__dashboard_statistics__int_1101",
+    "intent_response_key_prediction": {
+      "name": "faq/surveys__int_1093",
+      "confidence": 0.11619731038808823
+    }
+  },
+  {
+    "text": "Puedo obtener un pdf con mis planillas de actividades?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "chitchat/__int_0501",
+      "confidence": 0.5404396653175354
+    }
+  },
+  {
+    "text": "las planillas se pueden utilizar en papel?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.6401084065437317
+    }
+  },
+  {
+    "text": "como puedo imprimir las planillas vacías?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1042",
+    "intent_response_key_prediction": {
+      "name": "faq/grading_book__int_1042",
+      "confidence": 0.566409170627594
+    }
+  },
+  {
+    "text": "¿Cómo docente puedo generar informes?",
+    "intent_response_key_target": "faq/teacher__download_reports__int_1126",
+    "intent_response_key_prediction": {
+      "name": "faq/group_manager_reports__int_1100",
+      "confidence": 0.5141713619232178
+    }
+  }
+]

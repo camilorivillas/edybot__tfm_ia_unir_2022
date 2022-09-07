@@ -1,0 +1,124 @@
+version: "3.1"
+
+rules:
+
+- rule: Say hello anytime the user says 'HELLO'
+  steps:
+  - intent: greet
+  - action: greet
+  - action: utter_ask_me_anything
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_i_am_always_available
+  - action: goodbye
+
+- rule: Say 'You are welcome' anytime the user says 'thank you' after having sent received a question answer.
+  condition:
+  - slot_was_set:
+    - cnv.one_faq_received: '1'
+  steps:
+  - intent: thank_you
+  - action: utter_you_are_welcome
+
+- rule: Ask for a new question anytime the user says 'THANK YOU' after asking did that help
+  steps:
+  - action: utter_did_that_help
+  - or:
+    - intent: thank_you
+    - intent: affirm
+  - action: log_response_usefulness
+  - action: utter_can_i_help_you_with_something_else
+
+- rule: Say 'please ask again' anytime the user says 'NO / NOT SURE' after asking did that help
+  steps:
+  - action: utter_did_that_help
+  - or:
+    - intent: deny
+    - intent: unsure
+  - action: log_response_usefulness
+  - action: utter_question_not_solved_then
+
+- rule: Ask for the new question anytime the user affirms needing help in something else
+  steps:
+  - action: utter_can_i_help_you_with_something_else
+  - or:
+    - intent: affirm
+    - intent: thank_you
+  - action: utter_go_ahead
+
+- rule: Give word to the user anytime the user affirms needing help
+  steps:
+  - action: utter_ask_me_anything
+  - or:
+    - intent: affirm
+    - intent: thank_you
+  - action: utter_go_ahead
+
+- rule: Say goodbye anytime the user denies needing help in something else
+  steps:
+  - action: utter_can_i_help_you_with_something_else
+  - intent: deny
+  - action: utter_ok_then
+  - action: utter_i_am_always_available
+  - action: goodbye
+
+- rule: Handle faq and chitchat
+  steps:
+  - or:
+    - intent: faq
+    - intent: chitchat
+    - intent: nlu_fallback
+  - action: analyze_user_expression
+
+- rule: Handle out of scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Handle set variables
+  steps:
+  - intent: set_variables
+  - action: set_variables
+
+- rule: Handle get conversation history
+  steps:
+  - intent: get_conversation_history
+  - action: get_conversation_history
+
+# Unhappy situations
+
+- rule: The user wants to reframe the question
+  steps:
+  - intent: reframe_question
+  - action: utter_please_ask_again
+
+- rule: The user wants to contact school staff
+  steps:
+  - intent: chat_with_school_staff 
+  - action: chat_with_school_staff
+  - action: utter_can_i_help_you_with_something_else
+
+- rule: The user wants to contact support assistant
+  steps:
+  - intent: chat_with_support_assistant 
+  - action: utter_chat_with_support_assistant
+
+- rule: The user wants to email school staff
+  condition:
+  - slot_was_set:
+    - cnv.one_faq_received: '1'
+  steps:
+  - intent: email_school_staff 
+  - action: email_school_staff
+  - action: utter_can_i_help_you_with_something_else
+
+- rule: The user wants to email support assistant
+  condition:
+  - slot_was_set:
+    - cnv.one_faq_received: '1'
+  steps:
+  - intent: email_support_assistant 
+  - action: email_support_assistant
+  - action: utter_can_i_help_you_with_something_else

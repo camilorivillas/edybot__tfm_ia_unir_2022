@@ -1,0 +1,76 @@
+
+- synonym: acceder
+  examples: |
+    - ingresar
+    - ir
+    - entrar
+
+- synonym: acceso
+  examples: |
+    - ingreso
+    - entrada
+
+- synonym: actividad
+  examples: |
+    - tarea
+
+- synonym: actividades
+  examples: |
+    - tareas
+
+- synonym: actualizar
+  examples: |
+    - modificar
+
+- synonym: administrativo
+  examples: |
+    - funcionario
+
+- synonym: administrativos
+  examples: |
+    - funcionarios
+
+- synonym: agregar
+  examples: |
+    - ingresar
+    - crear
+    - añadir
+
+- synonym: alerta
+  examples: |
+    - warning
+    - advertencia
+
+- synonym: aparece
+  examples: |
+    - se muestra
+    - se ve
+
+- synonym: aparecen
+  examples: |
+    - se muestran
+    - se ven
+
+- synonym: archivo
+  examples: |
+    - documento
+
+- synonym: asignar
+  examples: |
+    - registrar
+    - vincular
+
+- synonym: asignatura
+  examples: |
+    - curso
+    - materia
+
+- synonym: asignaturas
+  examples: |
+    - cursos
+    - materias
+
+- synonym: año
+  examples: |
+    - año lectivo
+    - periodo académico

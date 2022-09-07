@@ -1,0 +1,746 @@
+[
+  {
+    "text": "Cordial Saludo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9442800283432007
+    }
+  },
+  {
+    "text": "que estés bien",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "suena bien para mi",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "nunca",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "me podrías explicar otra vez?",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "unsure",
+      "confidence": 0.9984546899795532
+    }
+  },
+  {
+    "text": "Por el momento solo era eso",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "mmm",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Perfecto.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9915342926979065
+    }
+  },
+  {
+    "text": "Excelente.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "asesor de soporte técnico",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9999194145202637
+    }
+  },
+  {
+    "text": "no me has entendido",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9847307205200195
+    }
+  },
+  {
+    "text": "funcionas 24 7",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "¿Cómo te puedo llamar?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Genial!",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9987837672233582
+    }
+  },
+  {
+    "text": "me pasas sus contactos telefónicos por favor.",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "chat_with_support_assistant",
+      "confidence": 0.8882468938827515
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9998176693916321
+    }
+  },
+  {
+    "text": "Hiya",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.5787200927734375
+    }
+  },
+  {
+    "text": "positivo",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9994351267814636
+    }
+  },
+  {
+    "text": "creo que si",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5091191530227661
+    }
+  },
+  {
+    "text": "negativo",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.7025889158248901
+    }
+  },
+  {
+    "text": "mi duda persiste",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9920491576194763
+    }
+  },
+  {
+    "text": "no lo sé",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9988817572593689
+    }
+  },
+  {
+    "text": "Sinceramente no.",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9972820281982422
+    }
+  },
+  {
+    "text": "cool gracias",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.8862210512161255
+    }
+  },
+  {
+    "text": "volver a preguntar otra vez",
+    "intent": "reframe_question",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.998651921749115
+    }
+  },
+  {
+    "text": "Comunicarme con el encargado",
+    "intent": "chat_with_school_staff",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "porfavor reenviar por correo electrónico la consulta a un administrtivo del colegio",
+    "intent": "email_school_staff",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9997720122337341
+    }
+  },
+  {
+    "text": "porfavor ponme en contacto con un asesor",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.589902937412262
+    }
+  },
+  {
+    "text": "cómo anda todo?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.6015337705612183
+    }
+  },
+  {
+    "text": "¿cómo está todo por allá?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "de que forma funcionas?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "envejeces?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "email_school_staff",
+      "confidence": 0.34518963098526
+    }
+  },
+  {
+    "text": "eso no fué lo que dije",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9600729942321777
+    }
+  },
+  {
+    "text": "¿Quiero hablar con un asesor?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "chat_with_support_assistant",
+      "confidence": 0.9813768267631531
+    }
+  },
+  {
+    "text": "nunca descansas?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.49871110916137695
+    }
+  },
+  {
+    "text": "en dónde es tu casa?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "tengo una inquietud",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "chat_with_support_assistant",
+      "confidence": 0.41972455382347107
+    }
+  },
+  {
+    "text": "tengo una situación",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "ahi por las buenas",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9967580437660217
+    }
+  },
+  {
+    "text": "Lol",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9998225569725037
+    }
+  },
+  {
+    "text": "dime algo que me cause gracia",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5220789313316345
+    }
+  },
+  {
+    "text": "hello",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9976038336753845
+    }
+  },
+  {
+    "text": "bonjour",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "good bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9437350630760193
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "claro",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9964854717254639
+    }
+  },
+  {
+    "text": "por supuesto",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.8648431301116943
+    }
+  },
+  {
+    "text": "yes",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "de ninguna manera",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999821186065674
+    }
+  },
+  {
+    "text": "creo que mi duda persiste",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "unsure",
+      "confidence": 0.9825641512870789
+    }
+  },
+  {
+    "text": "necesito más explicación",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999902248382568
+    }
+  },
+  {
+    "text": "has sido de mucha ayuda",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mil gracias. Eres muy amable.",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Thank you",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.999923586845398
+    }
+  },
+  {
+    "text": "porfavor reenviar la consulta a un administativo del colegio",
+    "intent": "chat_with_school_staff",
+    "intent_prediction": {
+      "name": "email_school_staff",
+      "confidence": 0.9876523017883301
+    }
+  },
+  {
+    "text": "quiero hablar con un asesor",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.9941512942314148
+    }
+  },
+  {
+    "text": "cómo haces para pensar?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Cuéntame para que sirves?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "asistente de servicio al cliente",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "quisiera comunicarme con un asesor",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "chat_with_support_assistant",
+      "confidence": 0.9735338091850281
+    }
+  },
+  {
+    "text": "tengo una duda",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "unsure",
+      "confidence": 0.7177939414978027
+    }
+  },
+  {
+    "text": "gracias y adiós",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9913119673728943
+    }
+  },
+  {
+    "text": "es correcto",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.5168147683143616
+    }
+  },
+  {
+    "text": "nah",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9869551062583923
+    }
+  },
+  {
+    "text": "ya entiendo",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "quisiera hablar con un asesor",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "wtf?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5629282593727112
+    }
+  },
+  {
+    "text": "me puede usted ayudar a resolver una duda",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Rayos",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9637072682380676
+    }
+  },
+  {
+    "text": "Que vaina",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9089975953102112
+    }
+  },
+  {
+    "text": "excelente gracias a dios",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9781745672225952
+    }
+  },
+  {
+    "text": "que caja",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.822296142578125
+    }
+  },
+  {
+    "text": "greetings",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.9697359800338745
+    }
+  },
+  {
+    "text": "jelou",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9759199619293213
+    }
+  },
+  {
+    "text": "good evening",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.974223256111145
+    }
+  },
+  {
+    "text": "gracias, eso era todo",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9860614538192749
+    }
+  },
+  {
+    "text": "ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4146386384963989
+    }
+  },
+  {
+    "text": "afirmativo",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.7132886648178101
+    }
+  },
+  {
+    "text": "yeah",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9972774386405945
+    }
+  },
+  {
+    "text": "Así es.",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "aún tengo dudas",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9994387030601501
+    }
+  },
+  {
+    "text": "me podrías explicar otra vez",
+    "intent": "unsure",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9990972280502319
+    }
+  },
+  {
+    "text": "eso soluciona mi inquietud",
+    "intent": "thank_you",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.5470629930496216
+    }
+  },
+  {
+    "text": "quiero comunicarme a soporte técnico",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 0.973160445690155
+    }
+  },
+  {
+    "text": "quiero hablar con un humano",
+    "intent": "chat_with_support_assistant",
+    "intent_prediction": {
+      "name": "chitchat",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "¿cómo va la vida?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7173790335655212
+    }
+  },
+  {
+    "text": "Te crearon hace poco?",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.696198582649231
+    }
+  },
+  {
+    "text": "mi pregunta era otra",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "reframe_question",
+      "confidence": 0.7811301946640015
+    }
+  },
+  {
+    "text": "quisiera hablar con un asesor de soporte",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "chat_with_support_assistant",
+      "confidence": 0.9792623519897461
+    }
+  },
+  {
+    "text": "me podrías colaborar con algo",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "reframe_question",
+      "confidence": 0.4805424213409424
+    }
+  },
+  {
+    "text": "Erda",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.858039379119873
+    }
+  },
+  {
+    "text": "exelente",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.7961090803146362
+    }
+  },
+  {
+    "text": "Super. muchas gracias.",
+    "intent": "chitchat",
+    "intent_prediction": {
+      "name": "thank_you",
+      "confidence": 0.9987421631813049
+    }
+  }
+]

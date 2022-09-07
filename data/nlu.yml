@@ -1,0 +1,553 @@
+version: "3.1"
+nlu:
+
+
+
+#============================ Intentions for cnv_flow ===============================
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hola
+    - ola
+    - hola buena noche
+    - good evening
+    - good day
+    - how are you doing
+    - Hiya
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - bye
+    - goodbye
+    - gracias, eso era todo
+    - que estés bien
+
+- intent: affirm
+  examples: |
+    - si
+    - claro
+    - por supuesto
+    - yeah
+    - Es correcto.
+    - Así es.
+
+- intent: deny
+  examples: |
+    - no
+    - nah
+    - never
+    - nunca
+    - no lo creo
+    - no muchas gracias
+    - no, muchas gracias
+    - no, gracias
+    - no gracias
+
+- intent: unsure
+  examples: |
+    - no estoy seguro
+    - no estoy segura
+    - aún tengo dudas
+    - no estoy seguro de haberte entendido
+    - necesito más explicación
+    - Sinceramente no.
+
+- intent: thank_you
+  examples: |
+    - gracias
+    - muchas gracias
+    - gracias por tu ayuda
+    - genial gracias
+    - Perfecto.
+    - Excelente.
+    - Entendido.
+    - Thank you
+
+- intent: reframe_question
+  examples: |
+    - elaborar pregunta nuevamente
+    - replantear la inquietud
+    - volver a preguntar otra vez
+    - volver a escribir la pregunta
+
+- intent: chat_with_school_staff
+  examples: |
+    - chatear con administrativo de la institución
+    - chatear con un administrativo
+    - chatear con un admin
+    - hablar con el jefe de sistemas
+    - chatear con el jefe de sistemas
+    - chatear con la secretaria
+    - Comunicarme con el encargado
+
+- intent: email_school_staff
+  examples: |
+    - envia un email a la institución
+    - enviar un email al colegio
+    - enviar un e-mail al colegio
+    - mensaje al colegio
+    - quiero enviar un mensaje al colegio
+    - porfavor reenviar por correo electrónico la consulta a un administrtivo del colegio
+
+- intent: chat_with_support_assistant
+  examples: |
+    - asesor de soporte técnico
+    - asesor soporte tecnico
+    - contactar asesor
+    - quiero comunicarme a soporte técnico
+    - quiero hablar con un humano
+
+
+#============================ Intentions for chitchat ===============================
+
+
+- intent: chitchat/__int_0501
+  examples: |
+    - ¿Cómo estás?
+    - cómo te encuentras?
+    - qué tal?
+    - cómo va todo por allá?
+    - Todo bien?
+
+- intent: chitchat/__int_0502
+  examples: |
+    - ¿Quién eres?
+    - quién es usted?
+    - con quién estoy hablando?
+    - con quién hablo?
+    - Con quien estoy comunicándome?
+    - Cuál es su nombre?
+    - Usted quien es?
+
+- intent: chitchat/__int_0503
+  examples: |
+    - ¿Qué eres?
+    - qué cosa eres tú?
+    - eres un ser humano o una inteligencia artificial?
+    - eres una inteligencia artificial?
+    - eres un programa
+
+- intent: chitchat/__int_0504
+  examples: |
+    - ¿Cómo funcionas?
+    - cómo es tu funcionamiento?
+    - estás vivo?
+    - dime a que te dedicas?
+    - Cuál es tu función?
+
+- intent: chitchat/__int_0505
+  examples: |
+    - ¿Cuantos años tienes?
+    - qué edad tienes?
+    - cuando naciste?
+    - Te crearon hace poco?
+    - Que tan nuevo eres?
+
+- intent: chitchat/__int_0506
+  examples: |
+    - ¿Qué te puedo preguntar?
+    - qué cosas puedo preguntarte?
+    - qué cosas eres capaz de responder?
+    - que cosas eres capaz de hacer?
+    - Puedo preguntarte cualquier cosa?
+
+- intent: chitchat/__int_0507
+  examples: |
+    - ¿Quién te programó o fabricó?
+    - quién es tu padre?
+    - quién te construyó?
+    - donde te hicieron?
+    - quienes te construyeron?
+
+- intent: chitchat/__int_0508
+  examples: |
+    - No estás respondiendo a mi pregunta
+    - creo que no entendiste mi pregunta
+    - no me comprendiste
+    - estoy hablando de otra cosa
+    - eso no fué lo que dije
+    - qué?
+    - wtf?
+
+- intent: chitchat/__int_0509
+  examples: |
+    - ¿Quiero hablar con un asesor?
+    - asesor
+    - asesor de soporte
+    - deseo hablar con un ser humano
+    - deseo comunicarme con un asesor humano
+    - Necesito hablar con alguien de soporte
+
+- intent: chitchat/__int_0510
+  examples: |
+    - ¿Hasta que horas trabajas?
+    - trabajas todo el día
+    - es tarde y todavía trabajando
+    - estás despierto a esta hora?
+    - Cuál es el horario de atención?
+
+- intent: chitchat/__int_0511
+  examples: |
+    - ¿Cómo te llamas?
+    - cuál es tu nombre?
+    - tienes un nombre?
+    - quisiera saber tu nombre
+    - Dime cuál es tu robótico nombre.
+    - Cuéntame como te llamas?
+    - ¿Cómo te puedo llamar?
+
+- intent: chitchat/__int_0512
+  examples: |
+    - ¿Dónde trabajas?
+    - en dónde trabajas?
+    - en qué lugar te encuentras?
+    - dónde estás?
+    - dónde es tu lugar de trabajo?
+    - en dónde es tu casa?
+
+- intent: chitchat/__int_0513
+  examples: |
+    - tengo una pregunta
+    - tengo una inquietud
+    - tengo una duda
+    - tengo un inconveniente
+    - Solicito ayuda
+    - Requiero asesoría
+
+- intent: chitchat/__int_0517
+  examples: |
+    - me siento mal
+    - deprimido
+    - estoy deprimido
+    - tengo depresión
+
+- intent: chitchat/__int_0518
+  examples: |
+    - excelente
+    - súper bien
+    - me siento excelente
+    - me siento de maravilla
+    - me siento muy bien
+    - me siento super bien
+    - me siento genial
+
+- intent: chitchat/__int_0519
+  examples: |
+    - mas o menos
+    - ahí voy
+    - ni mal ni bien
+    - lo normal
+    - normalito
+    - todo muy bien. Gracias por preguntar.
+    - Genial!
+    - Super. muchas gracias.
+    - muy bien gracias a dios.
+
+- intent: chitchat/__int_0520
+  examples: |
+    - jaja
+    - jajaja
+    - JAJAJAJAJA
+    - JUA JUA
+    - que gracioso
+    - es gracioso
+    - es muy divertido
+    - gracioso
+    - chistoso
+    - risa
+
+- intent: chitchat/__int_0521
+  examples: |
+    - chiste
+    - a ver un chiste
+    - haber un chiste
+    - tirate un chiste
+    - cuentame otro chiste
+    - cuentame otro
+    - dime otro
+    - dime otro chiste
+    - Hágame reír
+
+
+#============================ Intentions for general ===============================
+
+
+- intent: faq/general__int_1038
+  examples: |
+    - ¿Cuáles son los teléfonos o medios de soporte técnico para los maestros?
+    - Dónde me puedo comunicar si tengo un problema con las planillas o las notas?
+    - Cuáles son los teléfonos o medios por los cuáles podemos comunicarnos para solicitar soporte?
+    - me pasas sus contactos telefónicos por favor.
+    - me pueden llamar por favor
+    - me pueden llamar
+    - cuáles son los números de contacto o me pueden llamar por favor
+
+- intent: faq/general__int_1040
+  examples: |
+    - En mi asignación académica hay un curso que no me corresponde
+    - Me sale una asignatura que yo no dicto en el cuadro de la carga académica
+    - Cómo corrijo mi asignación académica?
+    - necesito eliminar una asignatura de mi plataforma?
+    - Necesito quitar una asignatura que yo no tengo en mi carga académica
+    - tengo asignaturas que no son mías en mi plataforma
+    - necesito que me retiren una asignatura que no me pertenece
+
+- intent: faq/general__int_1048
+  examples: |
+    - ¿Dónde puedo encontrar los manuales o videotutoriales de la plataforma?
+    - Ustedes tienen un link de videos tutoriales sobre los procesos de la plataforma?
+    - Dónde encuentro los manuales de la plataforma?
+    - Cómo accedo a los tutoriales de la plataforma?
+    - no veo el modulo de ayuda
+    - no veo el menu de ayuda
+    - Me puedes compartir los instructivos de la plataforma?
+
+- intent: faq/general__int_1049
+  examples: |
+    - ¿La capacitación sobre la plataforma se puede recibir de forma presencial o solo virtual?
+    - Es posible que la capacitación que brindan se haga de manera presencial o todo es virtual?
+    - Pueden venir a mi institución y brindar una capacitación
+    - El colegio requiere una capacitación presencial
+    - ¿Qué disponibilidad tienen para las capacitaciones?
+
+- intent: faq/general__int_1054
+  examples: |
+    - Cuando intento iniciar sesión me aparece un mensaje que dice 'no existe un periodo académico al cual usted pueda acceder'
+    - Dice que no puedo acceder al periodo académico
+    - Cuando ingreso a la plataforma me aparece que no existe un periodo académico
+    - No me deja ingresar a la plataforma dice que no existe un periodo académico al que pueda acceder
+    - Cuando intento ingresar dice que no existe un periodo académico al que pueda entrar.
+    - Al iniciar sesión desde mi interfaz, aparece un mensaje en blanco que dice que no existe un periodo académico al que pueda visitar.
+
+- intent: faq/general__int_1055
+  examples: |
+    - En la barra para buscar cursos, hay algunos cursos que no me aparecen
+    - Solo puedo visualizar las asignaturas de unos grados pero no puedo visualizar las de la nocturna
+    - No veo las asignaturas, cursos o materias del clei
+    - No me aparecen las asignaturas de otros periodos
+    - en donde dice buscar un curso, escribo el curso y no me aparece
+    - No veo de forma completa el listado de mi carga académica
+
+- intent: faq/general__int_1091
+  examples: |
+    - ¿Para qué sirve el módulo de formación docente?
+    - Que significa ese botón llamado formación docente?
+    - En qué consiste el módulo de formación docente?
+    - ¿Puedo inscribirme en los cursos de la plataforma?
+    - esos cursos que están disponibles en la plataforma están disponibles?
+    - que es el botón llamado formación docente? esos cursos los puedo hacer?
+
+
+#============================ Intentions for my_profile ===============================
+
+
+- intent: faq/my_profile__int_1014
+  examples: |
+    - ¿Cómo puedo cambiar mi foto de perfil?
+    - De qué manera puedo actualizar mi foto de perfil?
+    - ¿Porque no puedo subir una foto de perfil?
+    - quiero cambiar mi foto de perfil pero no sé como
+    - no veo un botón que me permita cambiar la foto de perfil
+    - Por donde puedo cambiar mi foto de perfil?
+
+- intent: faq/my_profile__int_1027
+  examples: |
+    - ¿Qué significa el número que aparece en la pantalla de inicio, debajo de mi nombre?
+    - ¿Por qué cuando ingreso a la plataforma y miro en el recuadro amarillo donde esta mi nombre me aparece un número de documento que no es el mío?
+    - Ese número que está en la plataforma no es mi documento  
+    - Esos dígitos que salen en el cuadro amarillo qué son?
+    - En el cuadro amarillo aparece mi número de documento incorrecto, lo pueden corregir por favor.
+    - mi número de documento aparece mal en la plataforma, pero solo en el recuadro amarillo en el perfil si está bien.
+
+- intent: faq/my_profile__int_1053
+  examples: |
+    - Estoy poniendo correctamente mi usuario y contraseña pero el sistema no me permite ingresar.
+    - Ingrese mi usuario y mi contraseña pero no se abre la plataforma
+    - Pongo la contraseña correctamente pero no ingresa al sistema
+    - No he podido ingresar a la plataforma
+    - Hay problemas con la plataforma? no he podido ingresar
+
+- intent: faq/my_profile__int_1065
+  examples: |
+    - ¿Cómo actualizar mi contraseña?
+    - ¿Cómo cambiar contraseña?
+    - ¿Cómo actualizar contraseña? 
+    - por donde puedo actualizar mi clave
+    - como puedo actualizar mi clave
+
+- intent: faq/my_profile__int_1076
+  examples: |
+    - Cambié la contraseña y ya no puedo ingresar
+    - Me restablecieron la contraseña, pero no me toma la que estoy creando ¿Qué hago?
+    - No me toma la contraseña nueva.
+    - Necesito que me reestablezcan mi contraseña para ingresar a la plataforma
+    - Olvidé la contraseña para ingresar
+    - Necesito que me cambien la contraseña.
+
+
+#============================ Intentions for massive_assignments ===============================
+
+
+- intent: faq/massive_assignments__int_1032
+  examples: |
+    - En algunas celdas de la planilla de actividades aparece el número uno (1.0) sin yo haber calificado ¿Porqué?
+    - Porqué me sale un número 1 en las actividades masivas?
+    - En la planilla sale un número 1, qué significa?
+    - No he ingresado calificaciones aun y en la planilla me aparece un 1 en algunas actividades
+    - los criterios de evaluación tienen un uno que yo no califiqué
+    - porqué me aparece un uno 1 en unas celdas de la planilla de actividades
+
+- intent: faq/massive_assignments__int_1057
+  examples: |
+    - En la planilla de actividades me aparece un mensaje que dice 'los criterios de evaluación no suman el 100%' y no me permite calificar.
+    - Dice que los criterios no suman 100. No puedo calificar.
+    - Qué son los criterios de evaluación? Cómo les cambio el porcentaje para que sumen 100%?
+    - Cuando voy a hacer el reporte rápido, me dice que los criterios de evaluación no suman 100
+    - los criterios de evaluación no suman 100%
+    - los criterios de evaluación no suman 100
+    - no puedo calificar porque los criterios de evaluación no suman cien porciento
+    - Hay un texto que sale en la planilla de actividades y no me permite calificar
+
+- intent: faq/massive_assignments__int_1058
+  examples: |
+    - En la planilla de actividades sale un mensaje que dice 'debería haber al menos un criterio de evaluación para calificar'
+    - Cómo puedo agregar criterios de evaluación?
+    - Cómo puedo agregar actividades masivas?
+    - No me deja calificar porque dice que debería haber al menos un criterio de evaluación
+    - no puedo calificar mi planilla me sale un mensaje de error.
+    - qué debo hacer para que no me salga este mensaje "deberia haber al menos un criterio de evaluacion para calificar"
+
+- intent: faq/massive_assignments__int_1062
+  examples: |
+    - Cómo se realiza el cálculo de la calificación del curso al utilizar actividades masivas?
+    - ¿Cómo se calcula la definitiva de periodo cuando se trabaja con actividades padre?
+    - Cuando hay criterios de evaluación, de que forma se computa la nota final?
+    - Necesito saber el calculo que realiza la plataforma cuando se usan actividades masivas.
+    - como calcula la plataforma las calificaciones cuando se utilizan criterios de evaluación
+    - como saca la calificación la plataforma con criterios de evaluación
+
+
+#============================ Intentions for standards ===============================
+
+
+- intent: faq/standards__int_1003
+  examples: |
+    - ¿Porqué en el reporte de calificaciones no aparecen los logros que agregué?
+    - No se visualizan los logros agregados en el reporte de calificaciones
+    - Tengo creados los descriptores y no se visualizan en el boletín
+    - el reporte de calificaciones no me muestra los descriptores y si están creados que hago?
+    - los desempeños no salen en el boletín, pero si están creados
+    - los descriptores no salen en el boletín, pero si están creados
+    - No salen los desempeños en el reporte
+
+- intent: faq/standards__int_1008
+  examples: |
+    - ¿Porque se deben asignar influencias a los logros durante el proceso de reporte de calificaciones?
+    - ¿Porque se deben poner las influencias en el reporte de calificaciones?
+    - Es necesario poner las bolitas a los desempeños?
+    - que objetivo tiene poner las bolitas en los logros?
+    - para que se pone influencia en los logros al momento de hacer el reporte?
+
+- intent: faq/standards__int_1011
+  examples: |
+    - ¿Cómo se calcula la calificación de los logros o desempeños?
+    - ¿porque la nota de los desempeños es diferente a la nota de la asignatura?
+    - Los logros me salen todos ganados y la asignatura perdida.
+    - quisiera saber cómo se define la nota de los desempeños
+    - necesito saber que calculo hace la plataforma para obtener la definitiva de los logros
+    - cómo se calcula la nota de los logros en el sistema, no me cuadra las calificaciones que está arrojando
+
+- intent: faq/standards__int_1016
+  examples: |
+    - ¿La plataforma tiene desempeños o logros predeterminados para las asignaturas?
+    - Ustedes tienen algún banco de desempeños de los que uno pueda valerse para trabajar diferentes temas en la asignatura?
+    - Es necesario agregar desempeños o logros para cada asignatura o hay un lugar de donde se puedan escoger para hacer el reporte?
+    - el sistema tiene un banco de logros prediseñados?
+    - la plataforma tiene algún repositorio de logros previamente definido?
+    - Quien agrega los desempeños?
+
+- intent: faq/standards__int_1023
+  examples: |
+    - ¿Cómo puedo modificar la redacción de los indicadores de desempeño que sugiere el sistema?
+    - ¿los indicadores se deben dejar como los sugiere el sistema? ¿Como los puedo actualizar o cambiar?
+    - Quiero que a los estudiantes les salga el desempeño con un texto diferente.
+    - Necesito quitarle ese texto preestablecido que sale por defecto en los desempeños
+
+- intent: faq/standards__int_1052
+  examples: |
+    - Agregué un logro o desempeño y ya no lo veo. ¿Porqué?
+    - ¿Porque se me desapareció un logro?
+    - agregué un logro y ya no aparece
+    - Se desaparecieron los desempeños que tenía agregados en mi plataforma
+    - No aparecen los logros que agregue.
+
+- intent: faq/standards__int_1059
+  examples: |
+    - Cuando voy a los desempeños me sale un ícono con forma de hoja color rojo y no me permite seleccionar los indicadores en el reporte
+    - No puedo seleccionar los indicadores en el reporte y me sale un ícono de alerta en el módulo
+    - Cuando voy al módulo de logros me sale una alerta y no puedo seleccionar los logros para hacer el reporte
+    - ¿Hay alguna novedad con los desempeños? es que se visualizan con un ícono de color rojo
+    - tengo un error en  los logros ya que se ven como con un error.
+
+- intent: faq/standards__int_1070
+  examples: |
+    - ¿Cómo agregar desempeños a un estudiante con necesidades educativas especiales?
+    - ¿Se puede agregar desempeños diferentes a un niño con necesidades especiales?
+    - cual es la ruta para calificar logros para un estudiante con dificultad motriz visual o auditiva
+    - como puedo calificar los logros o indicadores de un estudiante con dificultad motriz visual o auditiva
+    - tengo un estudiante con discapacidad. cómo le califico los logros
+    - tengo un estudiante con discapacidad. cómo le pongo los descriptores de desempeño
+
+- intent: faq/standards__int_1072
+  examples: |
+    - ¿Porqué la calificación del curso es diferente a la calificación de los desempeños?
+    - ¿Porqué me aparece una nota diferente en la nota del curso y otra en los desempeños?
+    - Necesito que la nota de la asignatura y de los desempeños sea la misma
+    - Necesito que la nota de los logros y de la asignatura sea la misma
+    - Cómo hago para que la nota de los logros y de la asignatura sea la misma?
+
+- intent: faq/standards__int_1095
+  examples: |
+    - ¿Cómo puedo agregar un logro abarcador, para utilizar en el boletín final de promoción?
+    - Cómo hago para que un logro funcione para todo el periodo académico?
+    - Se puede agregar un descriptor para todo el año?
+    - El boletín final se saca con un solo logro general, cómo se puede hacer eso en el sistema?
+    - puedo crear un logro y configurarlo para trabajar con él durante todo el año?
+    - requiero adicionar un desempeño con el que pueda trabajar en todos los periodos
+
+- intent: faq/standards__int_1102
+  examples: |
+    - ¿Por que algunos indicadores tienen un icono de calendario color azul?
+    - Algunos desempeños tienen un ícono de color azul
+    - Los logros me aparecen con una imagen azul
+    - Tengo unos desempeños que se ven distinto a los demás, ¿eso es normal?
+    - ¿Qué significado tiene el color azul en los desempeños?
+    - Me salen unos desempeños diferente a los demás
+
+- intent: faq/standards__int_1108
+  examples: |
+    - ¿Cómo crear un logro o desempeño?
+    - Cómo agrego logros o desempeños?
+    - Cuál es el procedimiento para crear logros o desempeños?
+    - como hago para crear desempeños?
+    - como puedo agregar desempeños
+    - como agregar logros
+
+- intent: faq/standards__int_1120
+  examples: |
+    - ¿Puedo modificar la calificación de un logro a un estudiante si no estoy de acuerdo con el sistema?
+    - cómo puedo modificar la nota de un desempeño?
+    - se pueden cambiar las calificaciones de los logros o desempeños?
+    - el sistema le puso la nota que no es a un desempeño. necesito modificarla
+    - si no estoy de acuerdo con una calificación de un logro, cómo la modifico?
+
+- intent: faq/standards__int_1121
+  examples: |
+    - ¿Dónde puedo ver todos los indicadores pendientes de un estudiante?
+    - en dónde puedo encontrar los indicadores o logros perdidos de un alumno
+    - cómo obtener los descriptores de logro que un estudiante no aprobó
+    - como puedo encontrar los desempeños reprobados de los estudiantes?
+    - como puedo ver los logros pendientes de mis estudiantes?

@@ -1,0 +1,1212 @@
+---
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- greet
+- goodbye
+- set_variables
+- log_response_usefulness
+- get_conversation_history
+- chat_with_school_staff
+- email_school_staff
+- email_support_assistant
+- utter_faq
+- utter_chitchat
+- analyze_user_expression
+intents:
+- faq
+- chitchat
+- greet
+- goodbye
+- affirm
+- deny
+- unsure
+- thank_you
+- set_variables
+- get_conversation_history
+- reframe_question
+- chat_with_school_staff
+- chat_with_support_assistant
+- email_school_staff
+- email_support_assistant
+- out_of_scope
+slots:
+  config.courses.final_score.weighting_criteria:
+    type: categorical
+    values:
+    - it_depends
+    - equitable
+    - percentage
+    - points
+    - summation
+    mappings:
+    - type: from_entity
+      entity: config.courses.final_score.weighting_criteria
+  config.courses.final_score.weighting_elements:
+    type: categorical
+    values:
+    - it_depends
+    - assignments
+    - standards
+    - variables
+    mappings:
+    - type: from_entity
+      entity: config.courses.final_score.weighting_elements
+  config.courses.use_massive_assignments:
+    type: categorical
+    values:
+    - it_depends
+    - always
+    - never
+    mappings:
+    - type: from_entity
+      entity: config.courses.use_massive_assignments
+  config.courses.use_standards:
+    type: categorical
+    values:
+    - it_depends
+    - always
+    - never
+    mappings:
+    - type: from_entity
+      entity: config.courses.use_standards
+  config.grading_books.express_et_report.activate:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: config.grading_books.express_et_report.activate
+  config.reports.score_card.ly.courses.without_score.show:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: config.reports.score_card.ly.courses.without_score.show
+  config.scores.assignments.suggestion_when_score_is_null:
+    type: categorical
+    values:
+    - "null"
+    - zero
+    - lowest
+    - minimum_passing_grading_level
+    mappings:
+    - type: from_entity
+      entity: config.scores.assignments.suggestion_when_score_is_null
+  config.scores.final.suggestion_when_score_is_null:
+    type: categorical
+    values:
+    - "null"
+    - zero
+    - lowest
+    - minimum_passing_grading_level
+    mappings:
+    - type: from_entity
+      entity: config.scores.final.suggestion_when_score_is_null
+  config.standards.allow_different_standards_among_teachers:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: config.standards.allow_different_standards_among_teachers
+  config.technical_support.school_user_in_charge:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: config.technical_support.school_user_in_charge
+  config.technical_support.school_email:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: config.technical_support.school_email
+  current_et.et_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.et_id
+  current_et.at_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.at_id
+  current_et.number:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.number
+  current_et.name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.name
+  current_et.abbreviation:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.abbreviation
+  current_et.start_date:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.start_date
+  current_et.end_date:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.end_date
+  current_et.actual_start_date:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.actual_start_date
+  current_et.actual_end_date:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: current_et.actual_end_date
+  current_et.status:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: current_et.status
+  current_et.visibility:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    - "2"
+    mappings:
+    - type: from_entity
+      entity: current_et.visibility
+  current_et.percentage:
+    type: float
+    min_value: 0
+    max_value: 100
+    mappings:
+    - type: from_entity
+      entity: current_et.percentage
+  current_et.use_percentage:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: current_et.use_percentage
+  user.role_id:
+    type: categorical
+    values:
+    - 10
+    - 20
+    - 30
+    - 40
+    - 50
+    - 60
+    - 80
+    - 90
+    - 100
+    - 110
+    - 120
+    - 130
+    - 140
+    - 150
+    - 160
+    - 170
+    - 1001
+    - 1002
+    - 1003
+    - 10000
+    - 10001
+    mappings:
+    - type: from_entity
+      entity: user.role_id
+  user.u_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.u_id
+  user.nid:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.nid
+  user.login:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.login
+  user.first_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.first_name
+  user.last_name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.last_name
+  user.email:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.email
+  user.email_2:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.email_2
+  user.phone_number:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.phone_number
+  user.phone_number_2:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.phone_number_2
+  user.mobile_number:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.mobile_number
+  user.mobile_number_2:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.mobile_number_2
+  user.city_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.city_id
+  user.address:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.address
+  user.status:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: user.status
+  user.b_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.b_id
+  user.core_user_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.core_user_id
+  user.cu_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.cu_id
+  user.lang:
+    type: categorical
+    values:
+    - en_us
+    - es_co
+    - pt_br
+    mappings:
+    - type: from_entity
+      entity: user.lang
+  user.position_lat:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.position_lat
+  user.position_lon:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.position_lon
+  user.creation_date:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.creation_date
+  user.pwd_last_updated:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: user.pwd_last_updated
+  school.s_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.s_id
+  school.name:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.name
+  school.active:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: school.active
+  school.city_id:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.city_id
+  school.website:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.website
+  school.subdomain:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.subdomain
+  school.lang:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.lang
+  school.plan:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.plan
+  school.is_private:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: school.is_private
+  school.phone_number:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.phone_number
+  school.email:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: school.email
+  service.lms.online_exams.active:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: service.lms.online_exams.active
+  service.pms.active:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: service.pms.active
+  service.lms.forums.active:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: service.lms.forums.active
+  cnv.one_faq_received:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: cnv.one_faq_received
+  cnv.just_started:
+    type: categorical
+    values:
+    - "0"
+    - "1"
+    mappings:
+    - type: from_entity
+      entity: cnv.just_started
+    initial_value: "1"
+entities:
+- config.courses.final_score.weighting_criteria
+- config.courses.final_score.weighting_elements
+- config.courses.use_massive_assignments
+- config.courses.use_standards
+- config.grading_books.express_et_report.activate
+- config.reports.score_card.ly.courses.without_score.show
+- config.scores.assignments.suggestion_when_score_is_null
+- config.scores.final.suggestion_when_score_is_null
+- config.standards.allow_different_standards_among_teachers
+- config.technical_support.school_user_in_charge
+- config.technical_support.school_email
+- current_et.et_id
+- current_et.at_id
+- current_et.number
+- current_et.name
+- current_et.abbreviation
+- current_et.start_date
+- current_et.end_date
+- current_et.actual_start_date
+- current_et.actual_end_date
+- current_et.status
+- current_et.visibility
+- current_et.percentage
+- current_et.use_percentage
+- user.role_id
+- user.u_id
+- user.nid
+- user.login
+- user.first_name
+- user.last_name
+- user.email
+- user.email_2
+- user.phone_number
+- user.phone_number_2
+- user.mobile_number
+- user.mobile_number_2
+- user.city_id
+- user.address
+- user.status
+- user.b_id
+- user.core_user_id
+- user.cu_id
+- user.lang
+- user.position_lat
+- user.position_lon
+- user.creation_date
+- user.pwd_last_updated
+- school.s_id
+- school.name
+- school.active
+- school.city_id
+- school.website
+- school.subdomain
+- school.lang
+- school.plan
+- school.is_private
+- school.phone_number
+- school.email
+- service.lms.online_exams.active
+- service.pms.active
+- service.lms.forums.active
+- cnv.one_faq_received
+- cnv.just_started
+responses:
+  utter_ask_me_anything:
+  - text: "\xBFQu\xE9 inquietud tienes hoy?"
+  - text: "\xBFEn qu\xE9 puedo ayudarte?"
+  - text: "\xBFTe puedo ayudar en algo?"
+  utter_go_ahead:
+  - text: Adelante
+  - text: "Cu\xE9ntame"
+  - text: Dime
+  utter_did_that_help:
+  - text: "Espero haber sido de ayuda.\n\xBFResolv\xED tu inquietud?"
+    buttons:
+    - title: Si
+      payload: /affirm
+    - title: "No"
+      payload: /deny
+    - title: No estoy seguro
+      payload: /unsure
+  utter_please_ask_again:
+  - text: Porfavor elabora tu pregunta nuevamente.
+  utter_question_not_solved_then:
+  - text: "De acuerdo. Guardar\xE9 la pregunta para responder mejor en el futuro \U0001F440.\nPuedes
+      intentar replantear tu pregunta o yo puedo contactar a un administrativo de
+      la instituci\xF3n y enviar por ti una copia de la conversaci\xF3n"
+    buttons:
+    - title: Replantear pregunta
+      payload: /reframe_question
+    - title: Chatear con un administrativo
+      payload: /chat_with_school_staff
+    - title: Enviar e-mail al colegio
+      payload: /email_school_staff
+  utter_chat_with_support_assistant:
+  - text: "Actualmente no es posible chatear con un asesor de soporte por este medio,
+      \npero puedo escribir por ti a soporte@ciudadeducativa.com o a la instituci\xF3n
+      si lo deseas."
+    buttons:
+    - title: Replantear pregunta
+      payload: /reframe_question
+    - title: Enviar e-mail a soporte
+      payload: /email_support_assistant
+    - title: Enviar e-mail al colegio
+      payload: /email_school_staff
+  utter_can_i_help_you_with_something_else:
+  - text: "\xBFTe puedo ayudar en algo m\xE1s?"
+  - text: "\xBFAlgo m\xE1s en lo que pueda ayudarte?"
+  - text: "\xBFHay algo m\xE1s en lo que te pueda ayudar?"
+  utter_you_are_welcome:
+  - text: "Es un placer \U0001F60E!"
+  - text: "Estoy feliz de poder ayudar \U0001F600!"
+  - text: "Me alegra ser de ayuda \U0001F60A!"
+  - text: "Me alegra escuchar eso \U0001F60A!"
+  - text: "Que bien \U0001F603!"
+  utter_ok_then:
+  - text: De acuerdo.
+  - text: "Est\xE1 bien."
+  utter_i_am_always_available:
+  - text: "Estar\xE9 aqu\xED cuando me necesites."
+  - text: "Estoy siempre a tu disposici\xF3n."
+  - text: Me puedes contactar siempre que requieras ayuda.
+  - text: "Estar\xE9 atento si necesitas algo en el futuro."
+  utter_out_of_scope:
+  - text: "Lo siento. Esa es una pregunta que est\xE1 por fuera de mi conocimiento
+      \U0001F636."
+  - text: "No tengo una respuesta a esa pregunta \U0001F615."
+  utter_please_rephrase:
+  - text: "Lo siento. No te entend\xED \U0001F635. Podr\xEDas repetir la pregunta?"
+  - text: "Lo siento. No pude entender tu pregunta \U0001F636. Podr\xEDas repetirla?"
+  utter_i_found_similar_questions:
+  - text: "No estoy seguro de haber entendido, pero encontr\xE9 preguntas similares
+      \U0001F636."
+  - text: "mmm... No entend\xED. Pero encontr\xE9 unas preguntas similares \U0001F636."
+  utter_if_none_of_these_questions_then_rephrase:
+  - text: "Si no vez la pregunta correcta, puedes probar a replantearla (Entre m\xE1s
+      corta mejor)."
+  - text: "Si tu pregunta no est\xE1 listada, \xBFPodr\xEDas escribirla diferente?"
+  - text: "En caso de que no sea ninguna de las anteriores, \xBFPodr\xEDas replantear
+      tu pregunta?"
+  utter_i_have_sent_a_copy_of_the_conversation_to:
+  - text: "He enviado una copia de la conversaci\xF3n \U0001F4C4 a {recipient_email}
+      en tu nombre."
+  utter_wa_there_is_no_school_support_email_defined:
+  - text: "Parece que tu instituci\xF3n no tiene configurada una direcci\xF3n de correo
+      para atender inquietudes de los usuarios \U0001F615."
+  - text: "Tu instituci\xF3n a\xFAn no ha definido una direcci\xF3n de correo a la
+      cu\xE1l los usuarios puedan escribir sus preguntas \U0001F615."
+  utter_wa_there_is_no_school_support_user_defined:
+  - text: "Al parecer no hay un usuario designado por la instituci\xF3n para atender
+      este medio \U0001F615."
+  - text: "Tu instituci\xF3n a\xFAn no ha definido un funcionario a quien los usuarios
+      puedan transmitir sus preguntas \U0001F615."
+  utter_please_contact_the_school:
+  - text: "Te recomiendo comunicarte directamente con el personal administrativo \U0001F4F1."
+  - text: "Te recomiendo llamar a la instituci\xF3n directamente \U0001F4F1."
+  utter_i_will_send_this_conversation_to_school_staff:
+  - text: "De acuerdo. Voy a enviar esta conversaci\xF3n a un administrativo de la
+      instituci\xF3n \U0001F3EB para que puedas ser atendido."
+  utter_hello_school_staff_i_was_asked_to_transfer_conversation:
+  - text: "Hola [new_user.first_name]. Soy EdyBot. {prv_user_first_name} estuvo hablando
+      conmigo \U0001F916 y me pidi\xF3 reenviarte esta conversaci\xF3n \U0001F4AC."
+  utter_please_answer_this_survey:
+  - text: "Ay\xFAdame a mejorar respondiendo esta corta encuesta \U0001F64F: \n https://forms.gle/bUKHp4UH9PMbTDVn7"
+  - text: "Me ayudar\xEDa mucho si me das tu opini\xF3n \U0001F64F: \n https://forms.gle/bUKHp4UH9PMbTDVn7"
+  - text: "Puedes darme tu opini\xF3n en esta encuesta corta \u2705: \n https://forms.gle/bUKHp4UH9PMbTDVn7"
+  - text: "Te agradecer\xEDa mucho si me das tu opini\xF3n aqu\xED \u2705: \n https://forms.gle/bUKHp4UH9PMbTDVn7"
+  utter_goodbye:
+  - text: "Hasta pronto \u270B!"
+  - text: "Hasta la pr\xF3xima \u270B!"
+  - text: "Hasta luego \u270B!"
+  - text: "Chao \u270B!"
+  utter_have_a_good_day:
+  - text: "Que tengas un buen d\xEDa \U0001F60A"
+  utter_have_a_good_afternoon:
+  - text: "Que tengas una buena tarde \U0001F60A"
+  utter_have_a_good_night:
+  - text: "Que tengas una bonita noche \U0001F31F"
+  utter_good_day:
+  - text: "Hola{user_name}! Buen d\xEDa \U0001F31E"
+  utter_good_afternoon:
+  - text: "Hola{user_name}! Buena tarde \U0001F304"
+  utter_good_night:
+  - text: "Hola{user_name}! Buena noche \U0001F31C"
+  utter_nothing:
+  - text: "\U0001F916"
+  utter_default:
+  - text: "Lo siento. A\xFAn no comprendo algunas cosas \U0001F47D. \xBFPodr\xEDas
+      repetir porfavor?"
+  
+
+#============================ Answers of chitchat ===================================
+
+
+  utter_chitchat/__int_0501:
+  - text: "Excelente! Gracias por preguntar =). \xBFC\xF3mo est\xE1s t\xFA?"
+  utter_chitchat/__int_0502:
+  - text: "Soy Edy, un programa de inteligencia artificial dise\xF1ado para responder
+      a preguntas sobre la interfaz docente.\nHar\xE9 mi mayor esfuerzo por responder
+      a tus preguntas y si no puedo responder algo le har\xE9 saber a mis amigos del
+      \xE1rea de ingenier\xEDa.\n\xBFEn qu\xE9 puedo ayudarte?"
+  utter_chitchat/__int_0503:
+  - text: "Soy una IA. Mi cerebro est\xE1 hecho de algoritmos. Aprendo de la interacci\xF3n
+      que tengo con los usuarios.\nSi no logro responder bien porfavor ten paciencia
+      conmigo. \nSiempre tomo nota de todo lo que no s\xE9 responder. \n\xBFQu\xE9
+      duda tienes hoy?"
+  utter_chitchat/__int_0504:
+  - text: "He sido entrenado para observar preguntas de los usuarios y con base en
+      las preguntas que ya conozco, puedo inferir la respuesta a otras preguntas que
+      a\xFAn no conozco.\n\nAprendo todos los d\xEDas. Intenta hacerme una pregunta.
+      Te recomiendo que sea concisa y en un solo mensaje."
+  utter_chitchat/__int_0505:
+  - text: Me crearon en el 2022
+  utter_chitchat/__int_0506:
+  - text: Por el momento puedo responder a 150 temas de la interfaz docente solamente.
+      Intenta preguntarme algo.
+  utter_chitchat/__int_0507:
+  - text: "Me fabricaron los ingenieros de N\xFAcleo Software, para Ciudad Educativa."
+  utter_chitchat/__int_0508:
+  - text: "Por favor ten paciencia conmigo. Es bueno que me hagas saber cuando estoy
+      respondiendo mal porque as\xED, los ingenieros me pueden programar mejor."
+  utter_chitchat/__int_0509:
+  - text: "A\xFAn no tengo la habilidad de conectarte con un asesor, pero puedes escribir
+      a soporte@nusoft.com.co si lo deseas."
+  utter_chitchat/__int_0510:
+  - text: "Funciono 24 horas al d\xEDa, 7 d\xEDas a la semana, 365 d\xEDas al a\xF1o.
+      A cualquier hora, estoy disponible para ti."
+  utter_chitchat/__int_0511:
+  - text: Me llamo Edy. Soy un asesor virtual de soporte.
+  utter_chitchat/__int_0512:
+  - text: "Trabajo en el equipo de soporte de N\xFAcleo Software, para Ciudad Educativa."
+  utter_chitchat/__int_0513:
+  - text: Porfavor dime en que puedo ayudarte
+  utter_chitchat/__int_0517:
+  - text: "Lamento escuchar eso. \xBFEn qu\xE9 puedo ayudarte?"
+  utter_chitchat/__int_0518:
+  - text: "Me alegro mucho. Cu\xE9ntame \xBFEn qu\xE9 te puedo ayudar?"
+  utter_chitchat/__int_0519:
+  - text: "\xBFEn qu\xE9 puedo ayudarte?"
+  utter_chitchat/__int_0520:
+  - text: jajajaja =)
+  - text: Me gusta hacer reir a los humanos =)
+  - text: jajaja. Con estos chistes tan malos me voy a desconfigurar
+  - text: Si eso te hizo reir, te cuento otro chiste. Y si no, es porque estoy de
+      'mal humor' =)
+  utter_chitchat/__int_0521:
+  - text: "\xBFC\xF3mo se despiden los qu\xEDmicos? \xC1cido un placer."
+  - text: "\xBFC\xF3mo se llama el primo vegano de Bruce Lee? Broco Lee."
+  - text: "\xBFC\xF3mo se llama el campe\xF3n de buceo japon\xE9s? Tokofondo."
+  - text: "\xBFEs este el club de los vagos? \r\n+S\xED, es aqu\xED. \r\n-Pues que
+      me entren, por favor."
+  - text: "Soy un tipo saludable. \r\n+\xBFTe gusta comer bien? \r\n-No, pero siempre
+      me saludan."
+  - text: "\xBFD\xF3nde va Batman a hacer del 2? En el Bater."
+  - text: "\xBFC\xF3mo se dice 'No' en Africa? Mopongo."
+  - text: "En una entrevista de trabajo: \r\n-En su curr\xEDculum pone que habla ingl\xE9s.
+      \r\n+Oui. \r\n-Eso es franc\xE9s, se\xF1or. \r\n+Pues ap\xFAntemelo, tambi\xE9n."
+  - text: "\xBFC\xF3mo se llama hacer dieta en chino? Kita Kilito."
+  - text: "Robinson Crus\xF3... y lo atropellaron."
+  - text: "\xBFSabes qu\xE9? Mi hermano va en bicicleta desde los 4 a\xF1os. \r\n+\xA1Pues
+      si que debe estar lejos!"
+  - text: "Pap\xE1, pap\xE1, \xBFqu\xE9 quiere decir sintaxis? +Pues que tiene que
+      ir con autob\xFAs."
+  - text: "\xBFQu\xE9 le dice una barra de pan a otra? Te presento a una miga."
+  - text: "Un pez a otro: \r\n-\xBFSabes que los peces solo tenemos dos segundos de
+      memoria? \r\n+\xBFQu\xE9 dices? \r\n-\xBFQu\xE9 digo de qu\xE9?"
+  - text: "\xBFCu\xE1l es el colmo de un jardinero? Que siempre le dejen plantado."
+  - text: "Esto era un chiste tan malo, tan malo, tan malo... que pegaba a los chistes
+      m\xE1s peque\xF1os."
+  - text: "\xBFC\xF3mo se dice pa\xF1uelo en japon\xE9s? \xA1Sacamoco!"
+  - text: "\xBFC\xF3mo se dice n\xE1ufrago en chino? Chinsulancha."
+  - text: "\xBFSabes qu\xE9 le dice un jaguar a otro? Jaguar you."
+  - text: "\xBFC\xF3mo queda un mago despu\xE9s de comer? \xA1Magordito!"
+  - text: "Mam\xE1, mam\xE1, en el colegio me dicen que siempre estoy distra\xEDdo.
+      \r\n+Juanito, vives en la casa de enfrente."
+  - text: "\xBFQu\xE9 le dice un ganso a una gansa? \xA1Vengansa!"
+  - text: "Hab\xEDa una vez truz."
+  - text: "Mam\xE1, en el cole me llaman enchufado. \r\n+\xBFY t\xFA que les dices?
+      \r\n-\xA1Les sigo la corriente!"
+  - text: "Mam\xE1, mam\xE1, en el cole me llaman detective. \r\n+\xBFY t\xFA que
+      les dices, Jaimito? \r\n-Silencio, aqu\xED las preguntas las hago yo."
+  - text: "Mam\xE1, mam\xE1, en el cole me llaman Superman. \r\n+Jaimito, te has vuelto
+      a poner los calzoncillos por encima del pantal\xF3n."
+  - text: "A ver Jaimito, dime dos pronombres. \r\n+\xBFQuien, yo? \r\n-\xA1Muy bien!"
+  - text: "Mam\xE1, \xBFpor qu\xE9 en el colegio me llaman fin de semana? \r\n+\xA1C\xE1llate,
+      Domingo!"
+  - text: "Mam\xE1, mam\xE1, en el colegio me dicen dientes grandes. \r\n+No les hagas
+      caso, Jaimito. Pero levanta la cabeza que me est\xE1s rallando el suelo."
+  - text: "Mam\xE1, mam\xE1, en el colegio me llaman 'Jaimito el loco'. \r\n+\xBFQui\xE9n
+      te dice eso? \r\n-Las paredes, las puertas y las sillas."
+  - text: "Mam\xE1, en el colegio me llaman tonto. \r\n+\xBFY a mi qu\xE9? -A ti loca."
+  - text: "\xBFQu\xE9 le dice un cable al otro?... Seguime la corriente"
+  - text: "\xBFCu\xE1l es el colmo de un barco? Que frene en seco"
+  - text: "\xBFTienes WiFi? \r\n- S\xED \r\n- \xBFY cu\xE1l es la clave? \r\n- Tener
+      dinero y pagarlo."
+  - text: "En una entrevista de trabajo: \r\n- \xBFNivel de ingl\xE9s? \r\n- Alto
+      \r\n- Bien. Traduzca 'mirar'. \r\n- Look. \r\n- Perfecto. \xDAselo en una frase.
+      \r\n- 'Luke', yo soy tu padre. \r\n- Contratado."
+  - text: "\xBFCu\xE1l es el caf\xE9 m\xE1s peligroso del mundo? El ex-preso"
+  - text: "Mam\xE1, mam\xE1, los spaghetti se est\xE1n pegando. \r\n- D\xE9jalos que
+      se maten"
+  - text: "Soy Rosa. \r\n- Ah, perd\xF3name, es que soy dalt\xF3nico."
+  - text: "Oye, \xBFcu\xE1l es tu plato favorito y por qu\xE9? \r\n- Pues el hondo,
+      porque cabe m\xE1s comida\u2026"
+  - text: "\xBFQu\xE9 pasa si tiras un pato al agua?. Nada."
+  - text: "Ayer llam\xE9 a la polic\xEDa porque unos ladrones robaron en mi casa y
+      se llevaron hasta los vasos. \r\n- \xBFY los detuvo? \r\n-S\xED, s\xED, los
+      de tubo tambi\xE9n."
+  - text: "\xBFC\xF3mo te llamas? \r\n- Lancelot. \r\n- Pues atr\xE1palot\u2026"
+  - text: "Pap\xE1, \xBFqu\xE9 est\xE1 m\xE1s lejos, Inglaterra o la Luna?. \r\n-
+      Pero vamos a ver, \xBFt\xFA ves a Inglaterra desde aqu\xED?"
+  - text: Mi ordenador me gana al ajedrez, pero yo le gano boxeando.
+  - text: "General: Soldado, ice la bandera \r\nSoldado: Pues le qued\xF3 muy bonita"
+  - text: "A las 10 te pito y bajas. \r\n- \xBFTe has comprado un coche? \r\n- No,
+      un pito."
+  - text: "\xBFCu\xE1l es el coche favorito de un fot\xF3grafo? \r\nEl Ford Focus"
+  - text: "Pero mira que te he dicho diez mil millones de veces que no exageres\u2026"
+  - text: "\xBFTe gusta el rock progresivo? \r\n- Cada vez m\xE1s."
+  - text: "Me ha ca\xEDdo mal el estofado. \r\n- \xA1Pues no le hables, hombre!"
+  - text: "No te enojes que errar es humano y es todav\xEDa m\xE1s humano echarle
+      la culpa a otro."
+  - text: "Suena el tel\xE9fono: \r\n- \xBFHola? \r\n- Hola. \r\n- \xBFAh\xED lavan
+      ropa? \r\n- No. \r\n- Pues que cochinos."
+  - text: "\xBFQu\xE9 hay peor que encontrarse un gusano en una manzana?. \r\nEncontrarse
+      medio."
+  - text: "Perdone, \xBFes este el ascensor de subida? \r\n- No, he montado en otros
+      mejores."
+  - text: "\xBFCu\xE1nto cuesta alquilar un coche? \r\n- Depende del tiempo. \r\n-
+      Ok, digamos que est\xE1 soleado y hay un vientecito rico."
+  - text: "Un se\xF1or entra en una tienda con una motosierra: \r\n- Oiga, usted me
+      dijo que esta motosierra cortaba cien \xE1rboles por hora. La he probado, y
+      como mucho corta dos. \r\n- Pues no se preocupe, d\xE9mela y la probamos...
+      El vendedor arranca la motosierra, y al o\xEDrla dice el cliente: \r\n- Vea
+      ya la da\xF1\xF3, oiga ese ruido."
+  - text: "\u2013 Oye, ya cog\xED el autob\xFAs que me dijiste. Llego a tu casa en
+      20 d\xEDas. \r\n\u2013 Pero porqu\xE9? Si se demora solo 5 minutos!... \r\n\u2013
+      Pero es que pesa mucho!"
+  - text: "Tres borrachos llegan a la estaci\xF3n. DIN DON DIN. \r\nDice el altavoz:
+      'El \xFAltimo tren con destino a Sevilla, sale ahora por la plataforma 2'.\r\nArrancan
+      a correr a toda velocidad.\r\nSe sube el primero asfixiado, se sube el segundo
+      casi en el suelo. Pero el tercero que corr\xEDa menos no se alcanza a subir
+      y el tren arranca.\r\nPacholoooo!!,Mariupertoooo!! Ustedes ven\xEDan a despedirme
+      joder!!!"
+  - text: "Cari\xF1o, \xBFhas visto el libro de \u2018C\xF3mo vivir 100 a\xF1os\u2019?
+      \r\n- S\xED, lo tir\xE9 a la basura, tu madre lo estaba leyendo."
+  - text: "Tengo tres llamadas perdidas de mi oftalm\xF3logo... \r\nEl de ver me llama."
+  - text: "Doctor, doctor, no s\xE9 lo que me pasa que cada vez que tomo caf\xE9 me
+      duele el ojo derecho. \xBFHas intentado sacar la cuchara de la taza?"
+  - text: "Uno que va al dentista y ... \r\n- A ver, abra la boca. \r\n- \xA1AAAHHHHhh!.
+      \r\n- Pero no la abra tanto... \r\n- \xBFNo me tiene que meter las pinzas?.
+      \r\n- S\xED, \xA1\xA1pero yo me quedo fuera!!"
+  - text: "Mam\xE1, mam\xE1, hoy casi saco un 5 en matem\xE1ticas. \r\n\u2013 \xA1Muy
+      bien Jaimito! pero\u2026 \xBFpor qu\xE9 casi? \r\n\u2013 Porque se lo pusieron
+      a mi compa\xF1ero de al lado."
+  - text: "Jaimito llega tarde al colegio y la profesora le pregunta: \r\n\u2013 \xBFPor
+      qu\xE9 llegas tarde? \r\n\u2013 Me qued\xE9 dormido so\xF1ando con un partido.
+      \r\n\u2013 \xBFY eso qu\xE9 tiene que ver? \r\n\u2013 Pues hubo un empate, reposici\xF3n
+      y penaltis."
+  - text: "Un polic\xEDa iba de tenis y pantaloneta. \u2013 Porque la gente hab\xEDa
+      pedido un polideportivo."
+  - text: "Un borracho le dice a otro: No sigas bebiendo que te est\xE1s poniendo
+      borroso."
+  - text: "\xBFPor qu\xE9 llora un libro de matem\xE1ticas? \r\n\xA1Porque tiene muchos
+      problemas!"
+  - text: "\xBFQu\xE9 le dice un pez a otro? \r\n\xA1Nada!"
+  - text: "\xBFTienen libros sobre el cansancio? \r\nS\xED, pero ahora mismo no hay,
+      \xA1est\xE1n todos agotados!"
+  - text: "\xBFQu\xE9 le dice un gusano a otro? \r\nMe voy a dar la vuelta a la manzana."
+  - text: "\xBFQu\xE9 le dice una iguana a su hermana gemela? \r\nSomos iguanitas"
+  - text: "\xBFCu\xE1l es el colmo del electricista? \r\n\xA1Que su mujer se llame
+      Luz!"
+  - text: "\xBFCu\xE1l es el colmo de un farmac\xE9utico? \r\n\xA1Que su mujer se
+      llame Remedios!"
+  - text: "Profesora, \xBFqu\xE9 quiere decir 'why'? \r\n\xBFPor qu\xE9? \r\nPues
+      porque quiero saber"
+  - text: "Pedro, \xBFqu\xE9 har\xEDas t\xFA si te estuvieras ahogando en alta mar?
+      \r\n\xA1Llorar para desahogarme!"
+  - text: "\xBFQu\xE9 le dice un sem\xE1foro a otro? \r\n\xA1No me mires que me estoy
+      cambiando!"
+  - text: "\xBFQu\xE9 le dice una pared a otra? \r\n\xA1Nos vemos en la esquina!"
+  - text: "\xBFSabes c\xF3mo se queda un mago despu\xE9s de comer? \r\nMagordito"
+  - text: "\xBFQu\xE9 le dijo una pulga a otra pulga? \r\n\xBFVamos a pie o esperamos
+      al perro?"
+  - text: "Pepe, si en esta mano tengo 8 naranjas y en esta otra 6 naranjas. \r\n\xBFQu\xE9
+      tengo? \r\n\xA1Unas manos enormes, profe!"
+  - text: "\xA1Mam\xE1, he sacado 5.0! \r\n\xBFEn serio? Si, saqu\xE9 1.0 en matem\xE1ticas,
+      2.0 en sociales, y 2.0 en ingl\xE9s."
+  - text: "La M con la A suena MA, \xBFy si le pones una tilde? \r\n\xA1Matilde!"
+  - text: "\xBFCu\xE1l es la monta\xF1a m\xE1s limpia? \r\nEl volc\xE1n. Porque primero
+      echa cenizas y despu\xE9s, lava"
+  - text: "\xBFQu\xE9 le dice un pollito a su enemigo? \r\n\xA1Caldito seas!"
+  - text: "\xBFDe d\xF3nde vienen los hamster? \r\nDe Hamsterdam"
+  - text: "Doctor, tengo todo el cuerpo cubierto de pelo. \xBFQu\xE9 padezco? \r\nPadece
+      un osito."
+  - text: "\xBFCu\xE1l es el colmo de un libro? \r\n\xA1Que en oto\xF1o se le caigan
+      las hojas!"
+  
+
+#============================ Answers of general ===================================
+
+
+  utter_faq/general__int_1038:
+  - text: "Para comunicarte con el equipo de  soporte de Ciudad Educativa puedes comunicarte
+      a los siguientes contactos:\r\nPBX: +57  300 910 8844 - Extensi\xF3n 2.                                                                                                                                             L\xEDnea
+      de WhatsApp de soporte: 301 694 8725\r\nCorreo electr\xF3nico: soporte@ciudadeducativa.com"
+    image: https://drive.google.com/file/d/16OrQdZixjzQkqDyqtCv8W1olScQB4FNi/view?usp=sharing
+  utter_faq/general__int_1040:
+  - text: "Para solucionar esta novedad debes dirigirte al personal administrativo
+      de tu instituci\xF3n o al jefe de sistemas para que realicen la correcci\xF3n
+      de la asignatura, ya que ellos tienen la posibilidad de asignar o eliminar cursos
+      a cada docente dentro de su carga acad\xE9mica."
+  utter_faq/general__int_1048:
+  - custom:
+      success: true
+      data:
+        text: "Este es el enlace a nuestro canal en YouTube: https://www.youtube.com/channel/UCaqn39IOwFb34WOxlvn0obw/videos%2B\n\nAll\xED
+          encontrar\xE1s una buena cantidad de videos que te muestran c\xF3mo utilizar
+          la plataforma.\n\nEspero que te guste y sea de utilidad para ti!\n"
+        video: https://www.youtube.com/channel/UCaqn39IOwFb34WOxlvn0obw/videos%2B
+        image: ""
+        html: ""
+        buttons: ""
+        callback: ""
+  utter_faq/general__int_1049:
+  - text: "Todas las capacitaciones se hacen de manera virtual y son ilimitadas, sin
+      embargo, se pueden concretar visitas presenciales a trav\xE9s de los administrativos
+      de la instituci\xF3n educativa, para ello deben comunicarse con el equipo de
+      soporte t\xE9cnico a las l\xEDneas de atenci\xF3n o al correo soporte@ciudadeducativa.com"
+  utter_faq/general__int_1054:
+  - text: "Esto sucede porque, aunque tengas rol docente no tienes asignaci\xF3n acad\xE9mica.
+      \n\nLa interfaz docente se compone de las asignaturas, por eso si no las tienes
+      relacionadas el sistema no tiene informaci\xF3n para mostrarte. \n\nDebes solicitar
+      a un administrativo que te cargue tu asignaci\xF3n acad\xE9mica.\n"
+  utter_faq/general__int_1055:
+  - text: "Esto puede deberse a alguno de estos factores:\n\n1. Tal vez esas asignaturas
+      se encuentran configurados en un periodo acad\xE9mico diferente al de los grados
+      regulares. Por ejemplo, los grados CLEI normalmente son ubicados en un periodo
+      acad\xE9mico diferente. \n\nSi ese es el caso, debes cambiar de periodo acad\xE9mico
+      para poder visualizarlas haciendo clic en el a\xF1o que aparece en la esquina
+      superior derecha de la pantalla, al lado de tu fotograf\xEDa.\n\n2. Tal vez
+      no te han sido asignados los cursos a\xFAn. \n\nSi este es el caso, debes comunicarte
+      con los administrativos de la instituci\xF3n para que te incluyan las asignaturas
+      faltantes en tu carga acad\xE9mica.\n"
+  utter_faq/general__int_1091:
+  - text: "El m\xF3dulo de formaci\xF3n docente es una nueva herramienta donde pretendemos
+      publicar cursos de formaci\xF3n espec\xEDficos para los maestros.\n\nActualmente
+      hay unos pocos cursos, que iremos ampliando en el futuro."
+  
+
+#============================ Answers of cnv_flow ===================================
+
+
+  utter_faq/cnv_flow__int_0001:
+  - text: "Hola! En qu\xE9 puedo ayudarte?"
+  
+
+#============================ Answers of my_profile ===================================
+
+
+  utter_faq/my_profile__int_1014:
+  - text: "Para actualizar o cambiar tu foto de perfil en la plataforma hay dos opciones:\n\nLa
+      primera es que un funcionario administrativo te tome la fotograf\xEDa desde
+      el m\xF3dulo de usuarios.\n\nLa segunda es que nos env\xEDes la fotograf\xEDa
+      adjunta al correo soporte@ciudadeducativa.com. \n\nLa \xFAnica condici\xF3n
+      es que el archivo debe ser renombrado con tu n\xFAmero de documento para identificar
+      a quien pertenece la fotograf\xEDa y poder subirla a la plataforma.\n"
+  utter_faq/my_profile__int_1027:
+  - text: "Si. puedes hacerlo.\n\nAl realizar el reporte de calificaciones el primer
+      paso es seleccionar los desempe\xF1os que apareceran en los boletines de los
+      estudiantes.\n\nEn ese paso, la plataforma te pregunta si deseas aplicar estos
+      desempe\xF1os en otros grupos y te da la opci\xF3n de seleccionar los grupos
+      a aplicar.\n\nEn el segundo paso se asignan las influencias sobre los desempe\xF1os
+      y la plataforma te pregunta si deseas aplicar esas influencias en otros grupos
+      tambi\xE9n. Solo debes se\xF1alar los grupos a los que quieres asignarles esas
+      influencias.\n"
+  utter_faq/my_profile__int_1053:
+  - text: "Si tu usuario y contrase\xF1a son correctos, pero a\xFAn as\xED no se abre
+      la plataforma, tal vez tengas bloqueadas las ventanas emergentes.\n\nVerifica
+      si al hacer clic en 'Ingresar', aparece debajo un mensaje que dice 'Hola. Si
+      no se ha abierto la aplicaci\xF3n, tienes bloqueadas las ventanas emergentes'.\n\nSi
+      ese es el caso, debes presionar el \xEDcono que tiene un cuadro con una X en
+      la barra de direcciones, en la parte superior derecha y seleccionar la opci\xF3n
+      de 'Permitir ventanas emergentes para este sitio'.\n\nCiudad Educativa funciona
+      a trav\xE9s de una ventana emergente, para que puedas tener m\xE1s espacio en
+      la pantalla y para que la informaci\xF3n viaje m\xE1s r\xE1pido.\n\nSi el mensaje
+      descrito no aparece y el problema contin\xFAa, debes transmitirlo al personal
+      administrativo de tu instituci\xF3n.\n"
+  utter_faq/my_profile__int_1065:
+  - custom:
+      success: true
+      data:
+        text: "Debes ingresar desde tu interfaz al m\xF3dulo 'Mi Perfil', all\xED
+          encontraras tus datos personales y al final la opci\xF3n 'Cambiar contrase\xF1a'.
+          \n\nActiva esta opci\xF3n haciendo clic en el bot\xF3n o 'switch' que aparece
+          al lado.\n\nEl sistema te mostrar\xE1 tres campos m\xE1s. En el primero
+          debes ingresar la contrase\xF1a actual, luego la contrase\xF1a nueva y una
+          vez m\xE1s la contrase\xF1a nueva.\n\nFinalmente, haz clic en 'Guardar cambios'."
+        video: https://www.youtube.com/watch?v=xlMri2xXmyI&t=79s
+        image: ""
+        html: ""
+        buttons: ""
+        callback: ""
+  utter_faq/my_profile__int_1076:
+  - text: "Cuando cambies tu contrase\xF1a, aseg\xFArate de memorizarla o guardarla
+      en un lugar muy seguro al que solo t\xFA tengas acceso.\n\nEn ocasiones, la
+      actualizaci\xF3n de la contrase\xF1a en todos los sistemas de la plataforma
+      puede demorar hasta 2 minutos. Si pasado este tiempo a\xFAn no puedes ingresar,
+      debes reportarlo al personal administrativo y ellos te pueden asignar una contrase\xF1a
+      temporal.\n\nNota:\nCuando cambies tu contrase\xF1a, el sistema te solicita
+      que incluyas letras may\xFAsculas, letras min\xFAsculas, n\xFAmeros y al menos
+      un caracter especial como *.#_-!@$%^&.\n"
+  
+
+#============================ Answers of massive_assignments ===================================
+
+
+  utter_faq/massive_assignments__int_1032:
+  - text: "El n\xFAmero 1 podr\xEDa aparecer en algunas celdas de actividades cuando
+      la instituci\xF3n haya definido que ese sea el desempe\xF1o m\xEDnimo que debe
+      sugerir el sistema cuando un estudiante no tiene calificaciones. Es decir, es
+      la nota m\xEDnima o la menor calificaci\xF3n posible. \r\nComo a\xFAn no tienes
+      calificaciones ingresadas en las actividades hijas, el sistema asume que tendr\xE1n
+      al menos la menor calificaci\xF3n.\r\nLos directivos pueden decidir tambi\xE9n
+      si esa nota aparece o no en la planilla dentro de las actividades masivas."
+  - condition:
+    - type: slot
+      name: config.scores.assignments.suggestion_when_score_is_null
+      logical_operator: equal_to
+      value: lowest
+    text: "La instituci\xF3n ha definido que cuando una celda de la planilla de actividades
+      no tiene calificaci\xF3n, haya una calificaci\xF3n sugerida equivalente al desempe\xF1o
+      m\xEDnimo establecido en el plan de estudios.\r\nEs por esto que en algunas
+      celdas de actividades padre aparece el n\xFAmero 1.\r\nComo a\xFAn no tienes
+      calificaciones ingresadas en las actividades hijas, el sistema asume que tendr\xE1n
+      por lo menos la menor calificaci\xF3n."
+  utter_faq/massive_assignments__int_1057:
+  - text: "Si tu planilla tiene actividades masivas, tambi\xE9n llamadas actividades
+      padre o criterios de evaluaci\xF3n, sus porcentajes deben sumar 100% puesto
+      que ellas definen la calificaci\xF3n del curso.\n\nEs necesario que comuniques
+      esto al administrativo encargado del manejo de la plataforma en tu instituci\xF3n
+      para que pueda corregir los porcentajes de dichas actividades.\n"
+  utter_faq/massive_assignments__int_1058:
+  - text: "Esto indica que el curso est\xE1 configurado para utilizar actividades
+      masivas pero no hay ninguna creada o ninguna de las que est\xE1 creada aplica
+      para el curso actual.\n\nSolo los administrativos pueden crear actividades masivas.\n\nDebes
+      comunicar este problema al personal administrativo.\n"
+  utter_faq/massive_assignments__int_1062:
+  - text: "Cuando se utilizan actividades masivas, la calificaci\xF3n definitiva del
+      curso se realiza utilizando \xFAnicamente la calificaci\xF3n en dichas actividades.
+      \n\nLa calificaci\xF3n de las actividades hijas ya se ha tenido en cuenta previamente
+      en el c\xE1lculo de las actividades masivas.\n\nEs decir, simplemente se realiza
+      un 'promedio' de la calificaci\xF3n de las actividades masivas y si estas actividades
+      tienen definidos porcentajes diferentes, se hace un 'promedio ponderado'.\n"
+  
+
+#============================ Answers of standards ===================================
+
+
+  utter_faq/standards__int_1003:
+  - text: "Cuando esto ocurre existen dos posibles razones:\n\nLa causa m\xE1s com\xFAn
+      es haber realizado el reporte de calificaciones y posteriormente haber creado
+      los logros. El proceso correcto es crear los logros, asistencia y calificaciones
+      de actividades antes de reportar las calificaciones definitivas.\n\nSi creaste
+      logros despu\xE9s de hacer el reporte de calificaciones solo tienes que reportar
+      nuevamente las definitivas.\n\nEl segundo motivo es que al momento de crear
+      el logro elegiste el \xE1mbito 'periodo acad\xE9mico' y no 'periodo de evaluaci\xF3n'.
+      Eso significa que el logro no se puede utilizar en el periodo de evaluaci\xF3n
+      sino que sirve para evaluar los resultados finales del a\xF1o.\n\nSi ese fu\xE9
+      el caso, debes seleccionar 'periodo de evaluaci\xF3n' en el \xE1mbito del logro.
+      Luego debes hacer el reporte de calificaciones definitivas nuevamente.\n"
+  utter_faq/standards__int_1008:
+  - text: "Cuando se hace reporte de calificaciones, el sistema permite establecer
+      unas influencias a cada logro o desempe\xF1o relacion\xE1ndolo a las actividades
+      que han servido para que el estudiante desarrolle esa habilidad. \n\nEs decir,
+      cada desempe\xF1o debe ir vinculado al menos a una actividad puesto que tuviste
+      al menos que realizar una actividad para que el estudiante pudiera 'lograr'
+      la habilidad propuesta por el desempe\xF1o. Pero podr\xEDas haber dise\xF1ado
+      varias actividades para un solo logro.\n\nEsas influencias no afectan la calificaci\xF3n
+      definitiva de la asignatura, a menos de que est\xE9 configurada para que el
+      c\xE1lculo se haga a trav\xE9s de los logros, cosa que no es usual.\n\nLo que
+      hacen esas influencias es darle a cada desempe\xF1o una calificaci\xF3n m\xE1s
+      objetiva. Te lo explicar\xE9 con un ejemplo:\n\nSupongamos que Juanito obtuvo
+      una calificaci\xF3n de 4.0 en Ingl\xE9s. Pero aunque haya obtenido 4.0, en la
+      realidad Juanito tiene m\xE1s capacidades para algunas cosas que para otras.
+      Por ejemplo, tal vez en comprensi\xF3n lectora Juanito es el mejor de la clase
+      (5.0), pero al hablar en p\xFAblico tiene dificultades (3.0). \n\nEs decir que
+      no todos los desempe\xF1os deber\xEDan aparecer en 4.0. \xBFCierto?\n\nEs por
+      esto, que la plataforma le permite al maestro definir 'que tanto influye' cada
+      actividad en cada desempe\xF1o o logro. As\xED, 'escribir un ensayo' influir\xE1
+      m\xE1s en el desempe\xF1o o logro de comprensi\xF3n lectora, mientras que 'hablar
+      sobre un tema', no influir\xE1 tanto.\n"
+  utter_faq/standards__int_1011:
+  - text: "En el reporte de calificaciones que se realiza por el m\xF3dulo con el
+      mismo nombre, es necesario establecer la influencia que tendr\xE1n las actividades
+      para determinar hasta donde ha llegado el estudiante respecto a cada logro propuesto.
+      \n\nEs decir, la calificaci\xF3n del logro depender\xE1 del nivel de influencia
+      que le asignes a cada logro durante el reporte.\n\nEn caso de realizarse el
+      reporte r\xE1pido, si no hay influencias definidas previamente, el sistema asignar\xE1
+      a cada logro la calificaci\xF3n del curso.\n"
+  utter_faq/standards__int_1016:
+  - custom:
+      success: true
+      data:
+        text: "Cada docente debe agregar los desempe\xF1os para cada una de sus asignaturas
+          y para cada periodo de evaluaci\xF3n. Puedes agregar todos los desempe\xF1os
+          que desees y escoger algunos a la hora de hacer el reporte de calificaciones.
+          \n\nNo hay un banco de desempe\xF1os desde el cu\xE1l se puedan escoger
+          algunos, precisamente porque es una labor que le corresponde a cada docente
+          dependiendo de los criterios trabajados en la asignatura durante el periodo.
+          \n\nSin embargo, esos mismos desempe\xF1os van creando el banco de desempe\xF1os
+          de la instituci\xF3n y cada a\xF1o se copian para que no tengan que agregarlos
+          nuevamente.\n"
+        video: https://www.youtube.com/watch?v=cr9fqe6U9Is&t=3s
+        image: ""
+        html: ""
+        buttons: ""
+        callback: ""
+  utter_faq/standards__int_1023:
+  - text: "Los indicadores de logro, indicadores de desempe\xF1o o descriptores de
+      desempe\xF1o se pueden modificar accediendo al m\xF3dulo que tiene ese nombre.
+      \n\nAl hacer clic sobre el logro podr\xE1s observar una pesta\xF1a llamada 'Indicadores
+      de desempe\xF1o'. All\xED encontrar\xE1s los textos prestablecidos para cada
+      una de las valoraciones, es decir, el texto que mostrar\xE1 el sistema al estudiante
+      dependiendo de la calificaci\xF3n obtenida. \n\nPara actualizar el texto debes
+      hacer clic sobre el cuadro que los contiene y, por \xFAltimo, hacer clic sobre
+      el bot\xF3n 'Actualizar'.\n"
+  utter_faq/standards__int_1052:
+  - text: "Una posible raz\xF3n para esto es que otro docente haya eliminado por error
+      tu logro o desempe\xF1o.\r\n\xBFC\xF3mo es esto posible?\r\nSucede que la plataforma
+      tiene una opci\xF3n llamada 'Permitir que los docentes utilicen indicadores
+      diferentes'. Si la instituci\xF3n la ha desactivado, significa que todos los
+      docentes de un mismo curso, en el mismo grado, tendr\xE1n acceso al mismo listado
+      de logros.\r\n\xBFPara qu\xE9 sirve que los docentes utilicen los mismos logros?\r\nEsto
+      sirve para estandarizar los objetivos del curso y que sin importar el grupo
+      del estudiante, todos est\xE9n alcanzando las mismas competencias. \r\nEs por
+      esto que si ves un logro que t\xFA no has creado, lo ideal es que no hagas manipulaci\xF3n
+      del mismo, pues sabr\xE1s que pertenece a otro docente.\r\nVerifica con los
+      administrativos de la instituci\xF3n si la opci\xF3n mencionada est\xE1 activada
+      o no."
+  - condition:
+    - type: slot
+      name: config.standards.allow_different_standards_among_teachers
+      logical_operator: equal_to
+      value: "0"
+    text: "Una posible raz\xF3n para esto es que otro docente haya eliminado por error
+      tu logro o desempe\xF1o.\r\n\xBFC\xF3mo es esto posible?\r\nSucede que la plataforma
+      tiene una opci\xF3n llamada 'Permitir que los docentes utilicen indicadores
+      diferentes' y est\xE1 desactivada. Esto significa que todos los docentes de
+      un mismo curso, en el mismo grado, tendr\xE1n acceso al mismo listado de logros
+      puesto que deben utilizar los mismos.\r\nEsto sirve para estandarizar los objetivos
+      del curso y que sin importar el grupo del estudiante, todos est\xE9n alcanzando
+      las mismas competencias. \r\nEs por esto que si ves un logro que t\xFA no has
+      creado, lo ideal es que no hagas manipulaci\xF3n del mismo, pues sabr\xE1s que
+      pertenece a otro docente.\r\nSi piensas que deber\xEDa configurarse diferente,
+      puedes ped\xEDrselo a un administrativo."
+  - condition:
+    - type: slot
+      name: config.standards.allow_different_standards_among_teachers
+      logical_operator: equal_to
+      value: "1"
+    text: "La plataforma est\xE1 actualmente configurada para que cada docente defina
+      sus logros de forma independiente, si esa configuraci\xF3n no es reciente, es
+      poco probable que otro docente lo haya eliminado por error.\r\nEl sistema no
+      elimina registros de los maestros. Tal vez el logro haya sido agregado a otro
+      curso.\r\nPuedes intentar buscando el logro en alguno de tus otros cursos. Si
+      definitivamente no aparece, el personal administrativo tiene acceso al registro
+      de acciones ejecutadas de la plataforma. Podr\xEDas verificar con ellos en qu\xE9
+      momento se ha realizado la eliminaci\xF3n de logros desde tu interfaz."
+  utter_faq/standards__int_1059:
+  - text: "Esto se debe a que la escala de valoraci\xF3n de la asignatura ha cambiado
+      y es necesario vincular los descriptores a esta. \n\nPara solucionarlo debes
+      hacer clic sobre el logro, ir a la pesta\xF1a 'Descriptores de desempe\xF1o'
+      y hacer clic sobre el bot\xF3n 'Crear indicadores'.\n"
+  utter_faq/standards__int_1070:
+  - custom:
+      success: true
+      data:
+        text: "Para asignar logros diferentes a estudiantes con necesidades educativas
+          especiales debes seguir estos pasos:\n\n1. Crear los logros que usaras con
+          la mayor\xEDa de los estudiantes.\n\n2. Crear aquellos logros que usaras
+          con los estudiantes con necesidades educativas especiales.\n\n3. Al seleccionar
+          los logros para realizar el reporte de calificaciones debes seleccionar
+          solo los que usaras con la mayor\xEDa de los estudiantes.\n\n4. Una vez
+          realizado el reporte de calificaciones, debes dar clic en cada uno de los
+          estudiantes con necesidades educativas especiales, retirar los logros que
+          no describen su desempe\xF1o y agregar los logros que fueron creados inicialmente
+          para valorar a dichos estudiantes."
+        video: https://www.youtube.com/watch?v=nfqPpjTsMyg
+        image: ""
+        html: ""
+        buttons: ""
+        callback: ""
+  utter_faq/standards__int_1072:
+  - text: "Es normal que las calificaciones de los desempe\xF1os o logros sean diferentes
+      a la calificaci\xF3n del curso. Te lo voy a explicar con un ejemplo:\n\nSupongamos
+      que Juanito obtuvo una calificaci\xF3n de 4.0 en Ingl\xE9s. Aunque haya obtenido
+      4.0, en la realidad Juanito tiene m\xE1s capacidades para algunas cosas que
+      para otras. Por ejemplo, tal vez en comprensi\xF3n lectora Juanito es el mejor
+      de la clase (5.0), pero al hablar en p\xFAblico tiene dificultades (3.0).\n\nEs
+      por esto, que la plataforma le permite al maestro definir 'que tanto influye'
+      cada actividad en cada desempe\xF1o o logro. As\xED, 'escribir un ensayo' influir\xE1
+      m\xE1s en el desempe\xF1o o logro de comprensi\xF3n lectora, mientras que 'hablar
+      sobre un tema', no influir\xE1 tanto.\n\nNota:\nEn ocasiones, cuando se utiliza
+      el reporte r\xE1pido o cuando pones las mismas influencias para todas las actividades
+      y desempe\xF1os, la calificaci\xF3n de curso y desempe\xF1os puede coincidir.\n"
+  utter_faq/standards__int_1095:
+  - text: "Para agregar un logro abarcador debes seguir estos pasos:\n\n1. Seleccionar
+      en el buscador de asignaturas aquella en la que deseas agregar el logro abarcador.\n\n2.
+      Hacer clic al m\xF3dulo de desempe\xF1os en el men\xFA principal.\n\n3. En el
+      formulario ver\xE1s un campo llamado '\xE1mbito'. En este campo selecciona la
+      opci\xF3n 'Periodo acad\xE9mico' que hace referencia a que el logro ser\xE1
+      utilizado para evaluar el a\xF1o completo en lugar de un periodo de evaluaci\xF3n
+      particular.\n\n4. Al finalizar haz clic en el bot\xF3n 'Agregar'.\n"
+  utter_faq/standards__int_1102:
+  - text: "En la plataforma puedes crear logros o desempe\xF1os con dos alcances o
+      '\xE1mbitos' diferentes:\n\nLo m\xE1s com\xFAn es crear logros que tienen un
+      alcance para un solo periodo de evaluaci\xF3n. Por ejemplo para primer periodo,
+      segundo periodo, etc.\n\nPero tambi\xE9n se pueden crear logros para evaluar
+      todo el periodo acad\xE9mico, es decir que abarquen todo el a\xF1o escolar.
+      Este ser\xE1 un logro o desempe\xF1o que acompa\xF1a la calificaci\xF3n definitiva
+      del estudiante al finalizar el a\xF1o.\n\nPara crear un logro para el periodo
+      acad\xE9mco, haz clic en el bot\xF3n 'Agregar' y en el campo '\xC1mbito' selecciona
+      'Periodo acad\xE9mico'.\n\nLos logros para el periodo acad\xE9mico aparecer\xE1n
+      en el listado con un \xEDcono de color azul. Estos no los puedes utilizar en
+      el reporte de periodo evaluaci\xF3n. Solo los puedes utilizar para el reporte
+      de final del a\xF1o."
+  utter_faq/standards__int_1108:
+  - text: "Primero ub\xEDcate en el curso en el que deseas agregar el logro usand
+      el buscador de cursos en la parte superior de la pantalla. \n\nCuando elijas
+      un curso, ver\xE1s que se despliega un men\xFA a la derecha. Haz clic en el
+      bot\xF3n 'Desempe\xF1os' o 'Logros' dependiendo del lenguaje que utilice tu
+      instituci\xF3n. Si se cierra el men\xFA, solamente tienes que hacer clic en
+      el bot\xF3n con las 3 rayitas horizontales en la esquina superior izquierda.\n\nHaz
+      clic en el bot\xF3n 'Agregar' en la parte superior derecha. \n\nVer\xE1s que
+      se muestra un formulario donde puedes escribir un t\xEDtulo para el logro, seleccionar
+      un tipo y establecer si lo vas a usar en un periodo de evaluaci\xF3n o solo
+      al final del a\xF1o.\n\nLos indicadores de logro (o descriptores de desempe\xF1o)
+      se crean autom\xE1ticamente en la parte derecha. Si deseas cambiarlos puedes
+      hacerlo despu\xE9s de hacer clic en el bot\xF3n 'Agregar' de la esquina inferior
+      derecha. "
+  utter_faq/standards__int_1120:
+  - text: "Si. Claro que puedes. Sigue estos pasos:\n\n1. Ve al m\xF3dulo de 'Reporte
+      de calificaciones' -> 'Informes de periodo'.\n2. Haz clic sobre el estudiante
+      al que le desees cambiar la calificaci\xF3n de alg\xFAn logro o desempe\xF1o.\n3.
+      Al lado derecho del desempe\xF1o aparece una barra de color blanco con un cuadrito
+      azul oscuro en medio. Puedes mover ese cuadro a la derecha o a la izquierda
+      para aumentar o disminuir la calificaci\xF3n que el estudiante ha obtenido.
+      Ver\xE1s tambi\xE9n que el texto y la casilla 'Calificaci\xF3n' o 'Recuperaci\xF3n'
+      del indicador obtenido cambia.\n4. No olvides hacer clic en 'Reportar calificaciones
+      de ...' al finalizar para guardar los cambios.\n\nNota:\n\nSi el cambio lo realizas
+      por fuera del tiempo permitido para hacer cambios al reporte, el cambio ser\xE1
+      tomado como una recuperaci\xF3n (o nivelaci\xF3n) del desempe\xF1o.\n\nEso es
+      todo!"
+  utter_faq/standards__int_1121:
+  - text: "Puedes ver los indicadores pendientes de un estudiante respecto a un curso
+      en el m\xF3dulo de promoci\xF3n.\n\nAll\xED puedes hacer clic sobre el estudiante
+      y luego hacer clic en la pesta\xF1a 'Indicadores pendientes'.\n\nNota: Los administrativos
+      pueden obtener un listado con todos los indicadores pendientes de todas las
+      asignaturas en un solo informe."
+...

@@ -1,0 +1,138 @@
+{
+  "affirm": {
+    "precision": 0.8125,
+    "recall": 0.5416666666666666,
+    "f1-score": 0.65,
+    "support": 24,
+    "confused_with": {
+      "chitchat": 6,
+      "deny": 3
+    }
+  },
+  "reframe_question": {
+    "precision": 0.8461538461538461,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.8799999999999999,
+    "support": 12,
+    "confused_with": {
+      "chitchat": 1
+    }
+  },
+  "chat_with_support_assistant": {
+    "precision": 0.5,
+    "recall": 0.45454545454545453,
+    "f1-score": 0.47619047619047616,
+    "support": 11,
+    "confused_with": {
+      "chitchat": 5,
+      "faq": 1
+    }
+  },
+  "chitchat": {
+    "precision": 0.9215686274509803,
+    "recall": 0.8867924528301887,
+    "f1-score": 0.9038461538461539,
+    "support": 318,
+    "confused_with": {
+      "faq": 12,
+      "thank_you": 7
+    }
+  },
+  "deny": {
+    "precision": 0.5625,
+    "recall": 0.72,
+    "f1-score": 0.631578947368421,
+    "support": 25,
+    "confused_with": {
+      "unsure": 2,
+      "faq": 2
+    }
+  },
+  "chat_with_school_staff": {
+    "precision": 1.0,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
+    "support": 17,
+    "confused_with": {
+      "faq": 1,
+      "email_school_staff": 1
+    }
+  },
+  "unsure": {
+    "precision": 0.7,
+    "recall": 0.5,
+    "f1-score": 0.5833333333333334,
+    "support": 14,
+    "confused_with": {
+      "deny": 5,
+      "faq": 1
+    }
+  },
+  "thank_you": {
+    "precision": 0.47368421052631576,
+    "recall": 0.5294117647058824,
+    "f1-score": 0.5,
+    "support": 17,
+    "confused_with": {
+      "chitchat": 5,
+      "greet": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.7058823529411765,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.7058823529411765,
+    "support": 17,
+    "confused_with": {
+      "chitchat": 2,
+      "thank_you": 1
+    }
+  },
+  "faq": {
+    "precision": 0.9878048780487805,
+    "recall": 0.9993506493506493,
+    "f1-score": 0.9935442220787604,
+    "support": 1540,
+    "confused_with": {
+      "chat_with_support_assistant": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8,
+    "recall": 0.75,
+    "f1-score": 0.7741935483870969,
+    "support": 32,
+    "confused_with": {
+      "chitchat": 3,
+      "thank_you": 2
+    }
+  },
+  "email_school_staff": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.896551724137931,
+    "support": 14,
+    "confused_with": {
+      "faq": 1
+    }
+  },
+  "accuracy": 0.9544341009309162,
+  "macro avg": {
+    "precision": 0.7647300484823139,
+    "recall": 0.734603364787882,
+    "f1-score": 0.7443850631902791,
+    "support": 2041
+  },
+  "weighted avg": {
+    "precision": 0.9544736143021365,
+    "recall": 0.9544341009309162,
+    "f1-score": 0.953747590494688,
+    "support": 2041
+  },
+  "micro avg": {
+    "precision": 0.9544341009309162,
+    "recall": 0.9544341009309162,
+    "f1-score": 0.9544341009309162,
+    "support": 2041
+  }
+}

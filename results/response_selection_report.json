@@ -1,0 +1,1477 @@
+{
+  "faq/lms__online_exams__int_1081": {
+    "precision": 0.7619047619047619,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.8421052631578947,
+    "support": 17,
+    "confused_with": {
+      "faq/lms__online_exams__int_1110": 1
+    }
+  },
+  "faq/et_scores__int_1012": {
+    "precision": 0.23076923076923078,
+    "recall": 0.2727272727272727,
+    "f1-score": 0.24999999999999994,
+    "support": 11,
+    "confused_with": {
+      "faq/et_scores__int_1029": 3,
+      "faq/grading_book__express_et_report__int_1024": 2
+    }
+  },
+  "faq/grading_book__int_1226": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__int_1045": 1
+    }
+  },
+  "faq/grading_book__int_1080": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1026": 1
+    }
+  },
+  "faq/lms__deliveries__int_1089": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.8461538461538461,
+    "support": 14,
+    "confused_with": {
+      "faq/grading_book__int_1083": 2,
+      "faq/grading_book__int_1115": 1
+    }
+  },
+  "chitchat/__int_0505": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 12,
+    "confused_with": {
+      "chitchat/__int_0503": 2,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/attendance_book__int_1034": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7272727272727273,
+    "support": 11,
+    "confused_with": {
+      "faq/attendance_book__int_1010": 1,
+      "faq/attendance_book__int_1113": 1
+    }
+  },
+  "faq/grading_book__int_1067": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6,
+    "f1-score": 0.631578947368421,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1106": 2,
+      "faq/grading_book__int_1026": 1
+    }
+  },
+  "faq/teacher__download_reports__int_1042": {
+    "precision": 0.4,
+    "recall": 0.18181818181818182,
+    "f1-score": 0.25000000000000006,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1042": 8,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "chitchat/__int_0501": {
+    "precision": 0.30303030303030304,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.41666666666666663,
+    "support": 15,
+    "confused_with": {
+      "chitchat/__int_0512": 2,
+      "chitchat/__int_0518": 1
+    }
+  },
+  "faq/behaviors__int_1074": {
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1-score": 0.588235294117647,
+    "support": 10,
+    "confused_with": {
+      "faq/behaviors__int_1096": 2,
+      "faq/attendance_book__int_1077": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1085": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1-score": 0.6956521739130435,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1086": 1,
+      "faq/lms__lesson_planner__int_1090": 1
+    }
+  },
+  "faq/grading_book__int_1068": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1044": 1
+    }
+  },
+  "faq/grading_book__import_and_export__int_1035": {
+    "precision": 0.5833333333333334,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.5833333333333334,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__int_1036": 3,
+      "faq/grading_book__int_1118": 2
+    }
+  },
+  "faq/teacher__dashboard_statistics__int_1101": {
+    "precision": 0.75,
+    "recall": 0.5,
+    "f1-score": 0.6,
+    "support": 12,
+    "confused_with": {
+      "faq/teacher__statistics__int_1125": 3,
+      "faq/et_scores__int_1007": 1
+    }
+  },
+  "chitchat/__int_0509": {
+    "precision": 0.8,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8275862068965518,
+    "support": 14,
+    "confused_with": {
+      "faq/general__int_1038": 2
+    }
+  },
+  "faq/grading_book__int_1018": {
+    "precision": 0.7,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6666666666666666,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1047": 1,
+      "faq/grading_book__int_1115": 1
+    }
+  },
+  "faq/attendance_book__int_1010": {
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
+    "support": 11,
+    "confused_with": {}
+  },
+  "faq/standards__int_1008": {
+    "precision": 0.625,
+    "recall": 0.38461538461538464,
+    "f1-score": 0.4761904761904762,
+    "support": 13,
+    "confused_with": {
+      "faq/standards__int_1003": 2,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/group_manager_reports__int_1100": {
+    "precision": 0.6428571428571429,
+    "recall": 0.9,
+    "f1-score": 0.75,
+    "support": 10,
+    "confused_with": {
+      "faq/teacher__download_reports__int_1126": 1
+    }
+  },
+  "faq/lms__online_exams__int_1078": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__online_exams__int_1081": 2
+    }
+  },
+  "faq/my_profile__int_1053": {
+    "precision": 0.6153846153846154,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.6666666666666667,
+    "support": 11,
+    "confused_with": {
+      "faq/my_profile__int_1076": 1,
+      "faq/grading_book__int_1026": 1
+    }
+  },
+  "chitchat/__int_0521": {
+    "precision": 0.9375,
+    "recall": 0.75,
+    "f1-score": 0.8333333333333334,
+    "support": 20,
+    "confused_with": {
+      "chitchat/__int_0520": 2,
+      "chitchat/__int_0506": 2
+    }
+  },
+  "chitchat/__int_0518": {
+    "precision": 0.7857142857142857,
+    "recall": 0.9705882352941176,
+    "f1-score": 0.8684210526315789,
+    "support": 34,
+    "confused_with": {
+      "chitchat/__int_0519": 1
+    }
+  },
+  "faq/teacher__download_reports__int_1043": {
+    "precision": 0.75,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.631578947368421,
+    "support": 11,
+    "confused_with": {
+      "faq/group_manager_reports__int_1100": 2,
+      "faq/grading_book__int_1083": 1
+    }
+  },
+  "faq/news__int_1092": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 10,
+    "confused_with": {
+      "chitchat/__int_0501": 1,
+      "faq/standards__int_1059": 1
+    }
+  },
+  "faq/grading_book__int_1060": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 12,
+    "confused_with": {
+      "faq/teacher__download_reports__int_1042": 1,
+      "faq/grading_book__int_1106": 1
+    }
+  },
+  "faq/et_scores__int_1022": {
+    "precision": 0.8333333333333334,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7692307692307692,
+    "support": 14,
+    "confused_with": {
+      "faq/grading_book__int_1106": 2,
+      "faq/standards__int_1023": 1
+    }
+  },
+  "faq/attendance_book__int_1113": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "faq/attendance_book__int_1006": 1,
+      "faq/attendance_book__int_1010": 1
+    }
+  },
+  "faq/et_scores__int_1029": {
+    "precision": 0.46153846153846156,
+    "recall": 0.6,
+    "f1-score": 0.5217391304347826,
+    "support": 10,
+    "confused_with": {
+      "faq/et_scores__int_1012": 3,
+      "faq/standards__int_1059": 1
+    }
+  },
+  "faq/lms__class_material__int_1015": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1037": 1
+    }
+  },
+  "chitchat/__int_0511": {
+    "precision": 0.8235294117647058,
+    "recall": 0.875,
+    "f1-score": 0.8484848484848485,
+    "support": 16,
+    "confused_with": {
+      "chitchat/__int_0501": 1,
+      "chitchat/__int_0508": 1
+    }
+  },
+  "chitchat/__int_0513": {
+    "precision": 0.7333333333333333,
+    "recall": 0.6111111111111112,
+    "f1-score": 0.6666666666666666,
+    "support": 18,
+    "confused_with": {
+      "chitchat/__int_0517": 3,
+      "chitchat/__int_0501": 2
+    }
+  },
+  "faq/attendance_book__int_1077": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6,
+    "f1-score": 0.631578947368421,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1106": 2,
+      "faq/et_scores__int_1022": 1
+    }
+  },
+  "faq/lms__class_material__int_1129": {
+    "precision": 0.8235294117647058,
+    "recall": 1.0,
+    "f1-score": 0.9032258064516129,
+    "support": 14,
+    "confused_with": {}
+  },
+  "faq/standards__int_1072": {
+    "precision": 0.5333333333333333,
+    "recall": 0.8,
+    "f1-score": 0.64,
+    "support": 10,
+    "confused_with": {
+      "faq/standards__int_1011": 2
+    }
+  },
+  "faq/grading_book__int_1073": {
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8571428571428572,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1019": 1,
+      "faq/grading_book__int_1118": 1
+    }
+  },
+  "faq/behaviors__int_1097": {
+    "precision": 0.6,
+    "recall": 0.6,
+    "f1-score": 0.6,
+    "support": 10,
+    "confused_with": {
+      "faq/et_scores__int_1020": 1,
+      "faq/behaviors__int_1096": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1086": {
+    "precision": 0.6875,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.7333333333333334,
+    "support": 14,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1085": 2,
+      "faq/lms__int_1103": 1
+    }
+  },
+  "faq/grading_book__int_1056": {
+    "precision": 0.5333333333333333,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.5925925925925926,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__int_1118": 1,
+      "faq/grading_book__int_1106": 1
+    }
+  },
+  "faq/final_scores__int_1063": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1054": 1
+    }
+  },
+  "faq/grading_book__int_1115": {
+    "precision": 0.5384615384615384,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.5833333333333334,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1083": 2,
+      "faq/lms__deliveries__int_1089": 1
+    }
+  },
+  "faq/et_scores__int_1007": {
+    "precision": 0.6875,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.7586206896551724,
+    "support": 13,
+    "confused_with": {
+      "faq/grading_book__express_et_report__int_1024": 1,
+      "faq/general__int_1055": 1
+    }
+  },
+  "faq/attendance_book__int_1006": {
+    "precision": 0.8461538461538461,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.7857142857142856,
+    "support": 15,
+    "confused_with": {
+      "faq/attendance_book__int_1034": 1,
+      "faq/lms__lesson_planner__int_1086": 1
+    }
+  },
+  "faq/general__int_1055": {
+    "precision": 0.36363636363636365,
+    "recall": 0.4,
+    "f1-score": 0.380952380952381,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1040": 3,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/grading_book__int_1026": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1-score": 0.6956521739130435,
+    "support": 10,
+    "confused_with": {
+      "faq/massive_assignments__int_1058": 1,
+      "faq/grading_book__int_1036": 1
+    }
+  },
+  "faq/grading_book__int_1044": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1086": 1,
+      "faq/grading_book__express_et_report__int_1024": 1
+    }
+  },
+  "faq/grading_book__int_1047": {
+    "precision": 0.7777777777777778,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.6666666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__express_et_report__int_1024": 1,
+      "faq/my_profile__int_1053": 1
+    }
+  },
+  "chitchat/__int_0504": {
+    "precision": 0.8571428571428571,
+    "recall": 0.46153846153846156,
+    "f1-score": 0.6,
+    "support": 13,
+    "confused_with": {
+      "chitchat/__int_0501": 2,
+      "chitchat/__int_0513": 1
+    }
+  },
+  "chitchat/__int_0507": {
+    "precision": 0.8181818181818182,
+    "recall": 0.75,
+    "f1-score": 0.7826086956521738,
+    "support": 12,
+    "confused_with": {
+      "chitchat/__int_0502": 3
+    }
+  },
+  "faq/grading_book__int_1039": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1067": 1
+    }
+  },
+  "faq/grading_book__int_1083": {
+    "precision": 0.6428571428571429,
+    "recall": 0.9,
+    "f1-score": 0.75,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1115": 1
+    }
+  },
+  "faq/general__int_1038": {
+    "precision": 0.6,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.6206896551724138,
+    "support": 14,
+    "confused_with": {
+      "faq/lms__online_exams__int_1081": 1,
+      "faq/grading_book__int_1001": 1
+    }
+  },
+  "chitchat/__int_0503": {
+    "precision": 0.6875,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.7586206896551724,
+    "support": 13,
+    "confused_with": {
+      "chitchat/__int_0502": 1,
+      "chitchat/__int_0508": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1116": {
+    "precision": 0.6428571428571429,
+    "recall": 0.75,
+    "f1-score": 0.6923076923076924,
+    "support": 12,
+    "confused_with": {
+      "faq/lms__online_exams__int_1122": 1,
+      "faq/lms__lesson_planner__int_1085": 1
+    }
+  },
+  "faq/levelings__int_1071": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "faq/levelings__int_1005": 4
+    }
+  },
+  "faq/standards__int_1095": {
+    "precision": 1.0,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.8421052631578948,
+    "support": 11,
+    "confused_with": {
+      "faq/standards__int_1108": 1,
+      "faq/standards__int_1059": 1
+    }
+  },
+  "faq/et_scores__int_1084": {
+    "precision": 0.5714285714285714,
+    "recall": 0.8,
+    "f1-score": 0.6666666666666666,
+    "support": 10,
+    "confused_with": {
+      "faq/et_scores__int_1021": 1,
+      "faq/attendance_book__int_1017": 1
+    }
+  },
+  "faq/grading_book__int_1045": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7272727272727273,
+    "support": 11,
+    "confused_with": {
+      "chitchat/__int_0520": 1,
+      "faq/grading_book__int_1046": 1
+    }
+  },
+  "faq/teacher__calendar__int_1111": {
+    "precision": 0.8888888888888888,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.761904761904762,
+    "support": 12,
+    "confused_with": {
+      "faq/lms__int_1103": 4
+    }
+  },
+  "faq/lms__online_exams__int_1110": {
+    "precision": 0.7647058823529411,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.8387096774193549,
+    "support": 14,
+    "confused_with": {
+      "faq/lms__online_exams__int_1081": 1
+    }
+  },
+  "chitchat/__int_0517": {
+    "precision": 0.6875,
+    "recall": 0.6470588235294118,
+    "f1-score": 0.6666666666666667,
+    "support": 34,
+    "confused_with": {
+      "chitchat/__int_0519": 3,
+      "chitchat/__int_0501": 2
+    }
+  },
+  "faq/levelings__int_1005": {
+    "precision": 0.8518518518518519,
+    "recall": 1.0,
+    "f1-score": 0.92,
+    "support": 23,
+    "confused_with": {}
+  },
+  "chitchat/__int_0506": {
+    "precision": 0.7647058823529411,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8125,
+    "support": 15,
+    "confused_with": {
+      "chitchat/__int_0508": 1,
+      "chitchat/__int_0511": 1
+    }
+  },
+  "faq/lms__int_1103": {
+    "precision": 0.5384615384615384,
+    "recall": 0.7,
+    "f1-score": 0.608695652173913,
+    "support": 10,
+    "confused_with": {
+      "faq/teacher__dashboard_statistics__int_1101": 1,
+      "faq/teacher__calendar__int_1111": 1
+    }
+  },
+  "faq/attendance_book__int_1017": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.8461538461538461,
+    "support": 14,
+    "confused_with": {
+      "faq/attendance_book__int_1006": 1,
+      "faq/attendance_book__int_1034": 1
+    }
+  },
+  "faq/academic_terms__int_1066": {
+    "precision": 0.3333333333333333,
+    "recall": 0.1,
+    "f1-score": 0.15384615384615383,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1054": 5,
+      "faq/grading_book__int_1128": 2,
+      "faq/users__group_managers__int_1061": 1
+    }
+  },
+  "faq/my_profile__int_1065": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 10,
+    "confused_with": {
+      "faq/my_profile__int_1053": 1,
+      "faq/general__int_1048": 1
+    }
+  },
+  "faq/grading_book__int_1001": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 18,
+    "confused_with": {
+      "faq/et_scores__int_1012": 1,
+      "faq/grading_book__int_1045": 1
+    }
+  },
+  "faq/academic_terms__int_1004": {
+    "precision": 1.0,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.8421052631578948,
+    "support": 11,
+    "confused_with": {
+      "faq/general__int_1055": 2,
+      "faq/et_scores__int_1007": 1
+    }
+  },
+  "faq/users__group_managers__int_1061": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "faq/my_profile__int_1065": 1
+    }
+  },
+  "faq/massive_assignments__int_1057": {
+    "precision": 1.0,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.9,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1056": 1,
+      "faq/massive_assignments__int_1058": 1
+    }
+  },
+  "faq/attendance_book__int_1127": {
+    "precision": 0.9,
+    "recall": 0.75,
+    "f1-score": 0.8181818181818182,
+    "support": 12,
+    "confused_with": {
+      "faq/attendance_book__int_1112": 2,
+      "faq/attendance_book__int_1034": 1
+    }
+  },
+  "faq/lms__online_exams__int_1122": {
+    "precision": 0.8888888888888888,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.761904761904762,
+    "support": 12,
+    "confused_with": {
+      "faq/lms__online_exams__int_1110": 3,
+      "faq/lms__lesson_planner__int_1086": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1090": {
+    "precision": 0.6923076923076923,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7500000000000001,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1050": 1,
+      "faq/standards__int_1070": 1
+    }
+  },
+  "faq/lms__class_material__int_1130": {
+    "precision": 0.6111111111111112,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.7333333333333334,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__int_1115": 1
+    }
+  },
+  "faq/grading_book__express_et_report__int_1024": {
+    "precision": 0.47619047619047616,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.6060606060606061,
+    "support": 12,
+    "confused_with": {
+      "faq/standards__int_1008": 1,
+      "faq/grading_book__int_1037": 1
+    }
+  },
+  "faq/lms__online_exams__int_1064": {
+    "precision": 0.7,
+    "recall": 0.7,
+    "f1-score": 0.7,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__online_exams__int_1124": 2,
+      "faq/grading_book__int_1018": 1
+    }
+  },
+  "faq/et_scores__int_1105": {
+    "precision": 0.75,
+    "recall": 0.9,
+    "f1-score": 0.8181818181818182,
+    "support": 10,
+    "confused_with": {
+      "faq/massive_assignments__int_1062": 1
+    }
+  },
+  "faq/behaviors__int_1096": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 12,
+    "confused_with": {
+      "faq/behaviors__int_1097": 4,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/standards__int_1003": {
+    "precision": 0.8809523809523809,
+    "recall": 0.9736842105263158,
+    "f1-score": 0.925,
+    "support": 38,
+    "confused_with": {
+      "faq/standards__int_1052": 1
+    }
+  },
+  "chitchat/__int_0520": {
+    "precision": 0.7666666666666667,
+    "recall": 0.8518518518518519,
+    "f1-score": 0.8070175438596491,
+    "support": 27,
+    "confused_with": {
+      "chitchat/__int_0519": 2,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/grading_book__int_1114": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6,
+    "f1-score": 0.7058823529411764,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1073": 1,
+      "faq/grading_book__int_1018": 1
+    }
+  },
+  "faq/standards__int_1102": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1080": 1,
+      "faq/standards__int_1052": 1
+    }
+  },
+  "faq/surveys__int_1093": {
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1-score": 0.7826086956521738,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1038": 1
+    }
+  },
+  "faq/standards__int_1070": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 10,
+    "confused_with": {
+      "faq/et_scores__int_1022": 1,
+      "faq/standards__int_1121": 1
+    }
+  },
+  "faq/attendance_book__int_1112": {
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1-score": 0.761904761904762,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1118": 1,
+      "chitchat/__int_0509": 1
+    }
+  },
+  "faq/standards__int_1016": {
+    "precision": 1.0,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7777777777777778,
+    "support": 11,
+    "confused_with": {
+      "faq/standards__int_1108": 2,
+      "faq/teacher__dashboard_statistics__int_1101": 1
+    }
+  },
+  "faq/grading_book__int_1031": {
+    "precision": 0.8181818181818182,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8181818181818182,
+    "support": 11,
+    "confused_with": {
+      "faq/my_profile__int_1027": 1,
+      "faq/lms__lesson_planner__int_1098": 1
+    }
+  },
+  "faq/my_profile__int_1076": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 10,
+    "confused_with": {
+      "faq/my_profile__int_1065": 2
+    }
+  },
+  "faq/standards__int_1120": {
+    "precision": 0.7692307692307693,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.7692307692307693,
+    "support": 13,
+    "confused_with": {
+      "faq/standards__int_1011": 2,
+      "faq/standards__int_1059": 1
+    }
+  },
+  "faq/et_scores__int_1075": {
+    "precision": 0.5,
+    "recall": 0.2,
+    "f1-score": 0.28571428571428575,
+    "support": 10,
+    "confused_with": {
+      "faq/et_scores__int_1012": 2,
+      "faq/et_scores__int_1029": 1
+    }
+  },
+  "faq/et_scores__int_1025": {
+    "precision": 0.75,
+    "recall": 0.25,
+    "f1-score": 0.375,
+    "support": 12,
+    "confused_with": {
+      "faq/et_scores__int_1012": 3,
+      "faq/et_scores__int_1029": 1
+    }
+  },
+  "faq/standards__int_1121": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8695652173913043,
+    "support": 11,
+    "confused_with": {
+      "faq/standards__int_1052": 1
+    }
+  },
+  "faq/behaviors__int_1030": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 12,
+    "confused_with": {
+      "faq/general__int_1048": 1,
+      "faq/lms__lesson_planner__int_1086": 1
+    }
+  },
+  "faq/et_scores__int_1051": {
+    "precision": 1.0,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.8421052631578948,
+    "support": 11,
+    "confused_with": {
+      "faq/final_scores__int_1063": 1,
+      "faq/grading_book__int_1019": 1
+    }
+  },
+  "faq/et_scores__int_1119": {
+    "precision": 0.8888888888888888,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7999999999999999,
+    "support": 11,
+    "confused_with": {
+      "faq/et_scores__int_1084": 1,
+      "faq/behaviors__int_1074": 1
+    }
+  },
+  "faq/lms__class_material__int_1109": {
+    "precision": 0.5454545454545454,
+    "recall": 0.5,
+    "f1-score": 0.5217391304347826,
+    "support": 12,
+    "confused_with": {
+      "faq/lms__class_material__int_1130": 5,
+      "faq/grading_book__int_1107": 1
+    }
+  },
+  "faq/pms__int_1041": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8695652173913043,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1115": 1
+    }
+  },
+  "faq/grading_book__int_1019": {
+    "precision": 0.8181818181818182,
+    "recall": 0.75,
+    "f1-score": 0.7826086956521738,
+    "support": 12,
+    "confused_with": {
+      "faq/standards__int_1072": 2,
+      "faq/grading_book__int_1106": 1
+    }
+  },
+  "faq/teacher__statistics__int_1125": {
+    "precision": 0.7,
+    "recall": 0.7,
+    "f1-score": 0.7,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1091": 1,
+      "faq/teacher__download_reports__int_1043": 1
+    }
+  },
+  "faq/general__int_1040": {
+    "precision": 0.5454545454545454,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.5454545454545454,
+    "support": 11,
+    "confused_with": {
+      "faq/et_scores__int_1007": 2,
+      "faq/general__int_1055": 2
+    }
+  },
+  "faq/users__students__int_1013": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 12,
+    "confused_with": {}
+  },
+  "faq/grading_book__int_1046": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1045": 1
+    }
+  },
+  "faq/grading_book__int_1118": {
+    "precision": 0.4375,
+    "recall": 0.7,
+    "f1-score": 0.5384615384615384,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__import_and_export__int_1035": 1,
+      "faq/grading_book__int_1056": 1
+    }
+  },
+  "faq/grading_book__int_1033": {
+    "precision": 0.7272727272727273,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7272727272727273,
+    "support": 11,
+    "confused_with": {
+      "faq/lms__class_material__int_1109": 1,
+      "faq/grading_book__int_1026": 1
+    }
+  },
+  "faq/grading_book__int_1037": {
+    "precision": 0.5454545454545454,
+    "recall": 0.6,
+    "f1-score": 0.5714285714285713,
+    "support": 10,
+    "confused_with": {
+      "chitchat/__int_0501": 1,
+      "faq/et_scores__int_1075": 1
+    }
+  },
+  "faq/standards__int_1011": {
+    "precision": 0.4444444444444444,
+    "recall": 0.36363636363636365,
+    "f1-score": 0.39999999999999997,
+    "support": 11,
+    "confused_with": {
+      "faq/standards__int_1072": 3,
+      "faq/standards__int_1052": 1
+    }
+  },
+  "faq/lms__online_exams__int_1124": {
+    "precision": 0.7,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.6666666666666666,
+    "support": 11,
+    "confused_with": {
+      "faq/lms__online_exams__int_1064": 3,
+      "faq/lms__online_exams__int_1078": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1094": {
+    "precision": 0.75,
+    "recall": 0.6,
+    "f1-score": 0.6666666666666665,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1116": 3,
+      "faq/lms__lesson_planner__int_1085": 1
+    }
+  },
+  "faq/massive_assignments__int_1032": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "faq/massive_assignments__int_1058": 1,
+      "faq/grading_book__int_1031": 1
+    }
+  },
+  "faq/pms__int_1088": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "faq/users__students__int_1013": 1,
+      "faq/lms__online_exams__int_1124": 1
+    }
+  },
+  "faq/general__int_1048": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 20,
+    "confused_with": {
+      "faq/standards__int_1070": 1,
+      "faq/lms__lesson_planner__int_1094": 1
+    }
+  },
+  "faq/grading_book__int_1128": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7826086956521738,
+    "support": 11,
+    "confused_with": {
+      "faq/lms__class_material__int_1015": 1,
+      "faq/grading_book__int_1042": 1
+    }
+  },
+  "faq/massive_assignments__int_1058": {
+    "precision": 0.6666666666666666,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.6956521739130435,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1056": 1,
+      "faq/lms__lesson_planner__int_1085": 1
+    }
+  },
+  "chitchat/__int_0519": {
+    "precision": 0.5,
+    "recall": 0.4444444444444444,
+    "f1-score": 0.47058823529411764,
+    "support": 18,
+    "confused_with": {
+      "chitchat/__int_0518": 4,
+      "chitchat/__int_0517": 3
+    }
+  },
+  "faq/standards__int_1059": {
+    "precision": 0.391304347826087,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.5,
+    "support": 13,
+    "confused_with": {
+      "faq/et_scores__int_1059": 3,
+      "faq/et_scores__int_1029": 1
+    }
+  },
+  "chitchat/__int_0502": {
+    "precision": 0.7142857142857143,
+    "recall": 0.7894736842105263,
+    "f1-score": 0.7500000000000001,
+    "support": 19,
+    "confused_with": {
+      "chitchat/__int_0503": 2,
+      "faq/general__int_1038": 1
+    }
+  },
+  "faq/my_profile__int_1027": {
+    "precision": 0.8888888888888888,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.7999999999999999,
+    "support": 11,
+    "confused_with": {
+      "faq/general__int_1040": 1,
+      "faq/lms__lesson_planner__int_1090": 1
+    }
+  },
+  "faq/lms__online_exams__int_1082": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__online_exams__int_1078": 1
+    }
+  },
+  "faq/general__int_1091": {
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8571428571428572,
+    "support": 11,
+    "confused_with": {
+      "chitchat/__int_0517": 1,
+      "faq/surveys__int_1093": 1
+    }
+  },
+  "faq/reports__int_1104": {
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1-score": 0.7777777777777777,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1068": 1,
+      "faq/grading_book__express_et_report__int_1024": 1
+    }
+  },
+  "chitchat/__int_0512": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7826086956521738,
+    "support": 11,
+    "confused_with": {
+      "chitchat/__int_0501": 2
+    }
+  },
+  "faq/standards__int_1052": {
+    "precision": 0.6153846153846154,
+    "recall": 0.8,
+    "f1-score": 0.6956521739130435,
+    "support": 10,
+    "confused_with": {
+      "faq/standards__int_1120": 1,
+      "faq/standards__int_1003": 1
+    }
+  },
+  "faq/my_profile__int_1014": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/users__students__int_1013": 1
+    }
+  },
+  "faq/grading_book__int_1106": {
+    "precision": 0.21428571428571427,
+    "recall": 0.3,
+    "f1-score": 0.25,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1056": 2,
+      "faq/grading_book__int_1118": 2
+    }
+  },
+  "faq/lms__meetings__int_1009": {
+    "precision": 1.0,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7777777777777778,
+    "support": 11,
+    "confused_with": {
+      "faq/lms__class_material__int_1109": 1,
+      "faq/lms__int_1103": 1
+    }
+  },
+  "faq/general__int_1054": {
+    "precision": 0.5625,
+    "recall": 0.9,
+    "f1-score": 0.6923076923076923,
+    "support": 10,
+    "confused_with": {
+      "faq/academic_terms__int_1066": 1
+    }
+  },
+  "faq/standards__int_1023": {
+    "precision": 0.7777777777777778,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.6666666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/grading_book__int_1079": 1,
+      "faq/grading_book__int_1018": 1
+    }
+  },
+  "faq/et_scores__int_1021": {
+    "precision": 0.875,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.7000000000000001,
+    "support": 12,
+    "confused_with": {
+      "faq/et_scores__int_1084": 3,
+      "faq/behaviors__int_1087": 1
+    }
+  },
+  "faq/grading_book__int_1042": {
+    "precision": 0.47058823529411764,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.5714285714285714,
+    "support": 11,
+    "confused_with": {
+      "faq/teacher__download_reports__int_1042": 2,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/behaviors__int_1087": {
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.8571428571428572,
+    "support": 11,
+    "confused_with": {
+      "faq/et_scores__int_1020": 1,
+      "faq/behaviors__int_1030": 1
+    }
+  },
+  "faq/teacher__download_reports__int_1126": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 10,
+    "confused_with": {
+      "faq/group_manager_reports__int_1100": 2
+    }
+  },
+  "faq/lms__lesson_planner__int_1099": {
+    "precision": 0.875,
+    "recall": 0.7,
+    "f1-score": 0.7777777777777777,
+    "support": 10,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1117": 1,
+      "faq/lms__lesson_planner__int_1090": 1
+    }
+  },
+  "faq/grading_book__int_1036": {
+    "precision": 0.4444444444444444,
+    "recall": 0.4,
+    "f1-score": 0.4210526315789474,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__import_and_export__int_1035": 4,
+      "faq/lms__class_material__int_1109": 1
+    }
+  },
+  "faq/lms__online_exams__int_1123": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 10,
+    "confused_with": {
+      "faq/grading_book__int_1067": 1,
+      "faq/lms__online_exams__int_1081": 1
+    }
+  },
+  "faq/et_scores__int_1020": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7826086956521738,
+    "support": 11,
+    "confused_with": {
+      "faq/behaviors__int_1030": 2
+    }
+  },
+  "faq/lms__lesson_planner__int_1117": {
+    "precision": 0.875,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.7000000000000001,
+    "support": 12,
+    "confused_with": {
+      "faq/lms__lesson_planner__int_1116": 2,
+      "faq/lms__lesson_planner__int_1099": 1
+    }
+  },
+  "faq/grading_book__int_1107": {
+    "precision": 0.7647058823529411,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.8387096774193549,
+    "support": 14,
+    "confused_with": {
+      "faq/grading_book__express_et_report__int_1024": 1
+    }
+  },
+  "faq/et_scores__int_1059": {
+    "precision": 0.5,
+    "recall": 0.23076923076923078,
+    "f1-score": 0.3157894736842105,
+    "support": 13,
+    "confused_with": {
+      "faq/standards__int_1059": 9,
+      "faq/et_scores__int_1029": 1
+    }
+  },
+  "chitchat/__int_0508": {
+    "precision": 0.5625,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.6000000000000001,
+    "support": 14,
+    "confused_with": {
+      "chitchat/__int_0517": 2,
+      "chitchat/__int_0501": 1
+    }
+  },
+  "faq/massive_assignments__int_1062": {
+    "precision": 0.8888888888888888,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.761904761904762,
+    "support": 12,
+    "confused_with": {
+      "faq/et_scores__int_1105": 2,
+      "faq/grading_book__int_1001": 1
+    }
+  },
+  "chitchat/__int_0510": {
+    "precision": 1.0,
+    "recall": 0.6153846153846154,
+    "f1-score": 0.761904761904762,
+    "support": 13,
+    "confused_with": {
+      "chitchat/__int_0501": 2,
+      "chitchat/__int_0504": 1
+    }
+  },
+  "faq/standards__int_1108": {
+    "precision": 0.7142857142857143,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8,
+    "support": 11,
+    "confused_with": {
+      "faq/standards__int_1003": 1
+    }
+  },
+  "faq/grading_book__int_1050": {
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.8695652173913043,
+    "support": 11,
+    "confused_with": {
+      "faq/grading_book__int_1056": 1
+    }
+  },
+  "faq/lms__online_exams__int_1002": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "faq/general__int_1049": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "faq/general__int_1038": 1
+    }
+  },
+  "faq/lms__lesson_planner__int_1098": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 12,
+    "confused_with": {
+      "faq/pms__int_1041": 1
+    }
+  },
+  "faq/lms__deliveries__int_1069": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "faq/lms__class_material__int_1028": {
+    "precision": 1.0,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.9,
+    "support": 11,
+    "confused_with": {
+      "faq/lms__class_material__int_1130": 1,
+      "faq/lms__class_material__int_1109": 1
+    }
+  },
+  "faq/grading_book__int_1079": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8000000000000002,
+    "support": 10,
+    "confused_with": {
+      "faq/standards__int_1120": 1,
+      "faq/et_scores__int_1075": 1
+    }
+  },
+  "accuracy": 0.7389666307857912,
+  "macro avg": {
+    "precision": 0.756032346930621,
+    "recall": 0.7284584355919931,
+    "f1-score": 0.7299915489791033,
+    "support": 1858
+  },
+  "weighted avg": {
+    "precision": 0.7598039574505826,
+    "recall": 0.7389666307857912,
+    "f1-score": 0.7376527902944034,
+    "support": 1858
+  },
+  "micro avg": {
+    "precision": 0.7389666307857912,
+    "recall": 0.7389666307857912,
+    "f1-score": 0.7389666307857912,
+    "support": 1858
+  }
+}

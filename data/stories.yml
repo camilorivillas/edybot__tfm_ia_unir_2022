@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+
+- story: happy path 1 - Answer user questions 
+  steps:
+  - intent: faq
+  - action: analyze_user_expression
+
+- story: happy path 2 - Engage in casual conversation
+  steps:
+  - intent: chitchat
+  - action: analyze_user_expression
